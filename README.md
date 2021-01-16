@@ -1,2 +1,3 @@
 # dataviz
-data sets for BANA4137
+
+The folder data contains all the data sets used in the BANA4137 lecture notes.
