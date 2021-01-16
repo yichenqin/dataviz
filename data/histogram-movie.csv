@@ -1,0 +1,5615 @@
+id,title,release_date,imdb_score
+1,Shrek 2,SummerVacation,7.2
+1,Avatar,Christmas,7.8
+1,Toy Story 3,SummerVacation,8.3
+1,Star Wars: Episode VIII - The Last Jedi,Christmas,7.1
+1,The Dark Knight,SummerVacation,9
+1,Harry Potter and the Deathly Hallows: Part 2,SummerVacation,8.1
+1,Captain America: Civil War,SummerVacation,7.8
+1,The Avengers,SummerVacation,8
+1,Pirates of the Caribbean: Dead Man's Chest,SummerVacation,7.3
+1,Pirates of the Caribbean: At World's End,SummerVacation,7.1
+1,Mission: Impossible II,SummerVacation,6.1
+1,Avengers: Infinity War,Easter,8.5
+1,Avengers: Endgame,Easter,8.5
+1,Star Wars: Episode VII - The Force Awakens,Christmas,7.9
+1,Frozen,Christmas,7.5
+1,Transformers: Age of Extinction,SummerVacation,5.6
+2,Star Wars: Episode III - Revenge of the Sith,SummerVacation,7.5
+2,Alice in Wonderland,Easter,6.4
+2,Iron Man 3,SummerVacation,7.2
+2,The Da Vinci Code,SummerVacation,6.6
+2,Gladiator,SummerVacation,8.5
+2,Indiana Jones and the Kingdom of the Crystal Skull,SummerVacation,6.1
+2,The Lion King,SummerVacation,7
+2,Rogue One: A Star Wars Story,Christmas,7.8
+2,Transformers: Dark of the Moon,SummerVacation,6.2
+2,Finding Nemo,SummerVacation,8.1
+2,Jurassic World,SummerVacation,7
+2,Beauty and the Beast,Easter,7.2
+2,Black Panther,Other,7.3
+3,Spider-Man,SummerVacation,7.3
+3,Spider-Man 2,SummerVacation,7.3
+3,Despicable Me 2,SummerVacation,7.3
+3,Kung Fu Panda,SummerVacation,7.5
+3,Ice Age: The Meltdown,Easter,6.8
+3,Ice Age: Dawn of the Dinosaurs,SummerVacation,6.9
+3,Guardians of the Galaxy,SummerVacation,8
+3,Spider-Man 3,SummerVacation,6.2
+3,Spider-Man: Far from Home,SummerVacation,7.6
+3,Furious 7,Easter,7.2
+3,Pirates of the Caribbean: On Stranger Tides,SummerVacation,6.6
+3,Cast Away,Christmas,7.8
+3,"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",Christmas,6.9
+3,Finding Dory,SummerVacation,7.3
+3,Jurassic World: Fallen Kingdom,SummerVacation,6.2
+4,Shrek,SummerVacation,7.8
+4,War of the Worlds,SummerVacation,6.5
+4,The Incredibles,Christmas,8
+4,Shrek the Third,SummerVacation,6
+4,What Women Want,Christmas,6.4
+4,Hancock,SummerVacation,6.4
+4,Despicable Me 3,SummerVacation,6.3
+4,The Hobbit: The Desolation of Smaug,Christmas,7.8
+4,Pirates of the Caribbean: The Curse of the Black Pearl,SummerVacation,8
+4,Transformers: Revenge of the Fallen,SummerVacation,6
+4,Zootopia,Easter,8
+4,Captain Marvel,Easter,6.9
+4,Inception,SummerVacation,8.8
+4,Avengers: Age of Ultron,SummerVacation,7.3
+4,Incredibles 2,SummerVacation,7.7
+4,The Twilight Saga: Breaking Dawn - Part 1,Christmas,4.9
+4,Maleficent,SummerVacation,7
+5,Bruce Almighty,SummerVacation,6.7
+5,Ocean's Eleven,Christmas,7.8
+5,Aquaman,Christmas,7
+5,Minions,SummerVacation,6.4
+5,Ice Age: Continental Drift,SummerVacation,6.6
+5,Shrek Forever After,SummerVacation,6.3
+5,Toy Story 4,SummerVacation,7.9
+5,Men in Black II,SummerVacation,6.2
+5,Transformers,SummerVacation,7
+5,2012,Christmas,5.8
+5,Night at the Museum,Christmas,6.4
+5,Jumanji: Welcome to the Jungle,Christmas,6.9
+5,Mission: Impossible - Ghost Protocol,Christmas,7.4
+5,Dinosaur,SummerVacation,6.5
+5,Mamma Mia!,SummerVacation,6.4
+5,The Hunger Games: Catching Fire,Christmas,7.5
+5,The Hunger Games: Mockingjay - Part 1,Christmas,6.6
+6,Cars,SummerVacation,7.1
+6,Kung Fu Panda 2,SummerVacation,7.2
+6,Spider-Man: Homecoming,SummerVacation,7.4
+6,Pearl Harbor,SummerVacation,6.2
+6,Up,SummerVacation,8.2
+6,Madagascar: Escape 2 Africa,Christmas,6.6
+6,Madagascar,SummerVacation,6.9
+6,The Day After Tomorrow,SummerVacation,6.4
+6,The Last Samurai,Christmas,7.7
+6,The Secret Life of Pets,SummerVacation,6.5
+6,X-Men: Days of Future Past,SummerVacation,8
+6,Fast & Furious 6,SummerVacation,7.1
+6,Ratatouille,SummerVacation,8
+6,The Twilight Saga: Breaking Dawn - Part 2,Christmas,5.5
+6,The Twilight Saga: Eclipse,SummerVacation,5
+6,How the Grinch Stole Christmas,Christmas,6.1
+6,Joker,Other,8.7
+7,Monsters University,SummerVacation,7.3
+7,Iron Man 2,SummerVacation,7
+7,Meet the Fockers,Christmas,6.3
+7,The Mummy Returns,SummerVacation,6.3
+7,Meet the Parents,Other,7
+7,Batman v Superman: Dawn of Justice,Easter,6.5
+7,Mr. & Mrs. Smith,SummerVacation,6.5
+7,Signs,SummerVacation,6.7
+7,The Amazing Spider-Man,SummerVacation,6.9
+7,Captain America: The Winter Soldier,Easter,7.7
+7,Fast Five,Easter,7.3
+7,Terminator 3: Rise of the Machines,SummerVacation,6.3
+7,The Twilight Saga: New Moon,Christmas,4.7
+7,I Am Legend,Christmas,7.2
+7,Aladdin,SummerVacation,7.1
+8,Jurassic Park III,SummerVacation,5.9
+8,The Perfect Storm,SummerVacation,6.4
+8,Mission: Impossible - Fallout,SummerVacation,7.8
+8,Madagascar 3: Europe's Most Wanted,SummerVacation,6.8
+8,The Simpsons Movie,SummerVacation,7.3
+8,Iron Man,SummerVacation,7.9
+8,The Matrix Revolutions,Christmas,6.7
+8,Ice Age,Easter,7.5
+8,Inside Out,SummerVacation,8.2
+8,Troy,SummerVacation,7.2
+8,Superman Returns,SummerVacation,6
+8,Tangled,Christmas,7.7
+8,Dawn of the Planet of the Apes,SummerVacation,7.6
+8,Sherlock Holmes,Christmas,7.6
+8,The Hangover Part II,SummerVacation,6.4
+8,Guardians of the Galaxy Vol. 2,SummerVacation,7.6
+8,Frozen II,Christmas,7.3
+8,Deadpool,Other,8
+9,Shark Tale,Other,6
+9,Mission: Impossible III,SummerVacation,6.9
+9,Planet of the Apes,SummerVacation,5.7
+9,Thor: Ragnarok,Christmas,7.9
+9,The Amazing Spider-Man 2,SummerVacation,6.6
+9,X-Men,SummerVacation,7.4
+9,The Smurfs,SummerVacation,5.4
+9,National Treasure: Book of Secrets,Christmas,6.5
+9,Fast & Furious Presents: Hobbs & Shaw,SummerVacation,6.5
+9,WALL<U+00C2>¡¤E,SummerVacation,8.4
+9,Happy Feet,Christmas,6.4
+9,Mission: Impossible - Rogue Nation,SummerVacation,7.4
+9,Man of Steel,SummerVacation,7.1
+9,Angels & Demons,SummerVacation,6.7
+9,Despicable Me,SummerVacation,7.6
+9,The Hunger Games,Easter,7.2
+9,Suicide Squad,SummerVacation,6
+10,Hannibal,Other,6.8
+10,Ocean's Twelve,Christmas,6.5
+10,Cars 2,SummerVacation,6.1
+10,Wonder Woman,SummerVacation,7.4
+10,Men in Black 3,SummerVacation,6.8
+10,Bad Boys II,SummerVacation,6.6
+10,The Hangover,SummerVacation,7.7
+10,Over the Hedge,SummerVacation,6.7
+10,Minority Report,SummerVacation,7.6
+10,What Lies Beneath,SummerVacation,6.6
+10,Batman Begins,SummerVacation,8.2
+10,300,Easter,7.6
+10,Doctor Strange,Christmas,7.5
+10,Thor: The Dark World,Christmas,6.9
+10,Interstellar,Christmas,8.6
+10,The Chronicles of Narnia: Prince Caspian,SummerVacation,6.5
+10,How to Train Your Dragon,Easter,8.1
+10,The Hunger Games: Mockingjay - Part 2,Christmas,6.5
+11,Clash of the Titans,Easter,5.8
+11,Something's Gotta Give,Christmas,6.7
+11,The Bourne Ultimatum,SummerVacation,8
+11,Catch Me If You Can,Christmas,8.1
+11,Coco,Christmas,8.4
+11,The Devil Wears Prada,SummerVacation,6.9
+11,Scary Movie,SummerVacation,6.2
+11,National Treasure,Christmas,6.8
+11,Alvin and the Chipmunks: The Squeakquel,Christmas,4.5
+11,Puss in Boots,Other,6.6
+11,Hitch,Other,6.6
+11,Sex and the City,SummerVacation,5.6
+11,Ant-Man and the Wasp,SummerVacation,7.1
+11,The Croods,Easter,7.2
+11,Life of Pi,Christmas,7.9
+11,Moana,Christmas,7.6
+11,Big Hero 6,Christmas,7.8
+12,A Beautiful Mind,Other,8.2
+12,Charlie's Angels: Full Throttle,SummerVacation,4.9
+12,Chicago,Other,7.1
+12,Fifty Shades of Grey,Other,4.1
+12,How to Train Your Dragon: The Hidden World,Other,7.5
+12,Pirates of the Caribbean: Dead Men Tell No Tales,SummerVacation,6.6
+12,The Mummy: Tomb of the Dragon Emperor,SummerVacation,5.2
+12,Charlie's Angels,Christmas,5.5
+12,Night at the Museum: Battle of the Smithsonian,SummerVacation,6
+12,How to Train Your Dragon 2,SummerVacation,7.8
+12,Fantastic Four,SummerVacation,5.7
+12,"I, Robot",SummerVacation,7.1
+12,Sherlock Holmes: A Game of Shadows,Christmas,7.5
+12,Ted,SummerVacation,6.9
+12,Ready Player One,Easter,7.5
+12,Live Free or Die Hard,SummerVacation,7.1
+12,The Pursuit of Happyness,Christmas,8
+12,The Chronicles of Narnia: The Voyage of the Dawn Treader,Christmas,6.3
+12,World War Z,SummerVacation,7
+13,The Departed,Other,8.5
+13,Brave,SummerVacation,7.1
+13,Austin Powers in Goldmember,SummerVacation,6.2
+13,The Village,SummerVacation,6.5
+13,Oz the Great and Powerful,Easter,6.3
+13,American Pie 2,SummerVacation,6.4
+13,Chicken Little,Christmas,5.7
+13,Erin Brockovich,Easter,7.3
+13,Twilight,Christmas,5.2
+13,Rio,Easter,6.9
+13,Cinderella,Easter,6.9
+13,Star Trek,SummerVacation,7.9
+13,Van Helsing,SummerVacation,6.1
+13,American Sniper,Other,7.3
+13,It,Other,7.3
+13,Maleficent: Mistress of Evil,Other,7
+14,The Bourne Supremacy,SummerVacation,7.7
+14,Unbreakable,Christmas,7.3
+14,Brother Bear,Christmas,6.8
+14,Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan,Christmas,7.3
+14,Monsters vs. Aliens,Easter,6.4
+14,Godzilla,SummerVacation,6.4
+14,xXx,SummerVacation,5.9
+14,Alvin and the Chipmunks,Christmas,5.2
+14,Wreck-It Ralph,Christmas,7.7
+14,Justice League,Christmas,6.4
+14,Star Trek Into Darkness,SummerVacation,7.7
+14,Wedding Crashers,SummerVacation,6.9
+14,TRON: Legacy,Christmas,6.8
+14,X-Men: Apocalypse,SummerVacation,6.9
+14,The Revenant,Other,8
+14,Rise of the Planet of the Apes,SummerVacation,7.6
+15,Wanted,SummerVacation,6.7
+15,Thor,SummerVacation,7
+15,Robots,Easter,6.3
+15,Hulk,SummerVacation,5.6
+15,Eragon,Christmas,5.1
+15,Gone in 60 Seconds,SummerVacation,6.5
+15,Scooby-Doo,SummerVacation,5
+15,Enchanted,Christmas,7
+15,X-Men Origins: Wolverine,SummerVacation,6.6
+15,The Karate Kid,SummerVacation,6.2
+15,The Meg,SummerVacation,5.7
+15,Ant-Man,SummerVacation,7.3
+15,Pok<U+00C3><U+00A9>mon Detective Pikachu,SummerVacation,6.7
+15,Rio 2,Easter,6.3
+15,The Wolverine,SummerVacation,6.7
+15,Logan,Easter,8.1
+16,Lilo & Stitch,SummerVacation,7.2
+16,Django Unchained,Christmas,8.4
+16,The Secret Life of Pets 2,SummerVacation,6.5
+16,Ocean's Thirteen,SummerVacation,6.9
+16,Click,SummerVacation,6.4
+16,Teenage Mutant Ninja Turtles,SummerVacation,5.8
+16,Black Swan,Christmas,8
+16,Constantine,Other,7
+16,Transformers: The Last Knight,SummerVacation,5.2
+16,Lara Croft: Tomb Raider,SummerVacation,5.8
+16,Pacific Rim,SummerVacation,6.9
+16,The Curious Case of Benjamin Button,Christmas,7.8
+16,Terminator Salvation,SummerVacation,6.5
+16,Hotel Transylvania 2,Other,6.7
+16,La La Land,Christmas,8
+16,Ralph Breaks the Internet,Christmas,7.1
+17,Megamind,Christmas,7.2
+17,The Holiday,Christmas,6.9
+17,Vertical Limit,Christmas,5.9
+17,Flightplan,Other,6.3
+17,The Ring,Other,7.1
+17,The Lego Movie,Other,7.8
+17,The Adventures of Tintin,Christmas,7.3
+17,Bolt,Christmas,6.8
+17,Fantastic 4: Rise of the Silver Surfer,SummerVacation,5.6
+17,2 Fast 2 Furious,SummerVacation,5.9
+17,Kong: Skull Island,Easter,6.6
+17,A.I. Artificial Intelligence,SummerVacation,7.2
+17,Fast & Furious,Easter,6.6
+17,Prometheus,SummerVacation,7
+17,San Andreas,SummerVacation,6
+17,Hotel Transylvania 3: Summer Vacation,SummerVacation,6.3
+17,The Wolf of Wall Street,Christmas,8.2
+18,8 Mile,Christmas,7.1
+18,Bee Movie,Christmas,6.1
+18,Captain America: The First Avenger,SummerVacation,6.9
+18,Snow White and the Huntsman,SummerVacation,6.1
+18,Fahrenheit 9/11,SummerVacation,7.5
+18,The Patriot,SummerVacation,7.2
+18,Horton Hears a Who!,Easter,6.8
+18,Prince of Persia: The Sands of Time,SummerVacation,6.6
+18,American Wedding,SummerVacation,6.3
+18,The Break-Up,SummerVacation,5.8
+18,The Boss Baby,Easter,6.3
+18,Robin Hood,SummerVacation,6.6
+18,G.I. Joe: Retaliation,Easter,5.8
+18,Jason Bourne,SummerVacation,6.6
+18,Terminator Genisys,SummerVacation,6.4
+19,Alita: Battle Angel,Other,7.4
+19,A Christmas Carol,Christmas,6.8
+19,Fun with Dick and Jane,Christmas,6.1
+19,Ice Age: Collision Course,SummerVacation,5.7
+19,Open Season,Other,6.1
+19,The Bourne Identity,SummerVacation,7.9
+19,American Gangster,Christmas,7.8
+19,Scary Movie 3,Other,5.5
+19,The Terminal,SummerVacation,7.3
+19,The Fast and the Furious,SummerVacation,6.8
+19,Penguins of Madagascar,Christmas,6.7
+19,The Hangover Part III,SummerVacation,5.8
+19,Hotel Transylvania,Other,7.1
+19,The Last Airbender,SummerVacation,4.1
+20,Little Fockers,Christmas,5.5
+20,Vanilla Sky,Christmas,6.9
+20,Inside Man,Easter,7.6
+20,Home,Easter,6.6
+20,Edge of Tomorrow,SummerVacation,7.9
+20,The Lorax,Easter,6.4
+20,A Star Is Born,Other,7.7
+20,Collateral,SummerVacation,7.5
+20,Independence Day: Resurgence,SummerVacation,5.2
+20,Miss Congeniality,Christmas,6.2
+20,War for the Planet of the Apes,SummerVacation,7.4
+20,Rush Hour 3,SummerVacation,6.2
+20,"10,000 BC",Easter,5.1
+20,Elf,Christmas,6.9
+20,X-Men: First Class,SummerVacation,7.7
+21,Million Dollar Baby,Other,8.1
+21,Cats & Dogs,SummerVacation,5.1
+21,Wild Hogs,Easter,5.8
+21,Gone Girl,Other,8.1
+21,The Incredible Hulk,SummerVacation,6.7
+21,Two Weeks Notice,Christmas,6.1
+21,Traffic,Other,7.6
+21,Poseidon,SummerVacation,5.6
+21,The Proposal,SummerVacation,6.7
+21,Rampage,Easter,6.1
+21,Master and Commander: The Far Side of the World,Christmas,7.4
+21,Alvin and the Chipmunks: Chipwrecked,Christmas,4.3
+21,Now You See Me,SummerVacation,7.3
+21,The Greatest Showman,Christmas,7.6
+21,Once Upon a Time... in Hollywood,SummerVacation,7.8
+22,Journey 2: The Mysterious Island,Other,5.8
+22,Hollow Man,SummerVacation,5.8
+22,Deja Vu,Christmas,7
+22,The Longest Yard,SummerVacation,6.4
+22,Panic Room,Easter,6.8
+22,Juno,Christmas,7.4
+22,The Blind Side,Christmas,7.6
+22,Atlantis: The Lost Empire,SummerVacation,6.9
+22,Marley & Me,Christmas,7.1
+22,S.W.A.T.,SummerVacation,6
+22,Shutter Island,Other,8.1
+22,Real Steel,Other,7.1
+22,The Smurfs 2,SummerVacation,5.3
+22,Shazam!,Easter,7.1
+23,Spy Kids 3-D: Game Over,SummerVacation,4.2
+23,Noah,Easter,5.8
+23,Dumbo,Easter,6.3
+23,G.I. Joe: The Rise of Cobra,SummerVacation,5.8
+23,Scary Movie 4,Easter,5
+23,Bridesmaids,SummerVacation,6.8
+23,Salt,SummerVacation,6.4
+23,Walk the Line,Christmas,7.8
+23,102 Dalmatians,Christmas,4.9
+23,The Conjuring,SummerVacation,7.5
+23,High School Musical 3,Other,4.7
+23,The Sum of All Fears,SummerVacation,6.4
+23,The Expendables 2,SummerVacation,6.6
+23,The Mummy,SummerVacation,5.4
+23,Solo: A Star Wars Story,SummerVacation,6.9
+23,The Good Dinosaur,Christmas,6.7
+24,Gangs of New York,Christmas,7.5
+24,Ghost Rider,Other,5.2
+24,Anger Management,Easter,6.2
+24,Sex and the City 2,SummerVacation,4.5
+24,Super 8,SummerVacation,7
+24,Cars 3,SummerVacation,6.7
+24,Trolls,Christmas,6.5
+24,Rise of the Guardians,Christmas,7.3
+24,G-Force,SummerVacation,5.1
+24,King Arthur,SummerVacation,6.3
+24,A Good Day to Die Hard,Other,5.3
+24,John Wick: Chapter 3 - Parabellum,SummerVacation,7.5
+24,Brokeback Mountain,Other,7.7
+24,Dr. Dolittle 2,SummerVacation,4.7
+24,The Maze Runner,Other,6.8
+24,Spider-Man: Into the Spider-Verse,Christmas,8.4
+25,Blood Diamond,Christmas,8
+25,Battleship,SummerVacation,5.8
+25,The Princess and the Frog,Christmas,7.1
+25,The Tourist,Christmas,6
+25,Cheaper by the Dozen,Christmas,5.8
+25,The SpongeBob Movie: Sponge Out of Water,Other,6
+25,300: Rise of an Empire,Easter,6.2
+25,Fifty Shades Darker,Other,4.6
+25,Fifty Shades Freed,Other,4.5
+25,The Emperor's New Groove,Christmas,7.3
+25,Rango,Easter,7.2
+25,The 40-Year-Old Virgin,SummerVacation,7.1
+25,Knocked Up,SummerVacation,6.9
+25,Garfield,SummerVacation,5
+25,Star Trek Beyond,SummerVacation,7.1
+25,Road to Perdition,SummerVacation,7.7
+25,Journey to the Center of the Earth,SummerVacation,5.8
+25,Oblivion,Easter,7
+25,Terminator: Dark Fate,Christmas,6.5
+26,The Haunted Mansion,Christmas,5
+26,The Great Wall,Other,5.9
+26,The Day the Earth Stood Still,Christmas,5.5
+26,22 Jump Street,SummerVacation,7
+26,The Expendables,SummerVacation,6.5
+26,The Girl with the Dragon Tattoo,Christmas,7.8
+26,50 First Dates,Other,6.8
+26,Black Hawk Down,Other,7.7
+26,The Island,SummerVacation,6.8
+26,Saw III,Other,6.2
+26,Us,Easter,6.9
+26,Sweet Home Alabama,Other,6.2
+26,Nutty Professor II: The Klumps,SummerVacation,4.4
+26,Maze Runner: The Scorch Trials,Other,6.3
+26,Elysium,SummerVacation,6.6
+26,This Is It,Other,7.2
+26,Hairspray,SummerVacation,6.6
+26,The Nun,Other,5.3
+27,Miami Vice,SummerVacation,6
+27,Get Smart,SummerVacation,6.5
+27,John Carter,Easter,6.6
+27,Kill Bill: Vol. 1,Other,8.1
+27,Scream 3,Other,5.5
+27,The Princess Diaries,SummerVacation,6.3
+27,Beowulf,Christmas,6.2
+27,Cloudy with a Chance of Meatballs,Other,6.9
+27,The Grudge,Other,5.9
+27,Grown Ups,SummerVacation,5.9
+27,Turbo,SummerVacation,6.4
+27,The Green Hornet,Other,5.8
+27,The Fault in Our Stars,SummerVacation,7.7
+27,Men in Black: International,SummerVacation,5.6
+27,Insurgent,Easter,6.2
+28,Spy Kids,Easter,5.4
+28,It's Complicated,Christmas,6.5
+28,Immortals,Christmas,6
+28,Scooby-Doo 2: Monsters Unleashed,Easter,5
+28,Divergent,Easter,6.7
+28,Memoirs of a Geisha,Christmas,7.4
+28,The Bourne Legacy,SummerVacation,6.7
+28,World Trade Center,SummerVacation,5.9
+28,I Now Pronounce You Chuck & Larry,SummerVacation,5.9
+28,The Lego Batman Movie,Other,7.3
+28,Cloudy with a Chance of Meatballs 2,Other,6.4
+28,The Santa Clause 2,Christmas,5.6
+28,Knight and Day,SummerVacation,6.3
+28,The League of Extraordinary Gentlemen,SummerVacation,5.8
+28,Peter Rabbit,Other,6.5
+28,Dark Phoenix,SummerVacation,5.8
+28,Pitch Perfect 2,SummerVacation,6.4
+29,Glass,Other,6.7
+29,The Ring Two,Easter,5.4
+29,Lincoln,Christmas,7.3
+29,The Mexican,Easter,6.1
+29,Mr. Deeds,SummerVacation,5.8
+29,The Bucket List,Other,7.4
+29,Resident Evil: The Final Chapter,Other,5.5
+29,"Me, Myself & Irene",SummerVacation,6.6
+29,Talladega Nights: The Ballad of Ricky Bobby,SummerVacation,6.6
+29,Alien vs. Predator,SummerVacation,5.6
+29,Mr. Peabody & Sherman,Easter,6.8
+29,Yes Man,Christmas,6.8
+29,Daredevil,Other,5.3
+29,Epic,SummerVacation,6.7
+29,Green Lantern,SummerVacation,5.5
+29,Public Enemies,SummerVacation,7
+29,Mary Poppins Returns,Christmas,6.8
+29,True Grit,Christmas,7.6
+30,Sin City,Easter,8
+30,The Pink Panther,Other,5.6
+30,Swordfish,SummerVacation,6.5
+30,The Lone Ranger,SummerVacation,6.4
+30,Annabelle: Creation,SummerVacation,6.5
+30,How to Lose a Guy in 10 Days,Other,6.4
+30,Along Came Polly,Other,6
+30,Jumper,Other,6.1
+30,Evan Almighty,SummerVacation,5.4
+30,Stuart Little 2,SummerVacation,5.4
+30,The Beach,Other,6.7
+30,We're the Millers,SummerVacation,7
+30,Gulliver's Travels,Christmas,4.9
+30,Passengers,Christmas,7
+30,The Help,SummerVacation,8.1
+30,Neighbors,SummerVacation,6.3
+30,A Quiet Place,Easter,7.5
+31,Monster-in-Law,SummerVacation,5.5
+31,No Country for Old Men,Christmas,8.1
+31,The Italian Job,SummerVacation,7
+31,The Scorpion King,Easter,5.5
+31,Green Book,Christmas,8.2
+31,Starsky & Hutch,Easter,6.1
+31,Bad Teacher,SummerVacation,5.6
+31,American Hustle,Christmas,7.2
+31,Remember the Titans,Other,7.8
+31,The Fast and the Furious: Tokyo Drift,SummerVacation,6
+31,The Ugly Truth,SummerVacation,6.4
+31,What Happens in Vegas,SummerVacation,6.1
+31,Dark Shadows,SummerVacation,6.2
+31,Wonder,Christmas,8
+31,Annabelle Comes Home,SummerVacation,5.9
+31,The Peanuts Movie,Christmas,7.1
+32,Shall We Dance,Other,6.1
+32,Alice Through the Looking Glass,SummerVacation,6.2
+32,Bedtime Stories,Christmas,6
+32,Grown Ups 2,SummerVacation,5.4
+32,Legally Blonde,SummerVacation,6.2
+32,The Social Network,Other,7.7
+32,Ferdinand,Christmas,6.7
+32,Rocky Balboa,Christmas,7.1
+32,Saw II,Other,6.6
+32,Pixels,SummerVacation,5.6
+32,Paranormal Activity,Other,6.3
+32,Superbad,SummerVacation,7.6
+32,Just Go with It,Other,6.4
+33,Silver Linings Playbook,Christmas,7.7
+33,Miss Peregrine's Home for Peculiar Children,Other,6.7
+33,After Earth,SummerVacation,4.8
+33,Meet the Robinsons,Easter,6.8
+33,Dreamgirls,Christmas,6.5
+33,Space Cowboys,SummerVacation,6.4
+33,Dodgeball: A True Underdog Story,SummerVacation,6.7
+33,Maid in Manhattan,Christmas,5.2
+33,Ocean's Eight,SummerVacation,6.2
+33,Valentine's Day,Other,5.7
+33,Daddy's Home,Christmas,6.2
+33,Battle Los Angeles,Easter,5.7
+33,Annabelle,Other,5.4
+33,Scary Movie 2,SummerVacation,5.3
+33,The Exorcism of Emily Rose,Other,6.7
+33,The Final Destination,SummerVacation,5.2
+33,Bringing Down the House,Easter,5.6
+34,Spy,SummerVacation,7
+34,The Sorcerer's Apprentice,SummerVacation,6.1
+34,Watchmen,Easter,7.6
+34,Daddy Day Care,SummerVacation,5.5
+34,Charlotte's Web,Christmas,6.3
+34,Shallow Hal,Christmas,5.9
+34,Planes,SummerVacation,5.7
+34,American Reunion,Easter,6.7
+34,Norbit,Other,4
+34,Alexander,Christmas,5.6
+34,Herbie Fully Loaded,SummerVacation,4.8
+34,Hercules,SummerVacation,6
+34,Horrible Bosses,SummerVacation,6.9
+34,Teenage Mutant Ninja Turtles: Out of the Shadows,SummerVacation,6
+34,Blade Runner 2049,Other,8
+35,The Family Man,Christmas,6.8
+35,America's Sweethearts,SummerVacation,5.7
+35,Argo,Other,7.7
+35,RoboCop,Other,6.2
+35,P.S. I Love You,Christmas,7
+35,Freaky Friday,SummerVacation,6.1
+35,Sully,Other,7.4
+35,The Legend of Zorro,Other,5.9
+35,Knowing,Easter,6.2
+35,Valkyrie,Christmas,7.1
+35,The Heat,SummerVacation,6.6
+35,Get Out,Other,7.7
+35,Alvin and the Chipmunks: The Road Chip,Christmas,5
+35,Due Date,Christmas,6.5
+35,Paranormal Activity 3,Other,5.8
+35,Maze Runner: The Death Cure,Other,6.2
+36,Assassin's Creed,Christmas,5.7
+36,Bewitched,SummerVacation,4.8
+36,Kill Bill: Vol. 2,Easter,8
+36,Sweeney Todd: The Demon Barber of Fleet Street,Christmas,7.3
+36,The Time Machine,Easter,6
+36,You Don't Mess with the Zohan,SummerVacation,5.5
+36,Road Trip,SummerVacation,6.4
+36,Eat Pray Love,SummerVacation,5.8
+36,Jack Reacher,Christmas,7
+36,Save the Last Dance,Other,6.2
+36,Monster House,SummerVacation,6.6
+36,Paul Blart: Mall Cop,Other,5.2
+36,Kung Fu Yoga,Other,5.2
+37,Mystic River,Other,7.9
+37,Tropic Thunder,SummerVacation,7
+37,Coyote Ugly,SummerVacation,5.7
+37,Big Momma's House 2,Other,4.7
+37,Mr. Popper's Penguins,SummerVacation,6
+37,A Knight's Tale,SummerVacation,6.9
+37,The SpongeBob SquarePants Movie,Christmas,7
+37,Yogi Bear,Christmas,4.6
+37,Spirit: Stallion of the Cimarron,SummerVacation,7.1
+37,Ted 2,SummerVacation,6.3
+37,Surf's Up,SummerVacation,6.7
+37,Hidden Figures,Other,7.8
+37,Halloween,Other,6.6
+37,Captain Phillips,Other,7.8
+38,RED,Other,7
+38,The Princess Diaries 2: Royal Engagement,SummerVacation,5.8
+38,Crazy Rich Asians,SummerVacation,6.9
+38,21 Jump Street,Easter,7.2
+38,Final Destination,Easter,6.7
+38,Lara Croft Tomb Raider: The Cradle of Life,SummerVacation,5.5
+38,Eagle Eye,Other,6.6
+38,Cheaper by the Dozen 2,Christmas,5.5
+38,Couples Retreat,Other,5.5
+38,Dracula Untold,Other,6.3
+38,Tomorrowland,SummerVacation,6.4
+38,Ghostbusters,SummerVacation,5.2
+38,The Game Plan,Other,6.1
+39,Spy Kids 2: Island of Lost Dreams,SummerVacation,5.1
+39,Alien: Covenant,SummerVacation,6.4
+39,The Expendables 3,SummerVacation,6.1
+39,Along Came a Spider,Easter,6.4
+39,Seabiscuit,SummerVacation,7.3
+39,Cloverfield,Other,7
+39,Total Recall,SummerVacation,6.3
+39,Man on Fire,Easter,7.7
+39,White House Down,SummerVacation,6.4
+39,Up in the Air,Christmas,7.4
+39,Inferno,Other,6.2
+39,Gemini Man,Other,5.7
+39,Paranormal Activity 2,Other,5.6
+39,Creed II,Christmas,7.2
+40,Mission to Mars,Easter,5.7
+40,Gothika,Christmas,5.8
+40,Seven Pounds,Christmas,7.6
+40,Hide and Seek,Other,6
+40,Training Day,Other,7.7
+40,V for Vendetta,Easter,8.2
+40,Hop,Easter,5.4
+40,Hannah Montana: The Movie,Easter,4.4
+40,Central Intelligence,SummerVacation,6.3
+40,Percy Jackson: Sea of Monsters,SummerVacation,5.8
+40,Ford v Ferrari,Christmas,8.3
+40,Into the Woods,Christmas,5.9
+40,The A-Team,SummerVacation,6.7
+40,Music and Lyrics,Other,6.5
+40,Smallfoot,Other,6.6
+40,Straight Outta Compton,SummerVacation,7.9
+41,Blade: Trinity,Christmas,5.9
+41,"You, Me and Dupree",SummerVacation,5.6
+41,The Intern,Other,7.1
+41,War Horse,Christmas,7.2
+41,Bridget Jones's Baby,Other,6.5
+41,Nanny McPhee,Other,6.5
+41,Mona Lisa Smile,Christmas,6.5
+41,Jimmy Neutron: Boy Genius,Christmas,6
+41,The Taking of Pelham 123,SummerVacation,6.4
+41,Fury,Other,7.6
+41,Jackass 3D,Other,7
+41,The Kid,SummerVacation,6.1
+41,Blades of Glory,Easter,6.3
+41,Escape Room,Other,6.3
+42,Burn After Reading,Other,7
+42,The Vow,Other,6.8
+42,Failure to Launch,Easter,5.6
+42,We Were Soldiers,Easter,7.1
+42,Don't Say a Word,Other,6.3
+42,Saw IV,Other,5.9
+42,The Jungle Book 2,Other,5.4
+42,Mean Girls,Easter,7
+42,The Other Guys,SummerVacation,6.6
+42,Jupiter Ascending,Other,5.3
+42,Need for Speed,Easter,6.5
+42,The Secret Life of Walter Mitty,Christmas,7.3
+42,Br<U+00C3><U+00BC>no,SummerVacation,5.8
+42,The Descendants,Christmas,7.3
+43,Evolution,SummerVacation,6.1
+43,17 Again,Easter,6.3
+43,Insomnia,SummerVacation,7.2
+43,Unstoppable,Christmas,6.7
+43,Bridge to Terabithia,Other,7.1
+43,The Cat in the Hat,Christmas,3.9
+43,Ray,Other,7.7
+43,12 Years a Slave,Christmas,8.1
+43,Cowboys & Aliens,SummerVacation,6
+43,Creed,Christmas,7.6
+43,Mirror Mirror,Easter,5.6
+43,The Other Woman,Easter,6
+43,The Equalizer 2,SummerVacation,6.7
+44,Lee Daniels' The Butler,SummerVacation,7.2
+44,The Whole Nine Yards,Other,6.7
+44,School of Rock,Other,7.1
+44,The Dictator,SummerVacation,6.4
+44,The Spiderwick Chronicles,Other,6.5
+44,Corpse Bride,Other,7.3
+44,Arrival,Christmas,7.9
+44,Hustlers,Other,6.4
+44,Peter Pan 2: Return to Never Land,Other,5.8
+44,Geostorm,Other,5.3
+44,I Am Sam,Other,7.6
+44,Fantastic Four,SummerVacation,4.3
+44,Julie & Julia,SummerVacation,7
+44,In Time,Other,6.7
+44,The Forgotten,Other,5.8
+44,The Mule,Christmas,7
+44,The Equalizer,Other,7.2
+44,Step Up 3D,SummerVacation,6.2
+44,Apocalypto,Christmas,7.8
+45,The Nutcracker and the Four Realms,Christmas,5.5
+45,The Cell,SummerVacation,6.3
+45,Finding Neverland,Christmas,7.7
+45,Treasure Planet,Christmas,7.2
+45,Zookeeper,SummerVacation,5.2
+45,1408,SummerVacation,6.8
+45,The Dukes of Hazzard,SummerVacation,5.1
+45,The Fighter,Christmas,7.8
+45,Identity Thief,Other,5.7
+45,The Emoji Movie,SummerVacation,3.2
+45,Eight Below,Other,7.3
+45,Hellboy II: The Golden Army,SummerVacation,7
+45,"Legally Blonde 2: Red, White & Blonde",SummerVacation,4.8
+45,The Book of Eli,Other,6.9
+45,Looper,Other,7.4
+46,The Hours,Other,7.5
+46,Big Fish,Other,8
+46,Law Abiding Citizen,Other,7.4
+46,A Dog's Purpose,Other,7.1
+46,27 Dresses,Other,6.1
+46,Bad Moms,SummerVacation,6.2
+46,The Muppets,Christmas,7.1
+46,The Chronicles of Riddick,SummerVacation,6.7
+46,The Town,Other,7.5
+46,Focus,Other,6.6
+46,Hoodwinked!,Other,6.4
+46,Magic Mike,SummerVacation,6.1
+46,Knives Out,Christmas,8.1
+46,The Omen,SummerVacation,5.5
+47,Olympus Has Fallen,Easter,6.5
+47,21,Easter,6.8
+47,Date Night,Easter,6.3
+47,Flight,Christmas,7.3
+47,About Schmidt,Other,7.1
+47,Storks,Other,6.8
+47,Shanghai Noon,SummerVacation,6.5
+47,Cinderella Man,SummerVacation,8
+47,Limitless,Easter,7.4
+47,Angel Has Fallen,SummerVacation,6.4
+47,Final Destination 3,Other,5.8
+47,Behind Enemy Lines,Christmas,6.4
+47,Smurfs: The Lost Village,Easter,6
+47,The Notebook,SummerVacation,7.8
+47,Dumb and Dumber To,Christmas,5.6
+47,Aliens vs. Predator: Requiem,Christmas,4.7
+47,Coraline,Other,7.7
+47,Goosebumps,Other,6.3
+47,The Predator,Other,5.4
+48,Barnyard,SummerVacation,5.5
+48,Surrogates,Other,6.3
+48,Intolerable Cruelty,Other,6.2
+48,Insidious: Chapter 2,Other,6.6
+48,Gosford Park,Other,7.2
+48,The Tuxedo,Other,5.4
+48,The Heartbreak Kid,Other,5.8
+48,Vantage Point,Other,6.6
+48,Closer,Christmas,7.2
+48,The Tigger Movie,Other,6.3
+48,The Shape of Water,Christmas,7.3
+48,Into the Storm,SummerVacation,5.8
+48,Johnny English Reborn,Other,6.3
+48,The BFG,SummerVacation,6.4
+48,The Amityville Horror,Easter,6
+48,Ad Astra,Other,6.8
+48,Underworld Awakening,Other,6.4
+49,The Upside,Other,6.9
+49,Charlie Wilson's War,Christmas,7
+49,The Hateful Eight,Christmas,7.8
+49,Lost in Translation,Other,7.7
+49,Ali,Christmas,6.8
+49,The Brothers Grimm,SummerVacation,5.9
+49,Allegiant,Easter,5.7
+49,The 6th Day,Christmas,5.9
+49,The Lake House,SummerVacation,6.8
+49,White Chicks,SummerVacation,5.6
+49,Step Up 2: The Streets,Other,6.2
+49,Final Destination 5,SummerVacation,5.8
+49,This Means War,Other,6.3
+49,Lone Survivor,Other,7.5
+49,Invictus,Christmas,7.3
+49,Red Sparrow,Easter,6.6
+49,Pitch Perfect 3,Christmas,5.8
+49,Legend of the Guardians: The Owls of Ga'Hoole,Other,6.9
+49,Unbroken,Christmas,7.2
+50,Daddy's Home 2,Christmas,6
+50,Rat Race,SummerVacation,6.4
+50,The Monuments Men,Other,6.1
+50,Sideways,Other,7.5
+50,Tower Heist,Christmas,6.2
+50,Disturbia,Easter,6.8
+50,Beverly Hills Chihuahua,Other,3.8
+50,Gods of Egypt,Other,5.4
+50,Bad Grandpa,Other,6.5
+50,Romeo Must Die,Easter,6.1
+50,John Q,Other,7.1
+50,The Wolfman,Other,5.8
+50,Step Up,SummerVacation,6.5
+50,Paranormal Activity 4,Other,4.6
+51,Bride Wars,Other,5.5
+51,The Last Witch Hunter,Other,6
+51,Final Fantasy: The Spirits Within,SummerVacation,6.4
+51,The Post,Other,7.2
+51,Step Brothers,SummerVacation,6.9
+51,Just Like Heaven,Other,6.7
+51,The Texas Chainsaw Massacre,Other,6.2
+51,40 Days and 40 Nights,Easter,5.6
+51,The Girl on the Train,Other,6.5
+51,Underworld: Evolution,Other,6.7
+51,Hidalgo,Easter,6.7
+51,47 Ronin,Christmas,6.2
+51,The Curse of La Llorona,Easter,5.4
+51,The Bounty Hunter,Easter,5.6
+51,Step Up Revolution,SummerVacation,6.4
+51,Ride Along,Other,6.2
+51,The First Purge,SummerVacation,5.1
+52,Home on the Range,Easter,5.3
+52,RED 2,SummerVacation,6.6
+52,A Wrinkle in Time,Easter,4.2
+52,Autumn in New York,SummerVacation,5.7
+52,The Animal,SummerVacation,4.8
+52,The Forbidden Kingdom,Easter,6.6
+52,Planes: Fire & Rescue,SummerVacation,6
+52,Just Married,Other,5.5
+52,Trainwreck,SummerVacation,6.2
+52,The Santa Clause 3: The Escape Clause,Christmas,4.7
+52,Guess Who,Easter,5.9
+52,Changing Lanes,Easter,6.4
+52,Confessions of a Shopaholic,Other,5.9
+53,Last Vegas,Christmas,6.6
+53,The Hitman's Bodyguard,SummerVacation,6.9
+53,The Huntsman: Winter's War,Easter,6.1
+53,Saw,Other,7.6
+53,Miss Congeniality 2: Armed & Fabulous,Easter,5.1
+53,Blow,Easter,7.6
+53,The Recruit,Other,6.6
+53,Bring It On,SummerVacation,6
+53,The Prestige,Other,8.5
+53,Race to Witch Mountain,Easter,5.7
+53,Wall Street: Money Never Sleeps,Other,6.2
+53,I Am Number Four,Other,6.1
+53,The House with a Clock in Its Walls,Other,6
+54,Once Upon a Time in Mexico,Other,6.4
+54,The Magnificent Seven,Other,6.9
+54,Jack and Jill,Christmas,3.3
+54,Dawn of the Dead,Easter,7.3
+54,Reign of Fire,SummerVacation,6.2
+54,Fred Claus,Christmas,5.6
+54,Crash,SummerVacation,7.8
+54,Bedazzled,Other,6
+54,Zero Dark Thirty,Other,7.4
+54,Body of Lies,Other,7.1
+54,Exit Wounds,Easter,5.6
+54,Escape Plan,Other,6.7
+54,Let's Be Cops,SummerVacation,6.4
+54,The Adjustment Bureau,Easter,7
+54,Instant Family,Christmas,7.3
+55,The Stepford Wives,SummerVacation,5.3
+55,Ghost in the Shell,Easter,6.3
+55,Phone Booth,Easter,7
+55,Serendipity,Other,6.9
+55,Are We There Yet?,Other,4.7
+55,Saw V,Other,5.8
+55,Friends with Benefits,SummerVacation,6.5
+55,Ghost Rider: Spirit of Vengeance,Other,4.3
+55,The Big Short,Christmas,7.8
+55,Predators,SummerVacation,6.4
+55,The Rookie,Easter,6.9
+55,Jack Ryan: Shadow Recruit,Other,6.2
+55,Shooter,Easter,7.2
+55,Zombieland: Double Tap,Other,7.2
+56,No Strings Attached,Other,6.2
+56,Men of Honor,Christmas,7.2
+56,Paycheck,Christmas,6.3
+56,Zombieland,Other,7.6
+56,Kate & Leopold,Christmas,6.4
+56,Annie,Christmas,5.3
+56,Jarhead,Christmas,7
+56,Game Night,Other,6.9
+56,Dora and the Lost City of Gold,SummerVacation,6
+56,Jackass: The Movie,Other,6.6
+56,Little Man,SummerVacation,4.4
+56,A Nightmare on Elm Street,Easter,5.2
+56,Pan,Other,5.7
+56,2 Guns,SummerVacation,6.7
+56,Don't Breathe,SummerVacation,7.1
+57,From Hell,Other,6.8
+57,Finding Forrester,Other,7.3
+57,Little Miss Sunshine,SummerVacation,7.8
+57,Red Eye,SummerVacation,6.4
+57,Ladder 49,Other,6.5
+57,Underworld,Other,7
+57,Dear John,Other,6.3
+57,Collateral Damage,Other,5.5
+57,This Is the End,SummerVacation,6.6
+57,Changeling,Other,7.7
+57,The Accountant,Other,7.3
+57,Michael Clayton,Other,7.2
+57,Blended,SummerVacation,6.5
+57,Ghosts of Girlfriends Past,SummerVacation,5.8
+58,The Good Shepherd,Christmas,6.7
+58,Showtime,Easter,5.5
+58,Fool's Gold,Other,5.7
+58,Pet Sematary,Easter,5.8
+58,The Road to El Dorado,Easter,6.9
+58,Lights Out,SummerVacation,6.3
+58,Hellboy,Easter,6.8
+58,The One,Christmas,5.9
+58,Source Code,Easter,7.5
+58,Be Cool,Easter,5.6
+58,Chronicle,Other,7
+58,The Time Traveler's Wife,SummerVacation,7.1
+58,No Reservations,SummerVacation,6.3
+58,Sex Tape,SummerVacation,5.1
+58,Cats & Dogs: The Revenge of Kitty Galore,SummerVacation,4.3
+58,Ender's Game,Christmas,6.6
+59,Christmas with the Kranks,Christmas,5.3
+59,"Crazy, Stupid, Love.",SummerVacation,7.4
+59,Tooth Fairy,Other,5
+59,Midway,Christmas,6.9
+59,Fracture,Easter,7.2
+59,The Royal Tenenbaums,Other,7.6
+59,Syriana,Christmas,6.9
+59,Windtalkers,SummerVacation,6.1
+59,"Dude, Where's My Car?",Christmas,5.5
+59,My Bloody Valentine,Other,5.4
+59,First Man,Other,7.3
+59,Prisoners,Other,8.1
+59,Nacho Libre,SummerVacation,5.7
+59,Final Destination 2,Other,6.2
+59,Ride Along 2,Other,5.9
+59,Pete's Dragon,SummerVacation,6.7
+60,Book Club,SummerVacation,6.1
+60,Identity,Easter,7.3
+60,New Year's Eve,Christmas,5.7
+60,Sanctum,Other,5.9
+60,Four Brothers,SummerVacation,6.8
+60,13 Going on 30,Easter,6.1
+60,Epic Movie,Other,2.4
+60,Barbershop,Other,6.3
+60,Sausage Party,SummerVacation,6.2
+60,Saving Mr. Banks,Christmas,7.5
+60,Good Boys,SummerVacation,6.7
+61,The Family Stone,Christmas,6.3
+61,Warm Bodies,Other,6.9
+61,The Manchurian Candidate,SummerVacation,6.6
+61,Parental Guidance,Christmas,6
+61,Old Dogs,Christmas,5.4
+61,The Kingdom,Other,7
+61,Kangaroo Jack,Other,4.4
+61,Magic Mike XXL,SummerVacation,5.6
+61,Life as We Know It,Other,6.5
+61,Made of Honor,SummerVacation,5.9
+61,Night School,Other,5.6
+61,Scary Stories to Tell in the Dark,SummerVacation,6.2
+61,Power Rangers,Easter,5.9
+62,My Sister's Keeper,SummerVacation,7.4
+62,Seventh Son,Other,5.5
+62,Girls Trip,SummerVacation,6.2
+62,The Guardian,Other,6.9
+62,Thir13en Ghosts,Other,5.6
+62,The Butterfly Effect,Other,7.6
+62,The Skeleton Key,SummerVacation,6.5
+62,Frequency,Easter,7.3
+62,Hereafter,Other,6.4
+62,Forgetting Sarah Marshall,Easter,7.1
+62,Shanghai Knights,Other,6.2
+62,Abraham Lincoln: Vampire Hunter,SummerVacation,5.9
+62,Alpha,SummerVacation,6.7
+63,Divine Secrets of the Ya-Ya Sisterhood,SummerVacation,6.1
+63,Secret Window,Easter,6.6
+63,Old School,Other,7.1
+63,Pineapple Express,SummerVacation,7
+63,Thirteen Days,Other,7.3
+63,Zodiac,Easter,7.7
+63,The Three Musketeers,Other,5.7
+63,American Made,Other,7.1
+63,Get Hard,Easter,6
+63,Pitch Perfect,Other,7.2
+63,The Hustle,SummerVacation,5.4
+64,The Sweetest Thing,Easter,5.2
+64,Tears of the Sun,Easter,6.6
+64,Bandits,Other,6.5
+64,Proof of Life,Christmas,6.2
+64,Racing Stripes,Other,5.2
+64,Premonition,Easter,5.9
+64,Hope Springs,SummerVacation,6.3
+64,The Illusionist,Other,7.6
+64,Love & Other Drugs,Christmas,6.7
+64,A Bad Moms Christmas,Christmas,5.6
+64,Nim's Island,Easter,6
+64,The Purge: Anarchy,SummerVacation,6.4
+64,The Lovely Bones,Other,6.7
+64,The 5th Wave,Other,5.2
+64,Crawl,SummerVacation,6.2
+65,Rumor Has It...,Christmas,5.5
+65,Sinbad: Legend of the Seven Seas,SummerVacation,6.7
+65,We Bought a Zoo,Christmas,7.1
+65,Snow Day,Other,5.1
+65,Not Another Teen Movie,Christmas,5.7
+65,Free Birds,Christmas,5.9
+65,The Boxtrolls,Other,6.8
+65,"I Love You, Man",Easter,7
+65,Paul Blart: Mall Cop 2,Easter,4.4
+65,Five Feet Apart,Easter,7.2
+65,ParaNorman,SummerVacation,7
+65,Happy Death Day,Other,6.5
+66,Speed Racer,SummerVacation,6
+66,Killers,SummerVacation,5.4
+66,The Rundown,Other,6.7
+66,Sweet November,Other,6.7
+66,Sky High,SummerVacation,6.2
+66,Anchorman: The Legend of Ron Burgundy,SummerVacation,7.2
+66,Horrible Bosses 2,Christmas,6.3
+66,Ghost Ship,Other,5.5
+66,The Shaggy Dog,Easter,4.4
+66,Friday the 13th,Other,5.5
+66,Rambo: Last Blood,Other,6.3
+66,The Campaign,SummerVacation,6.1
+66,Water for Elephants,Easter,6.9
+66,28 Days,Easter,6
+66,Captain Underpants: The First Epic Movie,SummerVacation,6.2
+66,Gangster Squad,Other,6.7
+66,The Man from U.N.C.L.E.,SummerVacation,7.3
+66,Blumhouse's Truth or Dare,Easter,5.1
+66,The Shallows,SummerVacation,6.3
+67,Runaway Jury,Other,7.1
+67,Star Trek: Nemesis,Christmas,6.4
+67,Catwoman,SummerVacation,3.3
+67,K-PAX,Other,7.4
+67,The Lego Ninjago Movie,Other,6
+67,Halloween,SummerVacation,6.1
+67,Underworld: Rise of the Lycans,Other,6.6
+67,The Purge: Election Year,SummerVacation,6
+68,Keeping the Faith,Easter,6.3
+68,Bad Company,SummerVacation,5.6
+68,Why Him?,Christmas,6.2
+68,Blockers,Easter,6.2
+68,Drag Me to Hell,SummerVacation,6.5
+68,Sisters,Christmas,6
+68,Date Movie,Other,2.8
+68,Moneyball,Other,7.6
+68,Ouija,Other,4.5
+68,Project X,Easter,6.6
+69,In Her Shoes,Other,6.4
+69,Max Payne,Other,5.4
+69,Birdman or (The Unexpected Virtue of Ignorance),Christmas,7.7
+69,Get Him to the Greek,SummerVacation,6.4
+69,Exorcist: The Beginning,SummerVacation,5.1
+69,Next Friday,Other,6.1
+69,Jackass Number Two,Other,7
+69,Madea Goes to Jail,Other,4.4
+69,The Devil Inside,Other,4.2
+69,Justin Bieber: Never Say Never,Other,1.6
+69,Vacation,SummerVacation,6.1
+69,BlacKkKlansman,SummerVacation,7.5
+70,High Crimes,Easter,6.4
+70,State of Play,Easter,7.1
+70,Burlesque,Christmas,6.4
+70,The Lucky One,Easter,6.5
+70,Meet the Spartans,Other,2.8
+70,Next,Easter,6.2
+70,The Flintstones in Viva Rock Vegas,Easter,3.6
+70,Dreamcatcher,Easter,5.5
+70,The Ladykillers,Easter,6.2
+70,Paul,Easter,7
+70,Safe Haven,Other,6.7
+70,Office Christmas Party,Christmas,5.8
+70,Goosebumps 2: Haunted Halloween,Other,5.6
+70,The Dark Tower,SummerVacation,5.6
+71,Scream 4,Easter,6.1
+71,Contraband,Other,6.5
+71,Did You Hear About the Morgans?,Christmas,4.8
+71,There Will Be Blood,Other,8.2
+71,The Last Song,Easter,5.9
+71,Heaven Is for Real,Easter,5.8
+71,Like Mike,SummerVacation,5.2
+71,The Core,Easter,5.5
+71,How to Be Single,Other,6.1
+71,Nights in Rodanthe,Other,6
+71,Hostage,Easter,6.6
+71,Firewall,Other,5.8
+71,Joy,Christmas,6.6
+71,Eternal Sunshine of the Spotless Mind,Easter,8.3
+71,Evil Dead,Easter,6.5
+71,A Madea Family Funeral,Easter,4.3
+72,Little Nicky,Christmas,5.3
+72,Holes,Easter,7
+72,Around the World in 80 Days,SummerVacation,5.9
+72,Stealth,SummerVacation,5.1
+72,10 Cloverfield Lane,Easter,7.2
+72,Think Like a Man,Easter,6.6
+72,Black Mass,Other,6.9
+72,Overboard,SummerVacation,6
+72,Crossroads,Other,3.5
+72,Blue Jasmine,SummerVacation,7.3
+72,Duplicity,Easter,6.1
+72,Dinner for Schmucks,SummerVacation,5.9
+72,Insidious,Easter,6.8
+72,Stomp the Yard,Other,5.4
+72,The Strangers,SummerVacation,6.2
+72,Hostel,Other,5.9
+72,"Alexander and the Terrible, Horrible, No Good, Very Bad Day",Other,6.2
+73,42,Easter,7.5
+73,Pay It Forward,Other,7.2
+73,Tammy,SummerVacation,4.9
+73,Righteous Kill,Other,6
+73,The Rite,Other,6
+73,Fame,Other,5
+73,Jeepers Creepers,SummerVacation,6.2
+73,Anacondas: The Hunt for the Blood Orchid,SummerVacation,4.6
+73,The Wild Thornberrys Movie,Christmas,5.6
+73,30 Days of Night,Other,6.6
+73,Jigsaw,Other,5.8
+73,Coach Carter,Other,7.3
+73,Marmaduke,SummerVacation,4.2
+73,Neighbors 2: Sorority Rising,SummerVacation,5.7
+73,This Is 40,Christmas,6.2
+73,What Men Want,Other,5.1
+74,The Sentinel,Easter,6.1
+74,Piranha 3D,SummerVacation,5.4
+74,Heartbreakers,Easter,6.2
+74,Bounce,Christmas,5.7
+74,The Haunting in Connecticut,Easter,5.9
+74,Lord of War,Other,7.6
+74,Bowling for Columbine,Christmas,7.9
+74,The Possession,SummerVacation,5.9
+74,Life,Easter,6.6
+74,A Cinderella Story,SummerVacation,5.9
+74,The Visit,Other,6.2
+74,Open Range,SummerVacation,7.4
+74,The Mortal Instruments: City of Bones,SummerVacation,5.9
+75,I Can Only Imagine,Easter,7.3
+75,15 Minutes,Easter,6.1
+75,Pitch Black,Other,7.1
+75,"Yours, Mine & Ours",Christmas,5.5
+75,Mirrors,SummerVacation,6.1
+75,Drumline,Christmas,5.8
+75,The Kite Runner,Other,7.6
+75,Stuck on You,Christmas,5.7
+75,Spotlight,Christmas,8.1
+75,The Book of Life,Other,7.3
+75,What to Expect When You're Expecting,SummerVacation,5.7
+75,Orphan,SummerVacation,6.9
+75,Season of the Witch,Other,5.4
+75,Doctor Sleep,Christmas,7.6
+76,xXx: State of the Union,Easter,4.4
+76,Driven,Easter,4.6
+76,The Shack,Easter,6.3
+76,Matchstick Men,Other,7.3
+76,The Internship,SummerVacation,6.3
+76,Murder by Numbers,Easter,6.2
+76,Robin Hood,Christmas,5.3
+76,Death Race,SummerVacation,6.4
+76,United 93,Easter,7.5
+76,The Unborn,Other,4.8
+76,After,Easter,5.4
+77,Perfect Stranger,Easter,5.7
+77,Frida,Christmas,7.4
+77,The Adventures of Sharkboy and Lavagirl 3-D,SummerVacation,3.5
+77,The Skulls,Easter,5.6
+77,Vampires Suck,SummerVacation,3.4
+77,Sucker Punch,Easter,6
+77,Revolutionary Road,Other,7.3
+77,Domestic Disturbance,Christmas,5.6
+77,Savages,SummerVacation,6.5
+77,The Pink Panther 2,Other,5.6
+77,Mortal Engines,Christmas,6.1
+77,Lady in the Water,SummerVacation,5.5
+77,Without a Paddle,SummerVacation,5.9
+77,Dirty Grandpa,Other,5.9
+78,Red Riding Hood,Easter,5.4
+78,Letters to Juliet,SummerVacation,6.5
+78,Frankenweenie,Other,6.9
+78,3:10 to Yuma,Other,7.7
+78,Obsessed,Easter,5
+78,Jeepers Creepers 2,SummerVacation,5.6
+78,The Mothman Prophecies,Other,6.4
+78,The Grudge 2,Other,5
+78,The Replacements,SummerVacation,6.6
+78,Ben-Hur,SummerVacation,5.7
+78,Taxi,Other,4.5
+78,The Purge,SummerVacation,5.7
+78,Poltergeist,SummerVacation,4.9
+78,Paranormal Activity: The Marked Ones,Other,5
+79,Going in Style,Easter,6.6
+79,Analyze That,Christmas,5.9
+79,The Brave One,Other,6.7
+79,Funny People,SummerVacation,6.3
+79,Children of Men,Other,7.9
+79,Book of Shadows: Blair Witch 2,Other,3.9
+79,Superhero Movie,Easter,4.5
+79,Piglet's Big Movie,Easter,6.1
+79,Act of Valor,Other,6.5
+79,Monster's Ball,Easter,7
+79,Prime,Other,6.2
+79,Barbershop 2: Back in Business,Other,5.7
+79,The Back-up Plan,Easter,5.3
+79,Money Monster,SummerVacation,6.5
+79,The Hundred-Foot Journey,SummerVacation,7.3
+79,Den of Thieves,Other,7
+79,Happy Death Day 2U,Other,6.2
+80,The Men Who Stare at Goats,Christmas,6.2
+80,Hereditary,SummerVacation,7.3
+80,Taking Lives,Easter,6.2
+80,Almost Famous,Other,7.9
+80,Boogeyman,Other,4.2
+80,My Big Fat Greek Wedding 2,Easter,6
+80,Recess: School's Out,Other,6.6
+80,The Hot Chick,Christmas,5.5
+80,Rings,Other,4.5
+80,In the Heart of the Sea,Christmas,6.9
+80,Curious George,Other,6.5
+80,Because I Said So,Other,5.7
+80,Spy Kids 4-D: All the Time in the World,SummerVacation,3.5
+80,Hannah Montana and Miley Cyrus: Best of Both Worlds Concert,Other,2.3
+80,Honey,Christmas,5.3
+80,Deliver Us from Evil,SummerVacation,6.2
+81,A Million Ways to Die in the West,SummerVacation,6.1
+81,The Watcher,Other,5.3
+81,Collateral Beauty,Christmas,6.8
+81,Mr. Magorium's Wonder Emporium,Christmas,6.2
+81,Diary of a Wimpy Kid,Easter,6.2
+81,The Hills Have Eyes,Easter,6.4
+81,Land of the Lost,SummerVacation,5.3
+81,Big Fat Liar,Other,5.4
+81,Sinister,Other,6.8
+81,21 Grams,Other,7.7
+81,J. Edgar,Christmas,6.5
+81,Zathura: A Space Adventure,Christmas,6.1
+81,The House Bunny,SummerVacation,5.5
+81,Tag,SummerVacation,6.5
+82,License to Wed,SummerVacation,5.3
+82,Hall Pass,Other,5.8
+82,In the Bedroom,Other,7.4
+82,Easy A,Other,7.1
+82,Vice,Christmas,7.2
+82,The Grey,Other,6.8
+82,John Tucker Must Die,SummerVacation,5.8
+82,Dragonfly,Other,6.1
+82,Under the Tuscan Sun,Other,6.7
+82,Pain & Gain,Easter,6.4
+82,Step Up All In,SummerVacation,6
+83,A History of Violence,Other,7.4
+83,Dracula 2000,Christmas,4.8
+83,See Spot Run,Easter,5.4
+83,The X Files: I Want to Believe,SummerVacation,5.9
+83,Dan in Real Life,Other,6.7
+83,Agent Cody Banks,Easter,5
+83,Letters from Iwo Jima,Other,7.9
+83,Lady Bird,Christmas,7.4
+83,John Wick,Other,7.4
+83,One Hour Photo,Other,6.8
+83,"Big Mommas: Like Father, Like Son",Other,4.4
+83,Diary of a Wimpy Kid: Dog Days,SummerVacation,6.3
+83,Carrie,Other,5.9
+83,Charlie's Angels,Christmas,4
+84,The Gift,Other,6.6
+84,Takers,SummerVacation,6.2
+84,After the Sunset,Christmas,6.3
+84,Abduction,Other,5.1
+84,Must Love Dogs,SummerVacation,5.9
+84,American Assassin,Other,6.2
+84,Blue Crush,SummerVacation,5.6
+84,To Rome with Love,SummerVacation,6.3
+84,The Judge,Other,7.4
+84,Star Wars: The Clone Wars,SummerVacation,5.9
+84,Precious,Christmas,7.3
+84,Long Shot,SummerVacation,6.9
+84,War Dogs,SummerVacation,7.1
+84,Paper Towns,SummerVacation,6.3
+84,Sicario: Day of the Soldado,SummerVacation,7.1
+85,Where the Heart Is,Easter,6.8
+85,Playing with Fire,Christmas,4.6
+85,Son of the Mask,Other,2.2
+85,Cradle 2 the Grave,Other,5.8
+85,Sicario,Other,7.6
+85,Legion,Other,5.2
+85,August Rush,Christmas,7.5
+85,Here Comes the Boom,Other,6.4
+85,Enough,SummerVacation,5.8
+85,Muppets Most Wanted,Easter,6.4
+85,In Good Company,Other,6.4
+85,Street Kings,Easter,6.8
+85,Black Knight,Christmas,4.9
+85,Year One,SummerVacation,4.9
+85,When a Stranger Calls,Other,5.1
+85,The Family,Other,6.3
+85,Nerve,SummerVacation,6.5
+86,Scary Movie 5,Easter,3.5
+86,Space Chimps,SummerVacation,4.5
+86,Sky Captain and the World of Tomorrow,Other,6
+86,Memento,SummerVacation,8.4
+86,Bless the Child,SummerVacation,5.1
+86,Derailed,Christmas,6.6
+86,Underdog,SummerVacation,4.7
+86,Breakthrough,Easter,6.2
+86,Flags of Our Fathers,Other,7.1
+86,The Cabin in the Woods,Easter,7
+86,The American,Other,6.3
+86,Priest,SummerVacation,5.7
+86,Hitman: Agent 47,SummerVacation,5.7
+86,The Lizzie McGuire Movie,SummerVacation,5.5
+86,If I Stay,SummerVacation,6.7
+87,I Spy,Christmas,5.4
+87,R.I.P.D.,SummerVacation,5.6
+87,The Mountain Between Us,Other,6.4
+87,The Art of War,SummerVacation,5.7
+87,Drive,Other,7.8
+87,The Wedding Ringer,Other,6.6
+87,Out of Time,Other,6.5
+87,Second Act,Christmas,5.8
+87,Take the Lead,Easter,6.6
+87,Ouija: Origin Of Evil,Other,6.1
+87,Little,Easter,5.4
+88,Baby Mama,Easter,6
+88,Rugrats Go Wild,SummerVacation,5.6
+88,The Next Three Days,Christmas,7.4
+88,Lions for Lambs,Christmas,6.2
+88,The Mechanic,Other,6.6
+88,A Walk to Remember,Other,7.4
+88,16 Blocks,Easter,6.6
+88,"I, Frankenstein",Other,5.1
+88,500 Days of Summer,SummerVacation,7.7
+88,Walking Tall,Easter,6.3
+88,Underworld: Blood Wars,Other,5.8
+88,Isn't It Romantic,Other,5.9
+88,The Star,Christmas,6.1
+88,Paranormal Activity: The Ghost Dimension,Other,4.6
+89,The International,Other,6.5
+89,The Legend of Bagger Vance,Christmas,6.7
+89,The Ides of March,Other,7.1
+89,Radio,Other,6.9
+89,The Benchwarmers,Easter,5.5
+89,The Book Thief,Christmas,7.6
+89,Cellular,Other,6.5
+89,Manchester by the Sea,Christmas,7.8
+89,Someone Like You...,Easter,6.1
+89,Eight Legged Freaks,SummerVacation,5.4
+89,Think Like a Man Too,SummerVacation,5.8
+89,Kicking & Screaming,SummerVacation,5.6
+89,The Reaping,Easter,5.6
+89,The Watch,SummerVacation,5.7
+89,Skyline,Christmas,4.4
+90,Moonrise Kingdom,SummerVacation,7.8
+90,What's the Worst That Could Happen?,SummerVacation,5.5
+90,Urban Legends: Final Cut,Other,4.3
+90,Escape from Planet Earth,Other,5.9
+90,Madea's Family Reunion,Other,5.2
+90,The Boss,Easter,5.4
+90,Good Luck Chuck,Other,5.6
+90,Queen of the Damned,Other,5.3
+90,Hot Tub Time Machine,Easter,6.4
+90,Spanglish,Christmas,6.4
+90,Hollywood Homicide,SummerVacation,5.3
+90,The Change-Up,SummerVacation,6.3
+90,Aliens in the Attic,SummerVacation,5.4
+90,War Room,SummerVacation,6.4
+90,Prom Night,Easter,3.9
+91,The Lincoln Lawyer,Easter,7.3
+91,The Eye,Other,5.4
+91,August: Osage County,Other,7.2
+91,The Punisher,Easter,6.4
+91,What a Girl Wants,Easter,5.8
+91,Madea's Witness Protection,SummerVacation,4.9
+91,The Majestic,Christmas,6.9
+91,The Original Kings of Comedy,SummerVacation,6.9
+91,"Good Night, and Good Luck.",Christmas,7.4
+91,Son of God,Other,5.7
+91,12 Strong,Other,6.5
+91,Snakes on a Plane,SummerVacation,5.4
+91,"Everything, Everything",SummerVacation,6.4
+92,Dragonball Evolution,Easter,2.5
+92,Titan A.E.,SummerVacation,6.6
+92,Valentine,Other,4.8
+92,The Best Man Holiday,Christmas,6.7
+92,"Love, Simon",Easter,7.6
+92,My Super Ex-Girlfriend,SummerVacation,5.1
+92,National Security,Other,5.6
+92,The Master of Disguise,SummerVacation,3.3
+92,The Mist,Christmas,7.1
+92,Mike and Dave Need Wedding Dates,SummerVacation,6
+92,Hellboy,Easter,5.2
+92,Open Water,SummerVacation,5.7
+92,Devil,Other,6.2
+92,Run All Night,Easter,6.6
+92,Pooh's Heffalump Movie,Other,6.4
+92,Diary of a Wimpy Kid: Rodrick Rules,Easter,6.5
+92,Jersey Boys,SummerVacation,6.8
+92,Snatched,SummerVacation,4.5
+93,Secondhand Lions,Other,7.5
+93,My Little Pony: The Movie,Other,6.1
+93,Marie Antoinette,Other,6.4
+93,Orange County,Other,6.2
+93,Return to Me,Easter,6.9
+93,Joy Ride,Other,6.6
+93,Milk,Other,7.5
+93,127 Hours,Other,7.6
+93,<U+00C3><U+2020>on Flux,Christmas,5.4
+93,Team America: World Police,Other,7.2
+93,Larry Crowne,SummerVacation,6.1
+93,Midsommar,SummerVacation,7.2
+94,My Dog Skip,Easter,7
+94,The Dilemma,Other,5.3
+94,Elizabethtown,Other,6.4
+94,Raising Helen,SummerVacation,6
+94,Into the Wild,Other,8.1
+94,Invincible,SummerVacation,7.1
+94,Untraceable,Other,6.2
+94,Riding in Cars with Boys,Other,6.5
+94,Miracles from Heaven,Easter,7.1
+94,I Can Do Bad All by Myself,Other,4.4
+94,Why Did I Get Married Too?,Easter,4.6
+94,Life of the Party,SummerVacation,5.6
+94,Darkness Falls,Other,5
+94,Harriet,Christmas,6.5
+95,Rock of Ages,SummerVacation,5.9
+95,The Age of Adaline,Easter,7.2
+95,Torque,Other,4.1
+95,The Adventures of Rocky & Bullwinkle,SummerVacation,4.1
+95,College Road Trip,Easter,4.3
+95,Undercover Brother,SummerVacation,5.8
+95,The Devotion of Suspect X,Easter,6.2
+95,Secretariat,Other,7.2
+95,You Got Served,Other,3.8
+95,She's the Man,Easter,6.3
+95,The Darkest Hour,Christmas,4.9
+96,Kubo and the Two Strings,SummerVacation,7.8
+96,Jay and Silent Bob Strike Back,SummerVacation,6.8
+96,The Hunted,Easter,6.1
+96,Hanna,Easter,6.8
+96,Defiance,Other,7.2
+96,Push,Other,6.1
+96,Why Did I Get Married?,Other,5.8
+96,American Psycho,Easter,7.6
+96,God's Not Dead,Easter,4.7
+96,That's My Boy,SummerVacation,5.5
+96,The Call,Easter,6.7
+96,Fat Albert,Christmas,4.3
+97,The Ant Bully,SummerVacation,5.8
+97,9,Other,7.1
+97,Morning Glory,Christmas,6.5
+97,Footloose,Other,5.9
+97,Doubt,Christmas,7.5
+97,Clockstoppers,Easter,5.2
+97,Napoleon Dynamite,SummerVacation,6.9
+97,Dungeons & Dragons,Christmas,3.6
+97,Good Boy,Other,5.1
+97,The Messengers,Other,5.4
+97,Diary of a Mad Black Woman,Other,5.7
+97,Begin Again,SummerVacation,7.4
+97,The Odd Life of Timothy Green,SummerVacation,6.6
+97,One Direction: This Is Us,SummerVacation,4.1
+98,Stranger Than Fiction,Christmas,7.6
+98,Uptown Girls,SummerVacation,6.1
+98,All the Money in the World,Christmas,6.8
+98,The Fourth Kind,Christmas,5.9
+98,Red Planet,Christmas,5.7
+98,Meet Dave,SummerVacation,5
+98,We Own the Night,Other,6.8
+98,The Three Stooges,Easter,5
+98,Overcomer,SummerVacation,6.3
+98,Fever Pitch,Easter,6.2
+98,The Walk,Other,7.3
+98,Remember Me,Easter,7.1
+98,The Boy,Other,6
+98,Moonlight,Christmas,7.4
+98,The 15:17 to Paris,Other,5.2
+99,The Longest Ride,Easter,7.1
+99,The Big Sick,SummerVacation,7.6
+99,Wonder Boys,Other,7.3
+99,The Intruder,SummerVacation,5.5
+99,The Women,Other,5
+99,Capote,Other,7.3
+99,The Banger Sisters,Other,5.6
+99,A Man Apart,Easter,6.1
+99,Crazy Heart,Other,7.2
+99,Double Take,Other,5.5
+99,Cop Out,Other,5.6
+99,The Five-Year Engagement,Easter,6.2
+99,The Texas Chainsaw Massacre: The Beginning,Other,5.8
+99,Dolphin Tale 2,Other,6.4
+99,Sea Monsters: A Prehistoric Adventure,Other,7
+99,Early Man,Other,6.1
+100,Fantastic Mr. Fox,Christmas,7.8
+100,Reindeer Games,Other,5.8
+100,Lawless,SummerVacation,7.3
+100,This Christmas,Christmas,6.3
+100,How High,Christmas,6.3
+100,Timeline,Christmas,5.6
+100,The Wedding Date,Other,6.2
+100,Fences,Christmas,7.2
+100,Halloween: Resurrection,SummerVacation,4
+100,St. Vincent,Other,7.2
+100,Something Borrowed,SummerVacation,5.9
+100,Unfriended,Easter,5.5
+100,The Crazies,Other,6.5
+100,Drillbit Taylor,Easter,5.7
+101,Side Effects,Other,7.1
+101,Mr. Brooks,SummerVacation,7.3
+101,The Last House on the Left,Easter,6.5
+101,No Good Deed,Other,5.6
+101,Swimfan,Other,5.1
+101,An Inconvenient Truth,SummerVacation,7.4
+101,One Day,SummerVacation,7
+101,All Eyez on Me,SummerVacation,5.8
+101,Lost Souls,Other,4.8
+101,Teen Titans GO! to the Movies,SummerVacation,6.8
+101,Red Dawn,Christmas,5.4
+101,The Hurt Locker,SummerVacation,7.6
+101,Countdown,Other,5.4
+102,Small Time Crooks,SummerVacation,6.7
+102,The Spy Next Door,Other,5.4
+102,The Nanny Diaries,SummerVacation,6.2
+102,Darkness,Christmas,5.5
+102,The Black Dahlia,Other,5.6
+102,Joe Dirt,Easter,6
+102,Red Tails,Other,5.9
+102,A Walk Among the Tombstones,Other,6.5
+102,Shutter,Easter,5.2
+102,The Host,Easter,5.9
+102,Downsizing,Christmas,5.7
+102,Slender Man,SummerVacation,3.2
+102,The Nice Guys,SummerVacation,7.4
+103,Down with Love,SummerVacation,6.2
+103,3 Days to Kill,Other,6.2
+103,Battlefield Earth,SummerVacation,2.5
+103,The Prince and Me,Easter,5.9
+103,Death at a Funeral,Other,7.4
+103,Get Rich or Die Tryin',Christmas,5.3
+103,Hearts in Atlantis,Other,6.9
+103,"Monsters, Inc.",Christmas,8
+103,Friday After Next,Christmas,5.8
+103,Notorious,Other,6.7
+103,Runner Runner,Other,5.6
+103,Breaking In,SummerVacation,5.4
+103,The Art of Racing in the Rain,SummerVacation,7.5
+104,Extremely Loud & Incredibly Close,Other,6.9
+104,Garden State,SummerVacation,7.4
+104,Trouble with the Curve,Other,6.8
+104,Wild,Christmas,7.1
+104,The Fog,Other,3.7
+104,The Legend of Hercules,Other,4.2
+104,Deck the Halls,Christmas,5
+104,Logan Lucky,SummerVacation,7
+104,Krampus,Christmas,6.1
+104,Dumb and Dumberer: When Harry Met Lloyd,SummerVacation,3.4
+104,Alpha and Omega,Other,5.2
+104,One Missed Call,Other,4
+104,Deadpool 2,SummerVacation,7.7
+105,Confessions of a Dangerous Mind,Other,7
+105,Death Wish,Easter,6.4
+105,Boiler Room,Other,7
+105,Magic in the Moonlight,SummerVacation,6.6
+105,The Life of David Gale,Other,7.6
+105,Brothers,Christmas,7.1
+105,The Perfect Guy,Other,5.6
+105,Angel Eyes,SummerVacation,5.6
+105,End of Watch,Other,7.6
+105,Deuce Bigalow: European Gigolo,SummerVacation,4.7
+105,The Switch,SummerVacation,6.1
+105,The Wrestler,Other,7.9
+105,The Nativity Story,Christmas,6.8
+105,Jersey Girl,Easter,6.2
+105,The Tree of Life,SummerVacation,6.8
+105,Boo 2! A Madea Halloween,Other,3.7
+105,Brightburn,SummerVacation,6.2
+106,Into the Blue,Other,5.8
+106,Zoolander 2,Other,4.7
+106,Head of State,Easter,5.5
+106,Man on a Ledge,Other,6.6
+106,The Pledge,Other,6.8
+106,Adaptation.,Other,7.7
+106,A Haunted House,Other,5
+106,About Last Night,Other,6.1
+106,Madea's Big Happy Family,Easter,4.7
+106,Balls of Fury,SummerVacation,5.3
+106,Phantom Thread,Other,7.5
+106,The Informant!,Other,6.4
+106,Lakeview Terrace,Other,6.1
+106,We Are Marshall,Christmas,7.1
+106,She's Out of My League,Easter,6.4
+107,Stuber,SummerVacation,6.1
+107,Last Holiday,Other,6.4
+107,Dark Water,SummerVacation,5.6
+107,Beautiful Creatures,Other,6.1
+107,The Life Aquatic with Steve Zissou,Christmas,7.3
+107,Hart's War,Other,6.3
+107,The Uninvited,Other,6.3
+107,Barbershop: The Next Cut,Easter,5.9
+107,Love & Basketball,Easter,7.2
+107,Death at a Funeral,Easter,5.7
+107,Breach,Other,7
+107,Baby Boy,SummerVacation,6.4
+107,The Sisterhood of the Traveling Pants 2,SummerVacation,6.2
+107,The Missing,Christmas,6.5
+107,Rough Night,SummerVacation,5.2
+107,Whiplash,Other,8.5
+108,Winnie the Pooh,SummerVacation,7.2
+108,Flight of the Phoenix,Christmas,6.1
+108,Blood Work,SummerVacation,6.4
+108,How Do You Know,Christmas,5.4
+108,The Gift,SummerVacation,7
+108,Bulletproof Monk,Easter,5.5
+108,A Lot Like Love,Easter,6.6
+108,Glory Road,Other,7.2
+108,The Guilt Trip,Christmas,5.7
+108,War,SummerVacation,6.2
+108,Snitch,Other,6.4
+109,The Tailor of Panama,Easter,6.1
+109,Conan the Barbarian,SummerVacation,5.2
+109,The Invasion,SummerVacation,5.9
+109,Dallas Buyers Club,Christmas,8
+109,Malibu's Most Wanted,Easter,5.1
+109,No Escape,SummerVacation,6.8
+109,The New Guy,SummerVacation,5.9
+109,Chef,SummerVacation,7.3
+109,Uncle Drew,SummerVacation,5.7
+109,Center Stage,SummerVacation,6.7
+109,Crank,Other,6.9
+110,Soul Surfer,Easter,7
+110,"Welcome Home, Roscoe Jenkins",Other,5.5
+110,A Good Year,Christmas,7
+110,Safe,Easter,6.5
+110,The Finest Hours,Other,6.7
+110,The Brothers,Easter,6.4
+110,Gamer,Other,5.8
+110,The Sisterhood of the Traveling Pants,SummerVacation,6.5
+110,Charlie St. Cloud,SummerVacation,6.4
+110,Tyler Perry's Acrimony,Easter,5.8
+110,Sinister 2,SummerVacation,5.3
+111,Harold & Kumar Escape from Guantanamo Bay,Easter,6.6
+111,Scott Pilgrim vs. the World,SummerVacation,7.5
+111,All About Steve,Other,4.8
+111,The Ringer,Christmas,5.8
+111,Boys and Girls,SummerVacation,5.4
+111,Gridiron Gang,Other,6.9
+111,The Fighting Temptations,Other,5.5
+111,Killing Them Softly,Christmas,6.2
+111,Johnson Family Vacation,Easter,4.5
+111,The Last Castle,Other,7
+111,21 Bridges,Christmas,6.6
+111,Solaris,Christmas,6.2
+111,Happily N'Ever After,Other,4.5
+111,A Madea Christmas,Christmas,4.8
+111,Flatliners,Other,5.2
+111,Earth to Echo,SummerVacation,5.8
+112,Boyhood,SummerVacation,7.9
+112,Mother!,Other,6.6
+112,Down to You,Other,5
+112,Cabin Fever,Other,5.7
+112,Arthur,Easter,5.7
+112,Temptation: Confessions of a Marriage Counselor,Easter,5
+112,Saving Silverman,Other,5.9
+112,Man of the Year,Other,6.2
+112,The Boy Next Door,Other,4.7
+112,The Girl Next Door,Easter,6.7
+112,Magnificent Desolation: Walking on the Moon 3D,Other,6.9
+112,The Hills Have Eyes 2,Easter,5.1
+112,Chernobyl Diaries,SummerVacation,5
+113,Machete,Other,6.6
+113,City by the Sea,Other,6.1
+113,Halloween II,SummerVacation,4.9
+113,The Next Best Thing,Easter,4.6
+113,Thank You for Smoking,Easter,7.6
+113,Corky Romano,Other,4.7
+113,No Manches Frida 2,Easter,3.9
+113,Serenity,Other,7.8
+113,Oculus,Easter,6.5
+113,The Debt,SummerVacation,6.8
+113,Delivery Man,Christmas,6.4
+113,Bangkok Dangerous,Other,5.4
+113,The Night Before,Christmas,6.4
+114,Cirque du Freak: The Vampire's Assistant,Other,5.9
+114,Dr. T & the Women,Other,4.6
+114,Beastly,Easter,5.6
+114,Dreamer: Inspired by a True Story,Other,6.8
+114,Hot Pursuit,SummerVacation,5.1
+114,Far from Heaven,Other,7.3
+114,Good Deeds,Other,5.5
+114,Zack and Miri Make a Porno,Other,6.5
+114,The Good Liar,Christmas,6.5
+114,Sicko,SummerVacation,7.9
+114,The Possession of Hannah Grace,Christmas,5.2
+115,Born to Be Wild,Easter,7.6
+115,The Producers,Christmas,6.3
+115,The Contender,Other,6.9
+115,Missing Link,Easter,6.7
+115,Joe Somebody,Christmas,5.5
+115,Hostel: Part II,SummerVacation,5.5
+115,The Wicker Man,Other,3.7
+115,Brown Sugar,Other,6.5
+115,"As Above, So Below",SummerVacation,6.2
+115,Agent Cody Banks 2: Destination London,Easter,4.5
+115,Meet the Browns,Easter,4.3
+115,Arbitrage,Other,6.6
+116,Mother's Day,Easter,5.7
+116,This Is Where I Leave You,Other,6.6
+116,Casanova,Other,6.5
+116,When in Rome,Other,5.6
+116,Vacancy,Easter,6.2
+116,Michael Jordan to the Max,SummerVacation,7.5
+116,Gifted,Easter,7.6
+116,Fright Night,SummerVacation,6.3
+116,Overlord,Christmas,6.6
+117,Brooklyn's Finest,Easter,6.7
+117,Life as a House,Christmas,7.5
+117,Cold Creek Manor,Other,5
+117,Best in Show,Other,7.4
+117,Beauty Shop,Easter,5.5
+117,The Darjeeling Limited,Other,7.2
+117,The Last Stand,Other,6.3
+117,Accepted,SummerVacation,6.4
+117,Alex Cross,Other,5.1
+117,30 Minutes or Less,SummerVacation,6.1
+117,Never Back Down,Easter,6.6
+117,That Awkward Moment,Other,6.1
+118,Dirty Dancing: Havana Nights,Other,6
+118,Gone Baby Gone,Other,7.6
+118,Sin City: A Dame to Kill For,SummerVacation,6.5
+118,The Glass House,Other,5.8
+118,My Best Friend's Girl,Other,5.9
+118,Wrong Turn,SummerVacation,6.1
+118,The Darkest Minds,SummerVacation,5.7
+118,Employee of the Month,Other,5.5
+118,Entourage,SummerVacation,6.6
+118,The Roommate,Other,4.8
+118,Booksmart,SummerVacation,7.2
+118,21 & Over,Easter,5.8
+119,Ella Enchanted,Easter,6.2
+119,Holmes & Watson,Christmas,3.8
+119,Mr. Woodcock,Other,5.1
+119,The Gambler,Christmas,6
+119,Tomcats,Easter,5.4
+119,Get Carter,Other,5.2
+119,Love Happens,Other,5.6
+119,Her,Other,8
+119,Going the Distance,Other,6.3
+119,Just My Luck,SummerVacation,5.4
+119,Shark Night 3D,Other,4
+119,Quarantine,Other,6
+120,For Colored Girls,Christmas,6.1
+120,Kingdom Come,Easter,5.6
+120,Bad News Bears,SummerVacation,5.8
+120,The In-Laws,SummerVacation,5.7
+120,Whatever Works,SummerVacation,7.1
+120,The Alamo,Easter,6
+120,All About the Benjamins,Easter,5.9
+120,Black and Blue,Other,5.7
+120,Loser,SummerVacation,5.3
+120,Leatherheads,Easter,6
+120,Cirque du Soleil: Worlds Away,Christmas,6.8
+120,The Covenant,Other,5.3
+121,The Whole Ten Yards,Easter,5.5
+121,Because of Winn-Dixie,Other,6.3
+121,All the Pretty Horses,Christmas,5.8
+121,Crank: High Voltage,Easter,6.2
+121,Awake,Christmas,6.5
+121,Rollerball,Other,3.1
+121,Two Can Play That Game,Other,6.1
+121,Risen,Other,6.3
+121,50/50,Other,7.6
+121,Fist Fight,Other,5.6
+121,Furry Vengeance,Easter,3.8
+121,Texas Chainsaw 3D,Other,4.8
+121,2016: Obama's America,SummerVacation,5
+122,Dickie Roberts: Former Child Star,Other,5.5
+122,Nightcrawler,Other,7.9
+122,The Big Wedding,Easter,5.6
+122,Late Night,SummerVacation,6.5
+122,Mars Needs Moms,Easter,5.4
+122,The Cave,SummerVacation,5.1
+122,Jonah: A VeggieTales Movie,Other,6.5
+122,Faster,Christmas,6.4
+122,88 Minutes,Easter,5.9
+122,The Perks of Being a Wallflower,Other,8
+123,Million Dollar Arm,SummerVacation,7
+123,The Box,Christmas,5.5
+123,The Secret Life of Bees,Other,7.3
+123,Parker,Other,6.2
+123,Caf<U+00C3><U+00A9> Society,SummerVacation,6.6
+123,Rent,Christmas,6.9
+123,Shaft,SummerVacation,6.4
+123,The Kids Are All Right,SummerVacation,7
+123,Diary of a Wimpy Kid: The Long Haul,SummerVacation,4.3
+123,CyberWorld,Other,6.4
+123,On the Basis of Sex,Other,6.9
+123,Dream House,Other,6
+124,Jumping the Broom,SummerVacation,5.7
+124,Punch-Drunk Love,Christmas,7.3
+124,You Will Meet a Tall Dark Stranger,Other,6.3
+124,The New World,Other,6.7
+124,Amazing Grace,Other,7.4
+124,Harold & Kumar Go to White Castle,SummerVacation,7.1
+124,Fighting,Easter,5.6
+124,The Spirit,Christmas,4.8
+124,Biker Boyz,Other,4.6
+124,Digimon: The Movie,Other,6.1
+124,Katy Perry: Part of Me,SummerVacation,5.8
+124,"McFarland, USA",Other,7.4
+125,Grudge Match,Christmas,6.4
+125,Movie 43,Other,4.3
+125,Almost Christmas,Christmas,6.1
+125,Confidence,Easter,6.7
+125,Leap Year,Other,6.5
+125,Unplanned,Easter,5.8
+125,First Sunday,Other,4.5
+125,The Invention of Lying,Other,6.3
+125,Don't Be Afraid of the Dark,SummerVacation,5.6
+126,Homefront,Christmas,6.5
+126,You Again,Other,5.8
+126,Home Again,Other,5.8
+126,25th Hour,Other,7.6
+126,Crazy/Beautiful,SummerVacation,6.5
+126,The Peanut Butter Falcon,SummerVacation,7.7
+126,Devil's Due,Other,4.1
+126,Ultraviolet,Easter,4.4
+126,Daddy's Little Girls,Other,5.7
+126,One for the Money,Other,5.3
+126,NASCAR: The IMAX Experience,Easter,6.9
+126,Max,SummerVacation,6.7
+127,Drowning Mona,Easter,5.7
+127,Little Black Book,SummerVacation,5.3
+127,Two for the Money,Other,6.3
+127,The Seeker: The Dark Is Rising,Other,4.8
+127,The Family That Preys,Other,5.7
+127,Jennifer's Body,Other,5.2
+127,Pulse,SummerVacation,4.8
+127,The Losers,Easter,6.3
+127,Get Over It,Easter,5.7
+127,Still Alice,Other,7.5
+127,Eight Crazy Nights,Christmas,5.4
+127,Jobs,SummerVacation,5.9
+127,Joyful Noise,Other,5.7
+127,The Farewell,SummerVacation,7.8
+128,A Very Harold & Kumar 3D Christmas,Christmas,6.3
+128,Love in the Time of Cholera,Christmas,6.4
+128,Ghosts of the Abyss,Easter,6.8
+128,Antwone Fisher,Other,7.3
+128,The Hate U Give,Other,7.4
+128,The Place Beyond the Pines,Easter,7.3
+128,Mr 3000,Other,5.5
+128,Summer Catch,SummerVacation,5
+128,Premium Rush,SummerVacation,6.5
+128,Disaster Movie,SummerVacation,1.9
+128,The Duff,Other,6.5
+128,Dance Flick,SummerVacation,3.5
+128,Hostiles,Other,7.2
+129,Wicker Park,Other,7
+129,Playing for Keeps,Christmas,5.7
+129,Broken City,Other,6.2
+129,Ramona and Beezus,SummerVacation,6.5
+129,The Upside of Anger,Easter,6.8
+129,Courageous,Other,7
+129,Shackleton's Antarctic Adventure,Other,7.7
+129,Super Troopers,Other,7.1
+129,Nobody's Fool,Christmas,4.7
+129,Pathfinder,Easter,5.4
+129,Love Don't Cost a Thing,Christmas,5.2
+129,A Serious Man,Christmas,7
+129,The Best of Me,Other,6.7
+130,Hell or High Water,SummerVacation,7.6
+130,Inside Llewyn Davis,Other,7.5
+130,Supernova,Other,4.9
+130,The Stepfather,Other,5.6
+130,White Oleander,Other,7.1
+130,Tristan & Isolde,Other,6.8
+130,The Hurricane Heist,Easter,5.1
+130,Kidnap,SummerVacation,5.9
+130,Rock Star,Other,6.3
+130,The Merchant of Venice,Other,7
+130,Nancy Drew,SummerVacation,5.9
+130,Nick and Norah's Infinite Playlist,Other,6.6
+130,The Raven,Easter,6.4
+130,The Gallows,SummerVacation,4.2
+131,Love the Coopers,Christmas,5.8
+131,O,SummerVacation,6.1
+131,The Sitter,Christmas,5.7
+131,Ice Princess,Easter,6
+131,The Great Debaters,Christmas,7.6
+131,Endless Love,Other,6.3
+131,Bad Times at the El Royale,Other,7.1
+131,New York Minute,SummerVacation,4.9
+131,The House,SummerVacation,5.6
+131,Fireproof,Other,6.5
+131,Mud,SummerVacation,7.4
+132,View from the Top,Easter,5.2
+132,Stay Alive,Easter,5.1
+132,In the Valley of Elah,Other,7.1
+132,I Dreamed of Africa,SummerVacation,5.6
+132,New in Town,Other,5.6
+132,Goal! The Dream Begins,SummerVacation,6.7
+132,The Forest,Other,4.8
+132,Kevin Hart: Let Me Explain,SummerVacation,6.8
+133,What Planet Are You From?,Easter,5.6
+133,Last Chance Harvey,Other,6.6
+133,Clerks II,SummerVacation,7.3
+133,Win a Date with Tad Hamilton!,Other,5.6
+133,Ricki and the Flash,SummerVacation,5.9
+133,Super Troopers 2,Easter,6.1
+133,The Curse of the Jade Scorpion,SummerVacation,6.7
+133,Shorts,SummerVacation,4.7
+133,The November Man,SummerVacation,6.3
+133,Spring Breakers,Easter,5.3
+133,Across the Universe,Other,7.3
+134,The Last Mimzy,Easter,6.2
+134,Sleepless,Other,5.6
+134,Ballistic: Ecks vs. Sever,Other,3.7
+134,3000 Miles to Graceland,Other,6
+134,Pride and Glory,Other,6.6
+134,The Ladies Man,Other,5.2
+134,EuroTrip,Other,6.6
+134,The Master,Other,7.2
+134,Case 39,Other,6.2
+134,Lottery Ticket,SummerVacation,5
+134,Doogal,Other,2.8
+134,African Cats,Easter,7.6
+135,Igor,Other,6
+135,Max Keeble's Big Move,Other,5.4
+135,A Mighty Wind,SummerVacation,7.2
+135,Rendition,Other,6.8
+135,S1m0ne,SummerVacation,6.1
+135,The Road,Christmas,7.2
+135,Fair Game,Christmas,6.8
+135,Super Size Me,SummerVacation,7.2
+136,Winter's Tale,Other,6.2
+136,Antitrust,Other,6.1
+136,A Prairie Home Companion,SummerVacation,6.7
+136,The Crew,SummerVacation,5.6
+136,I Don't Know How She Does It,Other,4.9
+136,The Invisible,Easter,6.2
+136,Norm of the North,Other,3.4
+136,My Boss's Daughter,SummerVacation,4.7
+136,Criminal,Easter,6.3
+136,Free Solo,Other,8.2
+137,Don Jon,Other,6.5
+137,Sorority Row,Other,5.1
+137,The Way of the Gun,Other,6.7
+137,North Country,Other,7.3
+137,Tuck Everlasting,Other,6.6
+137,When the Game Stands Tall,SummerVacation,6.7
+137,Deliver Us from Eva,Other,6
+137,Melinda and Melinda,Easter,6.4
+137,What's Your Number?,Other,6.1
+137,The Disaster Artist,Christmas,7.4
+137,When the Bough Breaks,Other,5.1
+137,Big Miracle,Other,6.5
+138,Observe and Report,Easter,5.8
+138,Drive Angry,Other,5.4
+138,Sparkle,SummerVacation,5.7
+138,A Guy Thing,Other,5.6
+138,Draft Day,Easter,6.8
+138,The Kitchen,SummerVacation,5.2
+138,School for Scoundrels,Other,5.9
+138,Half Past Dead,Christmas,4.6
+138,Sugar & Spice,Other,5.7
+138,W.,Other,6.3
+138,Nocturnal Animals,Christmas,7.5
+138,The Lazarus Effect,Other,5.2
+138,Just Wright,SummerVacation,5.9
+138,Bratz,SummerVacation,3
+139,A Walk in the Woods,Other,6.3
+139,Shoot 'Em Up,Other,6.7
+139,Big Eyes,Christmas,7
+139,Martin Lawrence Live: Runteldat,SummerVacation,5.4
+139,Our Family Wedding,Easter,5
+139,House of 1000 Corpses,Easter,6.1
+139,Nebraska,Other,7.7
+140,The Incredible Burt Wonderstone,Easter,5.9
+140,Grindhouse,Easter,7.5
+140,Gossip,Easter,5.9
+140,Hustle & Flow,SummerVacation,7.3
+140,House of Sand and Fog,Other,7.5
+140,A Single Man,Other,7.6
+140,Keeping Up with the Joneses,Other,5.9
+140,Vanity Fair,Other,6.2
+140,The Happytime Murders,SummerVacation,5.4
+140,The Beguiled,SummerVacation,6.3
+140,To the Arctic 3D,Easter,6.6
+141,Appaloosa,Other,6.7
+141,Empire,Christmas,6
+141,Ready to Rumble,Easter,5.4
+141,Masterminds,Other,5.8
+141,Burnt,Other,6.6
+141,Hitchcock,Christmas,6.8
+141,The Hitcher,Other,5.6
+141,The Thing,Other,6.2
+141,My Soul to Take,Other,4.8
+141,Midnight Sun,Easter,6.6
+141,Jonas Brothers: The 3D Concert Experience,Other,1.5
+142,Motherless Brooklyn,Christmas,7.1
+142,CHIPS,Easter,6
+142,Top Five,Christmas,6.4
+142,Man of the House,Other,5.4
+142,Traitor,SummerVacation,7
+142,Aquamarine,Easter,5.3
+142,The Country Bears,SummerVacation,4.1
+142,Imagine That,SummerVacation,5.6
+143,Armored,Christmas,5.7
+143,Before the Devil Knows You're Dead,Other,7.3
+143,Wanderlust,Other,5.6
+143,Our Idiot Brother,SummerVacation,6.4
+143,My Baby's Daddy,Other,4.6
+143,You Can Count on Me,Christmas,7.5
+143,You're Next,SummerVacation,6.5
+143,The Bye Bye Man,Other,4.3
+144,Ghost Town,Other,6.7
+144,Catch That Kid,Other,5.2
+144,Frailty,Easter,7.2
+144,Alex & Emma,SummerVacation,5.6
+144,Brother,Other,7.2
+144,Georgia Rule,SummerVacation,5.8
+144,Dark Skies,Other,6.3
+144,A Perfect Getaway,SummerVacation,6.5
+144,Apollo 18,Other,5.2
+144,Country Strong,Other,6.3
+144,The Perfect Man,SummerVacation,5.5
+144,White Boy Rick,Other,6.4
+144,Beasts of the Southern Wild,SummerVacation,7.3
+144,A Cure for Wellness,Other,6.4
+145,Secret in Their Eyes,Christmas,6.3
+145,Kinsey,Other,7
+145,Enough Said,Other,7
+145,Apollo 11,Easter,8.2
+145,The Way Back,Other,7.3
+145,Your Highness,Easter,5.5
+145,The Devil's Rejects,SummerVacation,6.8
+145,A Thousand Words,Easter,5.9
+145,And So It Goes,SummerVacation,5.8
+146,The Rum Diary,Other,6.2
+146,Paparazzi,Other,5.8
+146,Here on Earth,Easter,5.2
+146,The Marine,Other,4.7
+146,A Haunted House 2,Easter,4.7
+146,Out Cold,Christmas,6.3
+146,The Weather Man,Other,6.5
+146,Kung Pow: Enter the Fist,Other,6.2
+147,Only The Brave,Other,7.7
+147,Life or Something Like It,Easter,5.8
+147,Mad Money,Other,5.8
+147,Youth in Revolt,Other,6.4
+147,What the #$*! Do We (K)now!?,Other,5.3
+147,Waiting...,Other,6.8
+147,Pollock,Easter,7
+147,Unaccompanied Minors,Christmas,5.3
+147,A Beautiful Planet,Easter,7.4
+148,Flicka,Other,6.1
+148,The Man with the Iron Fists,Christmas,5.4
+148,Before Sunset,SummerVacation,8
+148,Warrior,Other,8.2
+148,The Good Girl,SummerVacation,6.4
+148,Cassandra's Dream,Other,6.7
+149,Black Christmas,Christmas,4.6
+149,Father Figures,Christmas,5.5
+149,Raise Your Voice,Other,5.9
+149,Reign Over Me,Easter,7.4
+149,The Company You Keep,Easter,6.4
+149,Freddy Got Fingered,Easter,4.6
+149,How to Deal,SummerVacation,5.6
+149,My Life in Ruins,SummerVacation,5.9
+149,"Paul, Apostle of Christ",Easter,6.6
+149,Young Adult,Christmas,6.3
+149,Project Almanac,Other,6.4
+150,Amelia,Other,5.8
+150,Soul Plane,SummerVacation,4.5
+150,Osmosis Jones,SummerVacation,6.3
+150,The Way Way Back,SummerVacation,7.4
+150,Waist Deep,SummerVacation,5.9
+150,Dead Silence,Easter,6.2
+150,They,Christmas,4.8
+150,Woman on Top,Other,5.3
+150,The Current War: Director's Cut,Other,6.4
+151,Ghosts of Mars,SummerVacation,4.9
+151,Gone,Other,5.9
+151,Whatever It Takes,Easter,5.5
+151,Waitress,SummerVacation,7
+151,Welcome to Mooseport,Other,5.2
+151,The Powerpuff Girls Movie,SummerVacation,6.5
+151,Baggage Claim,Other,5.1
+151,Free State of Jones,SummerVacation,6.9
+151,Labor Day,Other,6.9
+151,Won't You Be My Neighbor?,SummerVacation,8.4
+151,The Best of Enemies,Easter,7
+151,ATL,Easter,6.1
+152,Anything Else,Other,6.4
+152,Bobby,Christmas,7
+152,The Cold Light of Day,Other,4.9
+152,Surviving Christmas,Other,5.4
+152,American Outlaws,SummerVacation,6
+152,The Ruins,Easter,5.8
+152,Whiskey Tango Foxtrot,Easter,6.6
+152,Reno 911!: Miami,Other,5.9
+152,3 Strikes,Easter,4.7
+152,Fired Up!,Other,6.1
+152,Left Behind,Other,3.1
+153,Envy,Easter,4.8
+153,Roll Bounce,Other,6.1
+153,The Emperor's Club,Christmas,6.9
+153,Beerfest,SummerVacation,6.3
+153,Foxcatcher,Other,7
+153,One Night at McCool's,Easter,6.1
+153,U2 3D,Other,8.3
+153,"Where'd You Go, Bernadette",SummerVacation,6.5
+153,Wish Upon,SummerVacation,5
+154,Legends of Oz: Dorothy's Return,SummerVacation,5.1
+154,The Goldfinch,Other,6.3
+154,Bullet to the Head,Other,5.7
+154,Margin Call,Other,7.1
+154,Rebound,SummerVacation,5.2
+154,Self/less,SummerVacation,6.5
+154,Head Over Heels,Other,5.4
+154,God's Not Dead 2,Easter,4.3
+154,Detroit,SummerVacation,7.3
+155,The Divorce,SummerVacation,4.9
+155,The Drop,Other,7.1
+155,Hit and Run,SummerVacation,6.1
+155,Before Night Falls,Other,7.2
+155,Glee: The 3D Concert Movie,SummerVacation,5.4
+155,Akeelah and the Bee,Easter,7.3
+155,Jackie,Christmas,6.7
+155,Proud Mary,Other,4.9
+156,Gods and Generals,Other,6.4
+156,The Founder,Other,7.2
+156,See No Evil,SummerVacation,5.1
+156,The Prodigy,Other,5.9
+157,Extraordinary Measures,Other,6.4
+157,Whiteout,Other,5.5
+157,Love & Mercy,SummerVacation,7.4
+157,Bad Santa 2,Christmas,5.6
+157,Hey Arnold! The Movie,SummerVacation,6
+157,Over Her Dead Body,Other,5.2
+157,The Words,Other,7
+158,Requiem for a Dream,Christmas,8.3
+158,Irrational Man,SummerVacation,6.6
+158,Friends with Money,Easter,5.8
+158,Breakin' All the Rules,SummerVacation,5.7
+158,Chasing Papi,Easter,4.8
+158,Capitalism: A Love Story,Other,7.4
+158,Say It Isn't So,Easter,5
+158,Walk Hard: The Dewey Cox Story,Christmas,6.8
+158,Boat Trip,Easter,4.9
+158,The Glass Castle,SummerVacation,7.1
+158,Kiss Kiss Bang Bang,Christmas,7.5
+158,Silent House,Easter,5.2
+158,Captive State,Easter,6
+159,Undisputed,SummerVacation,6.2
+159,Silence,Other,7.2
+159,The Namesake,Easter,7.5
+159,The Gospel,Other,4.9
+159,12 Rounds,Easter,5.6
+159,Friends with Kids,Easter,6.1
+159,Addicted,Other,5.2
+159,SuperFly,SummerVacation,5.1
+160,Evening,SummerVacation,6.5
+160,People Like Us,SummerVacation,7.1
+160,Possession,SummerVacation,6.3
+160,Kevin Hart: What Now?,Other,5.9
+160,Sabotage,Easter,5.7
+160,If Beale Street Could Talk,Christmas,7.2
+160,Adventureland,Easter,6.8
+160,Cry Wolf,Other,5.8
+160,Screwed,SummerVacation,5.8
+161,Town & Country,Easter,4.4
+161,Dark Waters,Christmas,7.6
+161,The Greatest Game Ever Played,Other,7.4
+161,Chasing Liberty,Other,6.1
+161,Dark Blue,Other,6.6
+161,No manches Frida,Other,5.6
+161,Hollywood Ending,SummerVacation,6.6
+161,Somewhere,Other,6.3
+161,The Bling Ring,SummerVacation,5.6
+161,Aloha,SummerVacation,5.4
+161,Sex Drive,Other,6.5
+162,Tolkien,SummerVacation,6.8
+162,Transamerica,Easter,7.4
+162,Stealing Harvard,Other,5.1
+162,Winter's Bone,SummerVacation,7.2
+162,It Comes At Night,SummerVacation,6.2
+162,The Pyramid,Christmas,4.6
+162,Whip It,Other,6.9
+162,Admission,Easter,5.7
+162,Middle School: The Worst Years of My Life,Other,6.1
+163,Sunshine Cleaning,Easter,6.8
+163,The Wash,Christmas,4.8
+163,Bachelorette,Other,5.3
+163,Proof,Other,6.7
+163,Duets,Other,6.1
+163,The Cookout,Other,3.7
+163,Dead Man Down,Easter,6.5
+163,The Lost City of Z,Easter,6.6
+163,Judy Moody and the Not Bummer Summer,SummerVacation,4.2
+164,Juwanna Mann,SummerVacation,4.6
+164,The Man,Other,5.6
+164,Everybody's Fine,Christmas,7.1
+164,The Single Moms Club,Easter,5.3
+164,A Mighty Heart,SummerVacation,6.6
+164,Fruitvale Station,SummerVacation,7.5
+164,Annapolis,Other,5.9
+164,The Conspirator,Easter,6.9
+164,Triple 9,Other,6.3
+165,The Cooler,Other,7
+165,Trapped,Other,6.2
+165,The Deep End,SummerVacation,6.5
+165,Battle of the Year,Other,5
+165,Lords of Dogtown,SummerVacation,7.1
+165,The Choice,Other,6.6
+165,Fun Size,Other,5.4
+165,The Visitor,SummerVacation,7.6
+166,Connie and Carla,Easter,6.2
+166,City of Ember,Other,6.5
+166,Material Girls,SummerVacation,4
+166,Knockaround Guys,Other,6.1
+166,Blue Valentine,Other,7.4
+166,"The Goods: Live Hard, Sell Hard",SummerVacation,5.8
+166,The In Crowd,SummerVacation,4.7
+166,The Gunman,Easter,5.8
+166,Thirteen,Other,6.8
+166,Vampire Academy,Other,5.5
+167,Hollywoodland,Other,6.5
+167,Away We Go,SummerVacation,7
+167,Inherent Vice,Other,6.7
+167,Jexi,Other,6.5
+167,Daddy Day Camp,SummerVacation,3.1
+167,Beginners,SummerVacation,7.2
+167,Narc,Other,7.1
+167,Unforgettable,Easter,5.1
+167,Elephant,Christmas,7.2
+167,Aliens of the Deep,SummerVacation,6.4
+168,Machete Kills,Other,5.6
+168,Bernie,SummerVacation,6.8
+168,Beyond the Lights,Christmas,6.9
+168,Whipped,Other,4.5
+168,The Case for Christ,Easter,6.2
+168,My Big Fat Independent Movie,Other,3.2
+168,Ghost World,Other,7.3
+168,Sorority Boys,Easter,5.5
+168,Deception,Easter,6.1
+168,Sorry to Bother You,SummerVacation,6.9
+168,Captain Fantastic,SummerVacation,7.9
+169,In the Land of Women,Easter,6.4
+169,Chloe,Easter,6.3
+169,The Forsaken,Easter,5.3
+169,Live by Night,Other,6.4
+169,The Young Black Stallion,Christmas,5.6
+169,America: Imagine the World Without Her,SummerVacation,5.4
+169,Hell Fest,Other,5.5
+169,Journey to the South Pacific,Christmas,6.4
+170,Kit Kittredge: An American Girl,SummerVacation,6.5
+170,Seeking Justice,Other,6.2
+170,The Tao of Steve,Other,6.6
+170,Abandon,Other,4.9
+170,American Dreamz,Easter,5.4
+170,Firehouse Dog,Easter,5.5
+171,Paranoia,SummerVacation,5.7
+171,Death Sentence,SummerVacation,6.8
+171,The Collection,Christmas,6.1
+171,Straw Dogs,Other,5.8
+171,The Perfect Score,Other,5.7
+171,Bones,Other,4.1
+171,Brittany Runs a Marathon,Other,6.8
+171,Chappaquiddick,Easter,6.5
+172,Fading Gigolo,Easter,6.2
+172,First Daughter,Other,5
+172,Swing Vote,SummerVacation,6.1
+172,Seeking a Friend for the End of the World,SummerVacation,6.7
+172,Catch and Release,Other,6
+172,Shopgirl,Christmas,6.3
+172,The Station Agent,Christmas,7.6
+172,Fifty Shades of Black,Other,3.5
+172,The Last Kiss,Other,6.4
+172,Before I Fall,Easter,6.4
+172,Beautiful Boy,Other,7.3
+173,Saved!,SummerVacation,6.7
+173,The Old Man & the Gun,Other,6.7
+173,The Squid and the Whale,Christmas,7.3
+173,Monkeybone,Other,4.7
+173,The Apparition,SummerVacation,4.1
+173,Larry the Cable Guy: Health Inspector,Easter,3.3
+173,The Order,Other,5.2
+173,Wonder Wheel,Christmas,6.2
+173,Keanu,Easter,6.3
+173,Black or White,Other,6.6
+174,Jonah Hex,SummerVacation,4.7
+174,Rachel Getting Married,Other,6.7
+174,A Day Without a Mexican,SummerVacation,4.7
+174,Gold,Other,6.7
+174,Primeval,Other,4.8
+175,Getaway,SummerVacation,4.4
+175,It Runs in the Family,Easter,5.6
+175,Win Win,Easter,7.1
+175,Two Lovers,Easter,7
+175,Operation Finale,SummerVacation,6.5
+175,Little Children,Other,7.5
+175,The Sun Is Also a Star,SummerVacation,5.7
+176,The Sessions,Christmas,7.2
+176,The Space Between Us,Other,6.4
+176,Sleepover,SummerVacation,5.3
+176,Bandslam,SummerVacation,6.3
+176,Ta Ra Rum Pum,Easter,5.6
+176,Price of Glory,Easter,6.3
+176,Shine a Light,Easter,7.2
+176,Cyrus,SummerVacation,6.3
+176,It Follows,Easter,6.8
+176,Run the Race,Other,5.9
+177,Ruby Sparks,Other,7.2
+177,Gun Shy,Easter,5.7
+177,The Assassination of Jesse James by the Coward Robert Ford,Other,7.5
+177,Kissing Jessica Stein,Easter,6.4
+177,Megan Leavey,SummerVacation,7.1
+177,The Great Raid,SummerVacation,6.7
+177,Conviction,Christmas,7.2
+177,Prom,Easter,5.4
+177,American Splendor,Other,7.4
+177,The Haunting of Molly Hartley,Other,3.9
+177,Turistas,Christmas,5.4
+177,The Interview,Christmas,6.5
+177,Spread,SummerVacation,5.9
+177,The Edge of Seventeen,Christmas,7.3
+177,Forever My Girl,Other,6.7
+178,Moonlight Mile,Other,6.6
+178,Get Low,SummerVacation,7
+178,Beautiful,Other,5.6
+178,Elegy,Easter,6.7
+178,Before Midnight,SummerVacation,7.9
+178,Unfriended: Dark Web,SummerVacation,5.9
+179,Extract,Other,6.1
+179,In the Mix,Christmas,2.8
+179,Freedomland,Other,5.1
+179,Moms' Night Out,SummerVacation,5.4
+179,Religulous,Other,7.6
+180,The Ice Harvest,Christmas,6.3
+180,Tupac: Resurrection,Christmas,7.9
+180,Megiddo: The Omega Code 2,Other,4
+180,Hot Rod,SummerVacation,6.7
+180,Tenacious D in The Pick of Destiny,Christmas,6.8
+180,Trespass,Other,5.3
+180,Blackhat,Other,5.4
+180,Justin Bieber's Believe,Christmas,1.6
+181,Stone,Other,5.4
+181,The Golden Bowl,SummerVacation,5.9
+181,The Birth of a Nation,Other,6.4
+181,Piranha 3DD,SummerVacation,3.7
+181,Tully,SummerVacation,7
+181,One Night with the King,Other,6.2
+181,Not Easily Broken,Other,6.1
+181,Dope,SummerVacation,7.2
+182,Kinky Boots,SummerVacation,7.1
+182,The Pirates Who Don't Do Anything: A VeggieTales Movie,Other,5.7
+182,Pride and Prejudice and Zombies,Other,5.8
+182,Spellbound,Other,7.5
+183,Bamboozled,Other,6.5
+183,Secretary,Other,7
+183,The Boondock Saints II: All Saints Day,Christmas,6.3
+183,How to Eat Fried Worms,SummerVacation,5.3
+183,Made,SummerVacation,6.4
+183,Promised Land,Other,6.6
+183,RBG,SummerVacation,7.5
+184,Cedar Rapids,Easter,6.2
+184,MacGruber,SummerVacation,5.5
+184,Gigli,SummerVacation,2.5
+184,Sydney White,Other,6.2
+184,Walk of Shame,SummerVacation,6
+184,Bad Lieutenant: Port of Call New Orleans,Christmas,6.6
+185,Big Trouble,Easter,6.5
+185,The Comebacks,Other,4.3
+185,Soul Men,Christmas,6.4
+185,Don't Let Go,SummerVacation,6
+185,Kevin Hart: Laugh at My Pain,Easter,7.4
+185,Eighth Grade,SummerVacation,7.4
+186,Star Wars: Episode II - Attack of the Clones,SummerVacation,6.6
+186,Smart People,Easter,6.1
+186,Coffee and Cigarettes,SummerVacation,7.1
+186,Idlewild,SummerVacation,6.2
+186,Bad Words,Easter,6.6
+186,Glitter,Other,2.2
+186,Next Day Air,SummerVacation,5.8
+186,Santa vs. the Snowman 3D,Christmas,6.5
+186,Casa de mi Padre,SummerVacation,5.5
+186,I Think I Love My Wife,Easter,5.5
+186,The Biggest Little Farm,SummerVacation,8
+186,While We're Young,Easter,6.3
+186,Mad Hot Ballroom,SummerVacation,7.4
+187,Zoom,SummerVacation,4.3
+187,Take Me Home Tonight,Easter,6.3
+187,Club Dread,Other,5.7
+187,Taking Woodstock,SummerVacation,6.7
+187,The Longshots,SummerVacation,5.3
+187,Hamlet,SummerVacation,5.9
+187,Unsane,Easter,6.4
+188,Bubble Boy,SummerVacation,5.6
+188,The Broken Hearts Club: A Romantic Comedy,Other,6.9
+188,End of the Spear,Other,6.8
+189,The Anniversary Party,SummerVacation,6.3
+189,The Big Year,Other,6.2
+189,Dave Chappelle's Block Party,Easter,7.2
+189,The Collector,SummerVacation,6.4
+189,Bella,Christmas,7.2
+190,Impostor,Other,6.2
+190,"Hello, My Name Is Doris",Easter,6.6
+190,The Return,Christmas,4.7
+190,The Beaver,SummerVacation,6.7
+190,Inside Job,Christmas,8.2
+190,The Last Black Man in San Francisco,SummerVacation,7.4
+190,Scouts Guide to the Zombie Apocalypse,Other,6.3
+191,Peeples,SummerVacation,5.3
+191,The Hoax,Easter,6.7
+191,"New York, I Love You",Other,6.3
+191,The Other Side of Heaven,Easter,6.4
+191,Stay,Other,6.8
+191,Last Night,Other,6.6
+192,Tortilla Soup,SummerVacation,6.7
+192,Woman Thou Art Loosed,Other,6.6
+192,Real Women Have Curves,Christmas,6.9
+192,Brian Banks,SummerVacation,6.8
+192,The Belko Experiment,Easter,6.1
+193,The Florida Project,Christmas,7.6
+193,The Big Bounce,Other,4.9
+193,On the Line,Other,4.2
+193,Something New,Other,6.7
+193,Stop-Loss,Easter,6.4
+193,Lars and the Real Girl,Christmas,7.3
+193,Girlfight,Other,6.7
+193,Me and You and Everyone We Know,SummerVacation,7.3
+193,City Island,Easter,7.4
+193,The Joneses,Easter,6.5
+193,Frances Ha,SummerVacation,7.4
+194,Chasing Mavericks,Other,7.2
+194,Linda Ronstadt: The Sound of My Voice,Other,8.1
+194,Soul Survivors,Other,3.9
+194,Cesar Chavez,Easter,6.4
+195,The Astronaut Farmer,Other,6.3
+195,The Door in the Floor,SummerVacation,6.6
+195,Roving Mars,Other,7.2
+196,Timecode,Easter,6
+196,The Night Listener,SummerVacation,5.9
+196,The Fifth Estate,Other,6.2
+196,Bee Season,Christmas,5.5
+196,Hillary's America: The Secret History of the Democratic Party,SummerVacation,5.3
+197,The Adventures of Pluto Nash,SummerVacation,3.8
+197,The Aristocrats,Other,6.4
+197,Teacher's Pet,Other,5.8
+197,Marshall,Other,7.2
+197,Goon,Other,6.8
+197,The September Issue,Other,7
+197,Hedwig and the Angry Inch,SummerVacation,7.7
+197,Captivity,SummerVacation,4.7
+197,Can You Ever Forgive Me?,Christmas,7.1
+197,Unfinished Business,Easter,5.4
+197,Facing the Giants,Other,6.6
+198,Post Grad,SummerVacation,5.3
+198,Against the Ropes,Other,5.3
+198,A Late Quartet,Christmas,7.1
+198,Black Snake Moan,Easter,6.9
+198,It's Kind of a Funny Story,Other,7.1
+198,Thank You for Your Service,Other,6.5
+199,Igby Goes Down,Other,6.9
+199,Lassie,Other,6.7
+199,Woodlawn,Other,6.5
+199,Goya's Ghosts,Christmas,6.9
+199,Metallica Through the Never,Other,7.2
+199,Sidewalks of New York,Christmas,6.4
+199,Battle for Terra,SummerVacation,6.6
+199,2011/11/11,Christmas,3.9
+199,Never Die Alone,Easter,5.7
+199,Waiting for 'Superman',Other,7.5
+199,Meet the Mormons,Other,6.8
+200,Greenberg,Easter,6.1
+200,The Savages,Other,7.1
+200,The Beatles: Eight Days a Week - The Touring Years,Other,7.8
+200,Do You Believe?,Easter,6.1
+201,Punisher: War Zone,Christmas,5.9
+201,Turn It Up,Other,4.2
+201,Carriers,Other,6
+201,Pootie Tang,SummerVacation,5.3
+202,The Express,Other,7.3
+202,Code Name: The Cleaner,Other,4.6
+202,Waking Life,Easter,7.8
+202,The Real Cancun,Easter,2.8
+203,The Skeleton Twins,Other,6.8
+203,Grind,SummerVacation,6
+203,Songcatcher,SummerVacation,7.2
+204,The Company Men,Other,6.7
+204,Underclassman,Other,4.3
+204,Strange Magic,Other,5.8
+204,Backstage,Other,5.7
+204,I Know Who Killed Me,SummerVacation,3.6
+204,The Brothers Bloom,SummerVacation,6.8
+204,Pawn Sacrifice,Other,7
+204,Black Nativity,Christmas,4.5
+205,The Fog of War: Eleven Lessons from the Life of Robert S. McNamara,Easter,8.1
+205,Hot Tub Time Machine 2,Other,5.1
+205,Solitary Man,SummerVacation,6.3
+205,Hoot,SummerVacation,5.5
+205,Chuck & Buck,SummerVacation,6.5
+205,Echo in the Canyon,SummerVacation,7
+206,Rabbit Hole,Other,7
+206,The Vatican Tapes,SummerVacation,5
+206,Groove,Other,6.6
+206,Wish I Was Here,SummerVacation,6.7
+206,The Darkness,SummerVacation,4.4
+207,Deuces Wild,SummerVacation,5.7
+207,The Spectacular Now,Other,7.1
+207,Cadillac Records,Christmas,7
+207,Trois,Easter,4.1
+207,From Justin to Kelly,SummerVacation,2.1
+207,Martian Child,Christmas,6.8
+208,The Assassination of Richard Nixon,Other,7
+208,A Scanner Darkly,SummerVacation,7.1
+208,Enron: The Smartest Guys in the Room,SummerVacation,7.6
+208,Novocaine,Christmas,5.8
+208,Mother and Child,SummerVacation,7.2
+208,The Perfect Match,Easter,4.9
+209,The Rocker,SummerVacation,6.2
+209,Dylan Dog: Dead of Night,Easter,5.1
+209,Urbania,SummerVacation,6.8
+209,The Endurance,Christmas,7.8
+209,Queen of Katwe,Other,7.4
+209,"Food, Inc.",SummerVacation,7.8
+210,Running with Scissors,Other,6.2
+210,Atlas Shrugged: Part I,Easter,5.7
+210,The Runaways,Easter,6.5
+210,The Green Inferno,Other,5.3
+210,Kill the Messenger,Other,6.9
+210,Pilgrim's Progress,Easter,5
+211,Laurel Canyon,Easter,6.4
+211,Won't Back Down,Other,6.4
+211,Stronger,Other,6.9
+211,Miss March,Easter,5
+211,Delta Farce,SummerVacation,3.6
+211,Phat Girlz,Easter,3.2
+211,Rize,SummerVacation,7.1
+211,Buck,Other,7.6
+212,King's Ransom,Easter,4.4
+212,Gabriela,SummerVacation,5
+212,Seven Days in Utopia,Other,6
+212,It's a Boy Girl Thing,Christmas,6.3
+212,The Immigrant,SummerVacation,6.6
+212,London Boulevard,Christmas,6.2
+212,Popstar: Never Stop Never Stopping,SummerVacation,6.7
+213,Beyond a Reasonable Doubt,SummerVacation,5.9
+213,Then She Found Me,SummerVacation,6
+213,Trust the Man,Other,5.7
+213,Benji: Off the Leash!,SummerVacation,4.9
+213,The Condemned,Easter,6
+213,People I Know,Christmas,5.5
+213,20 Feet from Stardom,SummerVacation,7.4
+214,Things We Lost in the Fire,Other,7.2
+214,Jay and Silent Bob Reboot,Christmas,7.1
+214,Capturing the Friedmans,SummerVacation,7.7
+214,Born Into Brothels: Calcutta's Red Light Kids,Easter,7.2
+214,Every Day,Other,6.4
+215,The Yards,Other,6.4
+215,Grizzly Man,Other,7.8
+215,Please Give,SummerVacation,6.6
+215,Metallica & San Francisco Symphony - S&M2,Other,8.8
+215,Good Hair,Other,6.9
+216,Lucky You,SummerVacation,5.9
+216,Equilibrium,Christmas,7.4
+216,We Don't Live Here Anymore,Other,6.3
+216,Man of Tai Chi,SummerVacation,6.1
+216,Funny Games,Easter,6.5
+216,After the Wedding,SummerVacation,6.1
+216,Meet the Blacks,Easter,4.9
+217,Kin,SummerVacation,5.8
+217,Danny Collins,Easter,7
+217,Marianne & Leonard: Words of Love,SummerVacation,6.9
+217,Step Into Liquid,SummerVacation,7.4
+217,Hard Candy,Easter,7.1
+217,The Work and the Glory,Other,6.9
+218,Robot & Frank,Other,7.1
+218,Clifford's Really Big Movie,Easter,5.4
+218,Crossover,Other,2.1
+218,Redline,Easter,4
+218,Much Ado About Nothing,SummerVacation,7.1
+218,Expelled: No Intelligence Allowed,Easter,3.7
+219,Girl in Progress,SummerVacation,5.6
+219,The Final Cut,Other,6.2
+219,The Miracle Season,Easter,6.5
+219,Better Luck Tomorrow,Easter,7
+219,Like Crazy,Other,6.7
+219,Morgan,Other,5.8
+220,Crossing Over,Other,6.7
+220,The Double,Christmas,5.9
+220,The Secret Lives of Dentists,SummerVacation,6.4
+220,Ultimate X: The Movie,SummerVacation,6.6
+220,Ben Is Back,Christmas,6.7
+220,Spirits in the Forest,Christmas,8.1
+220,Everything Is Illuminated,Other,7.4
+220,Riding Giants,SummerVacation,7.9
+220,Me and Earl and the Dying Girl,SummerVacation,7.7
+221,Stand Up Guys,Other,6.5
+221,Panic,Easter,6.6
+221,Bug,SummerVacation,6.1
+221,I Hate Valentine's Day,Easter,4.7
+221,Startup.com,SummerVacation,7
+221,Amityville: The Awakening,Other,4.8
+221,Samsara,SummerVacation,8.5
+222,Oldboy,Christmas,5.7
+222,Just Getting Started,Christmas,4.4
+222,Nothing Like the Holidays,Christmas,6.1
+222,Grandma's Boy,Other,7
+222,Lovely & Amazing,SummerVacation,6.7
+222,Safety Not Guaranteed,Other,7
+222,Honey Boy,Christmas,7.4
+223,Beatriz at Dinner,SummerVacation,6
+223,Copying Beethoven,Easter,6.8
+223,"Jeff, Who Lives at Home",SummerVacation,6.5
+223,Martha Marcy May Marlene,Christmas,6.9
+223,Dear White People,Christmas,6.1
+223,Our Brand Is Crisis,Other,6.1
+223,Traffik,Easter,6
+223,The Art of Self-Defense,SummerVacation,6.7
+223,To Save a Life,Christmas,6.9
+224,Carman: The Champion,Easter,5.5
+224,Pieces of April,Christmas,7
+224,Passion of Mind,SummerVacation,5.5
+224,The Iceman,SummerVacation,6.8
+224,El cantante,SummerVacation,5.5
+224,My One and Only,Other,6.5
+224,Van Wilder 2: The Rise of Taj,Christmas,4.9
+224,Mid90s,Other,7.4
+225,Welcome to Collinwood,Other,6.4
+225,Catfish,Other,7.1
+226,Trumbo,Christmas,7.5
+226,Evelyn,Christmas,7
+226,P2,Christmas,5.9
+226,Let There Be Light,Christmas,4.7
+226,Machine Gun Preacher,Christmas,6.8
+226,Pele: Birth of a Legend,SummerVacation,7.2
+227,Luce,Other,6.8
+227,Clown,SummerVacation,5.7
+227,L.I.E.,Christmas,7.1
+227,The Hunting Party,Other,6.8
+227,Harsh Times,Christmas,6.9
+227,Tetro,SummerVacation,6.9
+227,Junebug,Other,6.9
+228,Thirteen Conversations About One Thing,SummerVacation,7
+228,For Your Consideration,Christmas,6.3
+228,Session 9,Other,6.4
+228,The Life Before Her Eyes,Other,6.4
+228,The Private Lives of Pippa Lee,SummerVacation,6.4
+229,The Good German,Other,6
+229,Control Room,SummerVacation,7.6
+229,Supercross,SummerVacation,4.3
+229,Frozen,Easter,6.1
+229,A-X-L,SummerVacation,5.2
+230,Bobby Jones: Stroke of Genius,Easter,6.7
+230,Outlander,SummerVacation,6.2
+230,Life Itself,Other,6.7
+231,An American Carol,Other,4.1
+231,Rescue Dawn,SummerVacation,7.3
+231,Adam,SummerVacation,7.2
+231,The Center of the World,SummerVacation,5.8
+231,Take Shelter,Christmas,7.4
+231,Shortbus,Other,6.4
+232,The Jane Austen Book Club,Other,6.8
+232,Shattered Glass,Christmas,7.1
+232,Joan Rivers: A Piece of Work,SummerVacation,7.4
+232,Same Kind of Different as Me,Other,6.6
+232,Strange Wilderness,Other,5.3
+232,Th<U+00C3><U+00A9>r<U+00C3>¡§se: The Story of Saint Th<U+00C3><U+00A9>r<U+00C3>¡§se of Lisieux,Other,6.5
+232,Horns,Other,6.5
+232,Nitro Circus: The Movie,SummerVacation,6.7
+233,Full Frontal,SummerVacation,4.7
+233,What Just Happened,Other,5.6
+233,The Other Side of Heaven 2: Fire of Faith,SummerVacation,4.9
+233,Highwaymen,Other,5.7
+233,The To Do List,SummerVacation,5.8
+233,The Young Messiah,Easter,5.6
+233,The Homesman,SummerVacation,6.6
+233,Intruders,Other,5.4
+233,The Wild Parrots of Telegraph Hill,SummerVacation,7.8
+233,Leave No Trace,SummerVacation,7.2
+234,Thanks for Sharing,Other,6.4
+234,Green Street Hooligans,Other,7.5
+234,Letters to God,Easter,6.3
+234,Branded,Other,4.7
+234,Lowriders,SummerVacation,5.7
+234,Storytelling,Christmas,6.8
+234,My Architect,Christmas,7.4
+234,20th Century Women,Other,7.3
+234,College,SummerVacation,4.6
+235,Management,SummerVacation,5.8
+235,Sunshine State,SummerVacation,6.8
+235,Killer Joe,SummerVacation,6.7
+235,Beirut,Easter,6.4
+235,Disconnect,SummerVacation,7.5
+235,Half Nelson,Other,7.2
+236,Celeste & Jesse Forever,SummerVacation,6.6
+236,Love & Sex,SummerVacation,6.2
+236,G,Other,5.1
+236,Let's Go to Prison,Christmas,6
+236,The Business of Strangers,Christmas,6.3
+236,Amazing Grace,SummerVacation,7.5
+236,N-Secure,Other,3.4
+236,Everything Must Go,Other,6.4
+236,All Saints,SummerVacation,6
+237,I'll See You in My Dreams,SummerVacation,6.7
+237,Passengers,Other,5.9
+237,Bleed for This,Christmas,6.8
+237,Twelve,SummerVacation,5.7
+237,Tadpole,SummerVacation,6.1
+237,The Believer,SummerVacation,7.2
+237,Ladr<U+00C3>3n que roba a ladr<U+00C3>3n,SummerVacation,6.8
+237,God's Not Dead: A Light in Darkness,Easter,4.4
+238,Grandma,Other,6.7
+238,Paid in Full,Other,7
+238,Keeping Up with the Steins,SummerVacation,5.3
+238,The Burning Plain,Christmas,6.8
+239,The Lost City,SummerVacation,6.6
+239,Bucky Larson: Born to Be a Star,Other,3.2
+239,The Affair of the Necklace,Christmas,6.1
+239,Valentino: The Last Emperor,SummerVacation,7.2
+239,Veronica Mars,Easter,6.8
+239,In a World...,Other,6.7
+240,Amreeka,SummerVacation,7
+240,Restless,Easter,6.8
+240,Dog Days,SummerVacation,6.2
+240,Camp,SummerVacation,6.2
+240,Frozen River,Other,7.1
+241,Southside with You,SummerVacation,6.4
+241,Joe Gould's Secret,SummerVacation,6.5
+241,Feel the Noise,Other,2.9
+241,The Kid,Easter,5.9
+242,Echelon Conspiracy,Other,5.8
+242,Atlas Shrugged II: The Strike,Other,5.4
+242,Brick,Easter,7.3
+242,Blood and Chocolate,Other,5.5
+242,Diary of the Dead,Other,5.6
+242,Incarnate,Christmas,5.2
+242,Fahrenheit 11/9,Other,6.9
+243,The Grace Card,Other,6.4
+243,Metallica: Some Kind of Monster,SummerVacation,7.5
+243,An Inconvenient Sequel: Truth to Power,SummerVacation,6.4
+244,Midnight Special,Easter,6.6
+244,Last Days,SummerVacation,5.8
+244,Filly Brown,Easter,5.7
+244,Charlie Bartlett,Other,7
+244,Last Ounce of Courage,Other,3.8
+245,Words and Pictures,SummerVacation,6.6
+245,American Desi,Other,6.6
+245,The Limits of Control,Other,6.3
+245,Your Sister's Sister,SummerVacation,6.7
+245,Unbroken: Path to Redemption,Other,5.7
+245,Home Run,Easter,5.9
+246,Obvious Child,SummerVacation,6.8
+246,To the Wonder,Other,5.9
+246,The Perfect Holiday,Christmas,4.5
+246,Auto Focus,Christmas,6.6
+246,The Matrix Reloaded,SummerVacation,7.2
+246,Table 19,Easter,5.8
+247,Hamlet 2,SummerVacation,6.3
+247,Below,Other,6.1
+247,After.Life,SummerVacation,5.9
+247,A Love Song for Bobby Long,Other,7.1
+247,Feast of Love,Other,6.6
+247,It Might Get Loud,SummerVacation,7.6
+247,El Chicano,SummerVacation,5.2
+248,Maggie's Plan,Easter,6.2
+248,What Maisie Knew,SummerVacation,7.4
+248,Who's Your Caddy?,SummerVacation,2.2
+248,Death of a Nation,SummerVacation,4.6
+248,Rosewater,Christmas,6.6
+248,Standing in the Shadows of Motown,Christmas,7.8
+248,DysFunktional Family,Easter,6.7
+248,Bill Cunningham: New York,Easter,7.9
+249,Pandas,Easter,7.4
+250,Bottle Shock,Other,6.8
+250,Extremedays,Other,6
+250,Boynton Beach Club,SummerVacation,6.4
+250,Aqua Teen Hunger Force Colon Movie Film for Theaters,Easter,6.7
+250,The Disappointments Room,Other,3.9
+251,Flipped,Other,7.7
+251,Unknown,Christmas,6.5
+251,The Art of Getting By,SummerVacation,6.6
+251,The Lookout,Easter,7
+251,The Work and the Glory II: American Zion,Other,6.6
+251,"Synecdoche, New York",Christmas,7.6
+251,Waves,Christmas,8
+252,Thumbsucker,Other,6.6
+252,The Messenger,Christmas,7.1
+252,Art School Confidential,SummerVacation,6.3
+252,The Mighty Macs,Other,6.5
+252,State Property,Other,4.5
+252,Jiro Dreams of Sushi,Easter,7.9
+253,The Ex,SummerVacation,5.5
+253,All Good Things,Christmas,6.3
+253,All Access: Front Row. Backstage. Live!,SummerVacation,8.2
+253,Witless Protection,Other,3.3
+253,Bittersweet Motel,SummerVacation,8
+253,Destroyer,Christmas,6.2
+253,Knock Knock,Other,4.9
+253,Citizenfour,Christmas,8.1
+254,Red State,Other,6.2
+254,Love Is Strange,Christmas,6.7
+254,"The Book of Mormon Movie, Volume 1: The Journey",Other,3
+254,Grace Unplugged,Other,6.1
+254,X Games 3D: The Movie,SummerVacation,6.4
+254,An American Rhapsody,Other,6.8
+254,Into the Arms of Strangers,Easter,5.5
+254,The Book of Henry,SummerVacation,6.6
+255,The Identical,Other,5.1
+255,I'm in Love with a Church Girl,Christmas,4.4
+255,Choke,Other,6.5
+255,Action Point,SummerVacation,5.1
+255,Wordplay,SummerVacation,7.3
+256,I Hope They Serve Beer in Hell,Other,5.3
+256,The Dangerous Lives of Altar Boys,SummerVacation,7
+256,The Fall,SummerVacation,7.9
+256,A Better Life,SummerVacation,7.2
+256,The Wall,SummerVacation,6.2
+256,Murderball,SummerVacation,7.7
+256,The Fluffy Movie: Unity Through Laughter,Other,7.2
+257,Northfork,SummerVacation,6.3
+257,The Midnight Meat Train,SummerVacation,6.1
+257,State Property: Blood on the Streets,Easter,4.6
+257,The Secrets of Jonathan Sperry,Other,6.7
+257,Saving Christmas,Christmas,1.4
+257,Restrepo,SummerVacation,7.5
+257,The Queen of Versailles,SummerVacation,7.1
+258,The Man from Elysian Fields,Christmas,6.6
+258,Brigham City,Easter,6.9
+258,Blindspotting,SummerVacation,7.4
+258,El vacil<U+00C3>3n: The Movie,Other,6.6
+258,Paper Heart,SummerVacation,6
+258,Another Earth,Other,7
+259,Roger Dodger,Christmas,6.9
+259,The City of Your Final Destination,SummerVacation,6.3
+259,Mark Felt: The Man Who Brought Down The White House,Other,6.4
+259,Blow Dry,Easter,6.2
+259,Happy Endings,SummerVacation,6.3
+259,True Story,Easter,6.3
+259,Talk to Me,SummerVacation,7.3
+259,The Meddler,SummerVacation,6.3
+259,The Guest,Other,6.7
+260,The Oranges,Other,5.8
+260,Kickin' It Old Skool,Easter,4.6
+260,Pathology,Easter,6
+260,Jesus Is King,Other,6.5
+261,A Home at the End of the World,Other,6.7
+261,Bennett's War,SummerVacation,4.9
+261,The Signal,SummerVacation,6.1
+262,Eros,Christmas,6
+262,Bad Samaritan,SummerVacation,6.4
+262,Sleepwalk with Me,Easter,6.8
+262,Howl,SummerVacation,6.7
+263,Nine Lives,Other,6.7
+263,Killshot,Christmas,6
+263,When You're Strange,SummerVacation,7.7
+263,Swiss Army Man,SummerVacation,7
+263,The Hero,SummerVacation,6.5
+263,Blackfish,Other,8.1
+264,She Hate Me,SummerVacation,5.3
+264,Texas Rangers,Christmas,5.2
+264,The Cove,SummerVacation,8.4
+264,Joe,Easter,6.9
+264,90 Minutes in Heaven,Other,4.7
+265,Infamous,Other,7
+265,The Reluctant Fundamentalist,SummerVacation,6.9
+265,City of Ghosts,Easter,6
+265,Jeepers Creepers III,Christmas,4
+265,Married Life,Easter,6.2
+265,Finding Vivian Maier,Easter,7.7
+266,Gracie,SummerVacation,6.2
+266,Mysterious Skin,SummerVacation,7.6
+266,Trixie,SummerVacation,5
+266,Bully,Christmas,6.9
+266,Laggies,Other,6.4
+266,Bubba Ho-Tep,Other,7
+266,Stolen,Easter,5.5
+266,"Juliet, Naked",SummerVacation,6.6
+266,The Fighting Preacher,SummerVacation,5.3
+266,The Saratov Approach,Other,5.6
+266,Sugar,Easter,7.2
+266,Where to Invade Next,Other,7.5
+267,Every Little Step,SummerVacation,7.5
+267,La Mission,Other,7
+267,Everybody Wants Some!!,Easter,6.9
+267,Sleight,Easter,5.9
+267,Fantastic Fungi,Other,8.4
+268,Toni Morrison: The Pieces I Am,SummerVacation,6.9
+268,The Caveman's Valentine,Other,5.8
+268,Quincea<U+00C3>¡Àera,SummerVacation,7
+268,"Yoo-Hoo, Mrs. Goldberg",SummerVacation,7.3
+268,The Remaining,Other,4.3
+269,Girl Most Likely,SummerVacation,5.8
+269,You Kill Me,SummerVacation,6.5
+269,Cold Souls,SummerVacation,6.4
+269,Redbelt,SummerVacation,6.7
+269,Miles Davis: Birth of the Cool,SummerVacation,7.3
+270,Focus,SummerVacation,6.7
+270,Dogtown and Z-Boys,SummerVacation,7.7
+270,Criminal,Other,6.4
+270,Sarah Silverman: Jesus Is Magic,Christmas,6.5
+270,The R.M.,Other,6.1
+270,Leaves of Grass,Other,6.4
+271,Ask the Dust,Easter,5.8
+271,Silver City,Other,6
+271,The Kid Stays in the Picture,SummerVacation,7.3
+271,Kill Your Darlings,Other,6.5
+271,Teeth,Easter,5.4
+271,Dinner Rush,Easter,7.3
+271,The Ultimate Gift,Easter,7.3
+271,Ballets Russes,Easter,7.8
+271,Don't Think Twice,SummerVacation,6.7
+272,The Face of Love,Other,6.2
+272,Off the Map,Easter,7.2
+272,The Trumpet of the Swan,SummerVacation,5
+273,Heights,SummerVacation,6.9
+273,Between Me and My Mind,SummerVacation,7.6
+273,Fur: An Imaginary Portrait of Diane Arbus,Other,6.5
+273,Anchorman 2: The Legend Continues,Christmas,6.3
+273,V/H/S,Other,5.8
+273,The Stoning of Soraya M.,Other,8
+273,Girl Rising,Other,7.1
+274,First Reformed,SummerVacation,7.1
+274,The Grey Zone,Christmas,7
+274,Strangers with Candy,SummerVacation,6
+274,Waking the Dead,Easter,6.5
+274,Nothing Left to Fear,Other,4.4
+274,Saints and Soldiers,Easter,6.7
+274,Crooked Arrows,SummerVacation,5.9
+275,Assassination Tango,Other,5.8
+275,Demolition,Easter,7
+275,The Fluffer,Other,5.6
+275,Brad's Status,Other,6.5
+275,Short Term 12,SummerVacation,8
+275,Resurrecting the Champ,SummerVacation,6.7
+275,The Wildest Dream,SummerVacation,7.3
+276,Princess Kaiulani,SummerVacation,6.2
+276,Saving Face,SummerVacation,7.4
+276,Neil Young: Heart of Gold,SummerVacation,7.7
+276,The Girlfriend Experience,SummerVacation,5.5
+276,First Position,SummerVacation,7.6
+277,Diana Vreeland: The Eye Has to Travel,Other,7.5
+277,The Singles Ward,Other,6.4
+277,Illegal Tender,SummerVacation,5.4
+277,Spare Parts,SummerVacation,7.3
+278,Gosnell: The Trial of America's Biggest Serial Killer,Other,6.7
+278,Henry Poole Is Here,SummerVacation,6.4
+278,5 Flights Up,SummerVacation,6.2
+278,Right at Your Door,Other,6.1
+278,Lovelace,SummerVacation,6.2
+278,Tyson,SummerVacation,7.5
+279,The Salton Sea,SummerVacation,7.1
+279,Fanboys,Other,6.6
+279,A Guide to Recognizing Your Saints,Other,7
+279,A Good Old Fashioned Orgy,Other,6.1
+279,The Best Two Years,Other,7.5
+279,Indigo,Other,4.9
+280,Detachment,Other,7.7
+280,The Shape of Things,SummerVacation,6.7
+280,"Bless Me, Ultima",Other,6.3
+280,Big Eden,Easter,7.3
+280,The Wedding Weekend,Christmas,5.6
+280,Indivisible,Other,5.6
+280,Indignation,SummerVacation,6.7
+280,Phoenix Forgotten,Easter,5.2
+280,More Than a Game,Easter,7.6
+280,Ladrones,Other,5.1
+281,Party Monster,Other,6.3
+281,Rock the Kasbah,Other,5.5
+281,Awake: The Life of Yogananda,Other,7.3
+281,Little Manhattan,Other,7.5
+281,The Church,SummerVacation,2.8
+281,Rules Don't Apply,Christmas,5.7
+282,A Little Bit of Heaven,SummerVacation,6.3
+282,The Lords of Salem,Easter,5.1
+282,What If...,Easter,6.4
+282,Tusk,Other,5.3
+282,Paper Clips,SummerVacation,7.3
+282,Til Death Do Us Part,Other,4.5
+282,Margot at the Wedding,Christmas,6
+282,Mistress America,Other,6.7
+283,The Invisible Circus,Other,5.6
+283,Rise: Blood Hunter,SummerVacation,4.9
+283,The Ballad of Ramblin' Jack,Other,7.7
+283,Green Room,SummerVacation,7
+283,Goodbye Solo,SummerVacation,7.3
+283,Patterns of Evidence: Moses Controversy,Easter,8.1
+284,Tape,SummerVacation,7.3
+284,A Thousand Years of Good Prayers,Easter,6.7
+284,The Kings of Summer,SummerVacation,7.1
+284,The Tillman Story,Other,7.8
+284,The Rider,Easter,7.4
+285,Personal Velocity,Christmas,6.5
+285,The Great Buck Howard,Easter,6.4
+285,Levity,SummerVacation,6.4
+285,Good Time,SummerVacation,7.3
+285,Life During Wartime,Easter,6.4
+285,The Notorious Bettie Page,SummerVacation,6.5
+285,Jimmy P.,Other,6.1
+285,David Crosby: Remember My Name,Other,7.1
+285,Heist,Christmas,6.1
+285,"Men, Women & Children",Other,6.7
+286,Meek's Cutoff,Easter,6.5
+286,Spun,Other,6.8
+286,Middle Men,SummerVacation,6.8
+286,Tim's Vermeer,Other,7.8
+286,Pandora's Box,Other,4.9
+286,Wonderstruck,Other,6.2
+286,Sweet Land,SummerVacation,7.2
+286,First Descent,Christmas,7.1
+287,Who Killed the Electric Car?,SummerVacation,7.7
+287,Miles Ahead,Easter,6.4
+287,The Hottie & the Nottie,Other,1.9
+287,The Ballad of Jack and Rose,Easter,6.6
+287,Where's My Roy Cohn?,Christmas,5.8
+287,In the Land of Blood and Honey,Other,4.5
+287,Sleeping with Other People,SummerVacation,6.5
+288,Parkland,Other,6.3
+288,"Beats, Rhymes & Life: The Travels of A Tribe Called Quest",Other,7.7
+288,Charly,Other,6.6
+288,The Least of These: The Graham Staines Story,Easter,6.3
+289,Kill the Irishman,SummerVacation,7.1
+289,Venom,Other,4.6
+289,The Ultimate Life,Other,5.8
+289,Raise Hell: The Life & Times of Molly Ivins,Other,7.7
+289,The Bay,Christmas,5.6
+289,Ingrid Goes West,SummerVacation,6.6
+290,Lay the Favorite,SummerVacation,4.8
+290,Youth Without Youth,Other,6.3
+290,Gonzo: The Life and Work of Dr. Hunter S. Thompson,SummerVacation,7.7
+290,The Virginity Hit,Other,4.6
+291,The Air I Breathe,Other,6.8
+291,The Thing About My Folks,Other,6.5
+291,Persecuted,SummerVacation,3.5
+291,Latter Days,SummerVacation,7
+291,Little Secrets,SummerVacation,6.4
+291,The Wonder of It All,Easter,7.1
+291,Wildlife,Other,6.9
+292,Cold in July,Christmas,6.8
+292,Night of the Living Dead 3D,Christmas,3.1
+292,Thoroughbreds,Easter,6.7
+293,Fed Up,Other,7.7
+293,Gold Diggers,Other,3
+293,The Heart Specialist,Other,4.5
+293,Shanghai Ghetto,Other,7
+293,Keep the River on Your Right: A Modern Cannibal Tale,Easter,6.7
+293,The Last Word,Easter,6.6
+294,The Son of No One,SummerVacation,5.1
+294,The Public,SummerVacation,6.5
+294,The End of the Tour,Christmas,7.3
+294,Jack Goes Boating,Christmas,6.4
+295,Jane Got a Gun,Other,5.9
+295,Rampart,Other,5.8
+295,Motherhood,SummerVacation,4.6
+295,All the Real Girls,SummerVacation,6.8
+295,Before the Rains,SummerVacation,6.5
+295,C.S.A.: The Confederate States of America,SummerVacation,6.4
+295,Mean Creek,Other,7.2
+295,Holy Rollers,Christmas,5.9
+295,Page One: Inside the New York Times,Other,6.9
+296,Vanishing on 7th Street,Other,4.9
+296,Tibet: Cry of the Snow Lion,Other,7.6
+296,Play the Game,SummerVacation,6.4
+296,Peaceful Warrior,SummerVacation,7.3
+296,"War, Inc.",SummerVacation,5.6
+296,Life of Crime,SummerVacation,5.8
+296,Mercy Streets,Other,5.4
+296,God Bless the Broken Road,Other,5.4
+297,Inequality for All,Easter,8
+297,In Search of a Midnight Kiss,SummerVacation,7.2
+297,Blizzard,Christmas,5.6
+297,The Devil's Hand,Other,4.9
+297,The U.S. vs. John Lennon,Christmas,7.4
+297,Give Me Liberty,SummerVacation,7.1
+298,Phantom,Easter,5.8
+298,Chain Letter,Christmas,4.1
+298,Palindromes,Other,6.7
+298,The Weather Underground,Christmas,7.5
+298,Knockout,Other,3.6
+298,Fade to Black,Christmas,6.9
+298,10 Items or Less,Other,6.6
+298,Encounters at the End of the World,SummerVacation,7.7
+298,Killerman,SummerVacation,5.5
+298,Hillsong: Let Hope Rise,Other,6.3
+299,I Spit on Your Grave,Other,6.3
+299,Poolhall Junkies,Other,6.9
+299,Leonard Cohen: I'm Your Man,SummerVacation,6.8
+299,Texas Killing Fields,Other,5.7
+300,"The Prize Winner of Defiance, Ohio",SummerVacation,7.3
+300,A Question of Faith,Other,5.6
+300,The Weight of Water,SummerVacation,5.9
+300,American Violet,Easter,7
+300,He Named Me Malala,Other,6.9
+301,Chi-Raq,Christmas,5.7
+301,From Mexico with Love,Other,5.1
+301,Passionada,SummerVacation,6.2
+301,"For a Good Time, Call...",Christmas,6
+301,Wendy and Lucy,Easter,7.1
+301,I'm Still Here,Other,6.2
+302,Gimme Shelter,Other,6.5
+302,Lymelife,Christmas,6.9
+302,The Art of the Steal,Other,7.6
+302,The Little Mermaid,SummerVacation,4.2
+303,The Only Living Boy in New York,SummerVacation,6.3
+303,House,Christmas,4.6
+303,Sholem Aleichem: Laughing in the Darkness,SummerVacation,6.9
+303,Bethany Hamilton: Unstoppable,SummerVacation,7
+303,The Trials of Henry Kissinger,SummerVacation,7.6
+303,Kaboom,Other,5.7
+304,The Paperboy,Other,5.8
+304,Casa de los babys,Other,6.3
+304,Cake,Other,6.4
+304,Killing Season,SummerVacation,5.4
+304,American Teen,SummerVacation,6.4
+304,Standing Ovation,SummerVacation,3.2
+304,Humpday,Other,6
+304,Disney's Newsies: The Broadway Musical!,Other,8.6
+305,Tigerland,SummerVacation,7
+305,The Dinner,SummerVacation,4.5
+305,The Work and the Glory III: A House Divided,Christmas,6.7
+305,Equals,SummerVacation,6.1
+305,Series 7: The Contenders,SummerVacation,6.5
+305,Going Upriver: The Long War of John Kerry,Other,7.4
+305,Dust to Glory,Easter,7.5
+305,No One Lives,SummerVacation,6
+306,Ain't Them Bodies Saints,SummerVacation,6.4
+306,Wet Hot American Summer,Easter,6.6
+306,Preacher's Kid,Other,5.1
+306,Surveillance,SummerVacation,6.3
+306,Happythankyoumoreplease,Easter,6.8
+306,Tarnation,Christmas,7.1
+306,Meru,SummerVacation,7.7
+306,Assassination Nation,Other,5.9
+307,Fiddler: A Miracle of Miracles,Christmas,7.3
+307,Higher Ground,Easter,6.2
+307,The Body,Christmas,5.3
+307,Gunner Palace,Other,6.6
+307,Arctic Tale,SummerVacation,7
+307,Damsels in Distress,Easter,5.7
+307,I'm Not Ashamed,Easter,5.8
+307,Jem and the Holograms,Other,4.1
+308,Pi<U+00C3>¡Àero,Easter,6.3
+308,LBJ,Christmas,6.5
+308,Around the Bend,Other,6.4
+308,WARx2,Easter,9.2
+309,The Greatest,Christmas,6.6
+309,My All-American,Christmas,7.1
+309,Blue Car,SummerVacation,6.6
+309,The Passion of the Christ,Other,7.1
+310,Slow Burn,Easter,5.8
+310,Tully,Easter,7.2
+310,Transylmania,Christmas,3.8
+310,The Resurrection of Gavin Stone,Other,6.1
+310,Stuck in Love.,SummerVacation,7.2
+311,Reservation Road,SummerVacation,6.7
+311,Hearts Beat Loud,SummerVacation,6.9
+311,Little Men,SummerVacation,6.7
+311,The Most Dangerous Man in America: Daniel Ellsberg and the Pentagon Papers,Other,7.7
+312,The Other Woman,Other,6.4
+312,Lockdown,Other,6.2
+312,The Lovers,SummerVacation,6.1
+312,The Marc Pease Experience,SummerVacation,4
+312,Generation Iron,Other,7.1
+312,Kids in America,Other,5.7
+312,Primer,SummerVacation,6.9
+312,Pariah,Other,7.2
+312,Woman Thou Art Loosed: On the 7th Day,Easter,4.9
+312,Greater,SummerVacation,7.2
+313,Pretty Persuasion,SummerVacation,6.5
+313,I Want Your Money,Other,4.7
+313,Alone Yet Not Alone,Other,4.5
+314,The Innkeepers,Easter,5.4
+314,The Last Shot,Christmas,5.6
+314,Repentance,Other,4.9
+314,Madison,Easter,6.4
+314,I Am Trying to Break Your Heart,SummerVacation,7.5
+314,The Spy Behind Home Plate,SummerVacation,6.9
+314,Emma Smith: My Story,Easter,6.7
+314,Old Fashioned,Other,5.2
+315,Darling Companion,SummerVacation,5.1
+315,Puzzle,Other,6.7
+315,Dorm Daze,SummerVacation,4.6
+315,Wild Nights with Emily,Easter,6.2
+315,Conversations with God,Other,6.6
+316,The Singing Detective,Christmas,5.5
+316,I.O.U.S.A.,Christmas,7.5
+316,Jesus Camp,Easter,7.4
+316,Forks Over Knives,Other,7.8
+317,99 Homes,Other,7.1
+317,Liberal Arts,Other,6.7
+317,V/H/S/2,SummerVacation,6
+317,Tabloid,Christmas,7
+318,The Merry Gentleman,Christmas,6.5
+318,"Peace, Love & Misunderstanding",SummerVacation,5.9
+318,Year of the Dog,SummerVacation,6
+318,Elvis & Nixon,Easter,6.4
+318,Tiny Furniture,Easter,6.2
+319,Blue Moon,Other,5.9
+319,Infinitely Polar Bear,SummerVacation,7
+320,The Oogieloves in the Big Balloon Adventure,SummerVacation,2
+320,50 to 1,Easter,6.4
+320,Nanking,SummerVacation,7.6
+320,The Dead Girl,Easter,6.6
+320,Serious Moonlight,Christmas,5.4
+320,Light of My Life,SummerVacation,6.6
+320,The Diary of a Teenage Girl,SummerVacation,6.9
+320,Pride and Prejudice,Christmas,5.1
+321,Arthur Newman,SummerVacation,5.7
+321,Blonde Ambition,Other,3.9
+321,Outfoxed: Rupert Murdoch's War on Journalism,SummerVacation,7.5
+321,The Celestine Prophecy,SummerVacation,4.9
+321,Menashe,SummerVacation,6.5
+321,The Russian Five,Christmas,8.2
+321,I Saw the Light,Easter,5.7
+321,The Song,Other,6
+322,Delgo,Christmas,4.3
+322,Looking for Comedy in the Muslim World,Other,5.3
+322,Like Dandelion Dust,Other,7
+322,One Week,SummerVacation,6.5
+322,Unconditional,Other,7.2
+322,Mobsters and Mormons,Other,6.3
+322,Shade,SummerVacation,6.3
+322,The Greatest Movie Ever Sold,SummerVacation,6.6
+322,A Ghost Story,SummerVacation,6.8
+323,Scorched,SummerVacation,6
+323,The Tempest,Other,5.3
+323,Interview,SummerVacation,6.8
+323,An Everlasting Piece,Easter,6.3
+323,Blue Ruin,SummerVacation,7.1
+323,Jane,Christmas,7.8
+323,Meet the Patels,Other,7.2
+323,Weiner,SummerVacation,7.6
+324,Being Flynn,Easter,6.4
+324,Down in the Valley,Christmas,6.4
+324,The Disappearance of Eleanor Rigby: Them,Other,6.3
+324,Keane,Other,6.9
+324,Shrink,SummerVacation,6.7
+324,No End in Sight,Other,8.2
+324,Short Cut to Nirvana: Kumbh Mela,SummerVacation,7.2
+324,Professor Marston & the Wonder Women,Other,7.1
+325,House of D,Easter,7
+325,The Letters,Christmas,6
+325,Last Flag Flying,Christmas,6.9
+325,Towelhead,Other,6.9
+325,Hail Satan?,Easter,7.3
+326,"Scotland, Pa.",Other,6.7
+326,Formosa Betrayed,Other,6.1
+326,Black Dynamite,Other,7.4
+326,Chop Suey,Other,7
+326,Under the Silver Lake,Easter,6.5
+326,Anamorph,SummerVacation,5.5
+326,Boricua's Bond,SummerVacation,3.8
+326,Billabong Odyssey,Easter,7
+326,The Game of Their Lives,SummerVacation,6.1
+326,In the Realms of the Unreal,Easter,7.3
+326,Muscle Shoals,Other,7.7
+326,ATM,Easter,4.7
+326,Equity,SummerVacation,5.5
+326,Terri,SummerVacation,6.5
+326,Palo Alto,SummerVacation,6.2
+326,Janis: Little Girl Blue,Christmas,7.4
+327,The Comedian,Other,5.7
+327,Beer for My Horses,SummerVacation,4.8
+327,The Groomsmen,Other,6.1
+327,Lucky,Other,7.3
+327,Outrage,Easter,7.5
+327,Iris,Easter,7.2
+328,Waking Up in Reno,Christmas,5.5
+328,The Brown Bunny,Christmas,5
+328,Song to Song,Easter,5.7
+328,Punks,Other,7.1
+329,"Die, Mommie, Die!",Other,6.5
+329,The Chumscrubber,Other,6.9
+329,You're Not You,Christmas,7.4
+329,That Evening Sun,Easter,7.1
+329,The Yellow Handkerchief,Christmas,6.7
+329,Ai Weiwei: Never Sorry,SummerVacation,7.6
+330,Wild West Comedy Show: 30 Days & 30 Nights - Hollywood to the Heartland,Other,6.2
+330,Today's Special,Christmas,6.6
+330,Still We Believe: The Boston Red Sox Movie,Easter,7.3
+330,Good Kill,SummerVacation,6.4
+330,Particle Fever,Other,7.4
+331,Once in the Life,Other,5.3
+331,Freeheld,Christmas,6.6
+331,Go Tigers!,Other,7.2
+331,The Yes Men,Other,6.9
+332,The Trip,SummerVacation,7.1
+332,Another Gay Movie,SummerVacation,4.9
+332,End of the Century,Christmas,8
+332,Winter Solstice,Christmas,6.1
+332,Slamma Jamma,Easter,6
+332,Call of the Wild,SummerVacation,5.3
+332,I Spit on Your Grave 2,Other,5.7
+333,Thin Ice,Other,6.2
+333,Certain Women,Other,6.3
+333,The King,SummerVacation,6.7
+333,Soul Power,SummerVacation,7
+333,Night Moves,Easter,6
+333,The Boys of Baraka,Other,7.4
+333,The Hunting of the President,Other,6.9
+333,The Wolfpack,SummerVacation,7
+334,Maggie,SummerVacation,5.6
+334,Pumpkin,Easter,6.1
+334,Atlas Shrugged: Who Is John Galt?,Other,4.3
+334,Nobel Son,Christmas,6.3
+334,Baadasssss!,Easter,7.3
+334,Sex and Death 101,Other,6
+334,The Ledge,SummerVacation,6.5
+334,Bonhoeffer,SummerVacation,7.1
+334,Long Night's Journey Into Day,Christmas,7.1
+334,Larger Than Life in 3D,Christmas,7.9
+335,Never Again,Easter,6.3
+335,Seraphim Falls,Easter,6.7
+335,The Seagull,SummerVacation,5.8
+335,Noah's Arc: Jumping the Broom,Other,6.8
+335,The Fantasticks,Other,5.6
+335,Priceless,Other,6.1
+335,The Cokeville Miracle,SummerVacation,5.1
+336,The Battle of Shaker Heights,SummerVacation,6
+336,Everybody Wants to Be Italian,Easter,5.8
+337,Festival in Cannes,SummerVacation,5.9
+337,Feast,Other,6.3
+337,Big Fan,Other,6.7
+337,13 Sins,Easter,6.3
+337,Trust,Easter,6.9
+338,Salinger,Other,6.7
+338,(Untitled),SummerVacation,6.3
+338,Dancing at the Blue Iguana,Other,5.7
+338,Trouble the Water,Christmas,7.3
+338,Christmas in the Clouds,Christmas,6.4
+338,Lazer Team,Other,5.6
+338,The Stray,Other,5.4
+339,The United States of Leland,Easter,7.1
+339,The Final Season,Other,6.6
+339,The Oh in Ohio,Other,5.5
+339,Margaret,SummerVacation,6.4
+339,Life Itself,SummerVacation,7.8
+339,Countdown to Zero,SummerVacation,6.9
+340,Wooly Boys,Other,6.2
+340,Animal Factory,SummerVacation,6.6
+340,My Date with Drew,Other,6.4
+340,Green Dragon,Easter,6.1
+340,Sleeping Dogs Lie,Other,5.8
+340,World's Greatest Dad,Other,6.9
+341,Creature,Other,3.6
+341,Civil Brand,SummerVacation,5.1
+341,The Tomorrow Man,SummerVacation,5.6
+341,Splinter,Easter,6.1
+341,Bukowski: Born into This,Easter,7.9
+341,Wassup Rockers,Easter,6
+342,"Love, Wedding, Marriage",SummerVacation,4.9
+342,Who Is Cletis Tout?,Christmas,6.4
+342,Dominion: Prequel to the Exorcist,SummerVacation,5.2
+342,May,Easter,6.6
+342,America's Heart & Soul,SummerVacation,4.9
+342,Downtown 81,Easter,7.1
+342,Patti Cake$,SummerVacation,6.8
+342,South of the Border,SummerVacation,7
+343,Committed,SummerVacation,5.1
+343,Sherrybaby,Other,6.6
+343,September Dawn,SummerVacation,5.8
+343,Hair Show,Other,5.1
+343,Jean-Michel Basquiat: The Radiant Child,Easter,7.8
+343,Beyond the Mask,Easter,5
+344,My Friend Dahmer,Easter,6.2
+344,I Still See You,Other,5.8
+344,Shadow Hours,SummerVacation,5.9
+344,The Promotion,SummerVacation,5.6
+344,Love and Honor,Easter,5.7
+344,The Music of Strangers: Yo-Yo Ma and the Silk Road Ensemble,Christmas,7.7
+344,Grace Is Gone,Other,6.7
+344,Gay Sex in the 70s,Easter,6.9
+345,The Ten Commandments,Other,2.8
+345,Mickey,Easter,6.6
+345,Circuit,SummerVacation,5.6
+345,Benjamin Smoke,SummerVacation,7.5
+345,Diane,Easter,6.6
+345,Herb & Dorothy,Christmas,7.5
+345,The Armstrong Lie,Christmas,7.3
+346,Pearl Jam Twenty,Other,8.3
+346,King of California,Other,6.6
+346,The Hammer,Easter,7.2
+346,Not Fade Away,SummerVacation,6
+346,Crude,Other,7.5
+347,Skins,Other,7.1
+347,The Brothers Solomon,Other,5.3
+347,Imaginary Heroes,Christmas,7.2
+347,The Perfect Host,SummerVacation,6.8
+347,Upstream Color,SummerVacation,6.7
+348,Hesher,SummerVacation,7
+348,My Dog Tulip,SummerVacation,6.9
+348,Snow Angels,Other,6.8
+348,Charlotte Sometimes,Easter,6.6
+348,Passport to Love,Other,6.6
+349,Gigantic,SummerVacation,6
+349,A Matter of Faith,SummerVacation,3.6
+349,Sound City,Other,7.8
+349,Bootmen,Other,6.2
+349,Shadowboxer,SummerVacation,5.5
+349,New York Doll,Other,7.7
+349,Lucy in the Sky,Other,4.5
+349,Vaxxed: From Cover-Up to Catastrophe,Easter,5
+350,P.S.,Other,6.1
+350,Down and Derby,Christmas,5.5
+350,Scatter My Ashes at Bergdorf's,SummerVacation,6.2
+350,Home of the Brave,Easter,5.6
+350,Blue Like Jazz,Easter,5.9
+350,Sword of Trust,SummerVacation,6.3
+350,The Signal,SummerVacation,6.1
+350,Cartel Land,SummerVacation,7.4
+351,Super,SummerVacation,6.7
+351,This Old Cub,Easter,8.5
+351,Elsa & Fred,Christmas,6.4
+351,Compliance,Other,6.4
+351,The Hollars,SummerVacation,6.5
+351,The Miseducation of Cameron Post,SummerVacation,6.6
+351,En Brazos de un Asesino,Christmas,6.2
+351,The Inevitable Defeat of Mister & Pete,Other,7.5
+351,True to the Game,Other,5.1
+352,Hell Ride,Other,5.1
+352,The Keeper: The Legend of Omar Khayyam,SummerVacation,6.4
+352,The Overnight,SummerVacation,6.1
+352,"Lovely, Still",Easter,7.1
+352,The 11th Hour,Other,7.3
+352,The Horse Boy,Christmas,7.3
+353,Riding the Bullet,Other,5.2
+353,The 5th Quarter,Easter,5.6
+353,'R Xmas,Christmas,5.8
+353,Idiocracy,Other,6.6
+353,Hangman's Curse,Other,4.9
+353,Brothers at War,Easter,6.5
+353,Beyond the Reach,Easter,5.6
+353,Little Women,Other,5
+354,Stake Land,SummerVacation,6.5
+354,At Any Price,SummerVacation,5.6
+354,The Black Waters of Echo's Pond,Easter,4.4
+354,Papa Hemingway in Cuba,Easter,6.3
+354,Undefeated,SummerVacation,7.7
+354,Vox Lux,Christmas,6
+355,Knight of Cups,Easter,5.7
+355,The Cockettes,Other,7.3
+355,Beer League,Other,5.9
+355,Ask Dr. Ruth,SummerVacation,7.6
+355,Malevolence,Easter,5.1
+355,The Untold Story of Emmett Louis Till,SummerVacation,7.6
+355,Breathe In,SummerVacation,6.4
+356,The One I Love,SummerVacation,7.1
+356,Billy: The Early Years,Other,6.9
+356,Gray Matters,SummerVacation,5.8
+356,Not Forgotten,Other,4.8
+356,Herman U.S.A.,SummerVacation,6.1
+356,Church Ball,Easter,3.9
+356,Mayor of the Sunset Strip,Easter,7
+356,Red Betsy,Easter,6.9
+356,The Ch<U+00C3>¡éteau,Other,5.3
+356,States of Grace,Easter,6.8
+356,Into the Abyss,Easter,7.3
+357,Big Stone Gap,SummerVacation,5.6
+357,The Second Chance,Other,6.6
+357,The First Monday in May,Easter,7.2
+357,Greendale,Other,6.3
+357,Meet Bill,SummerVacation,6.2
+357,Until the Light Takes Us,SummerVacation,7.1
+357,Step,SummerVacation,6.9
+358,Romeo & Juliet: Sealed with a Kiss,SummerVacation,3.6
+358,Cherish,Other,6.7
+358,Standard Operating Procedure,SummerVacation,7.4
+358,Treeless Mountain,SummerVacation,7.1
+358,We Steal Secrets: The Story of WikiLeaks,SummerVacation,6.9
+359,Columbus,SummerVacation,7.2
+359,"War Eagle, Arkansas",Christmas,6.3
+359,Smashed,Christmas,6.8
+359,Mooz-Lum,Other,6.9
+359,November,Other,5.5
+359,Uncovered: The War on Iraq,Other,7.5
+359,Bigger Stronger Faster*,Other,7.6
+359,Gigantic (A Tale of Two Johns),Easter,7.6
+360,Legendary,Other,6.2
+360,Hellbent,Other,5.5
+360,Washington Heights,SummerVacation,5.9
+360,The Heart of the Game,SummerVacation,7.5
+360,Sarah Landon and the Paranormal Hour,Other,3.7
+360,Bombshell: The Hedy Lamarr Story,Easter,7.4
+361,Faith of Our Fathers,SummerVacation,3.6
+361,The Baxter,Easter,6.5
+361,Looking for an Echo,Christmas,6.7
+361,Planet B-Boy,Easter,7.7
+361,Gimme Danger,SummerVacation,7.2
+361,The Business of Fancydancing,Other,6.6
+361,Cliffs of Freedom,Easter,6.4
+361,Dig!,Easter,7.8
+361,Bitch Slap,Christmas,4.4
+362,23 Blast,Other,6.5
+362,When Do We Eat?,Easter,5.9
+362,Protocols of Zion,Christmas,6.3
+362,The Specials,Other,5.8
+362,Guiana 1838,Other,7.3
+362,Charlie Countryman,Other,6.4
+362,Alone with Her,SummerVacation,6
+362,Taxi to the Dark Side,Other,7.5
+363,This So-Called Disaster: Sam Shepard Directs the Late Henry Moss,SummerVacation,6.5
+363,Another Happy Day,Christmas,6.1
+363,The Babymakers,SummerVacation,4.9
+363,Prince Avalanche,Other,6.4
+363,Blind Dating,Easter,6.1
+363,Surfwise,SummerVacation,7.2
+363,The Devil and Daniel Johnston,SummerVacation,7.9
+363,Client 9: The Rise and Fall of Eliot Spitzer,Easter,7.4
+364,The Agronomist,Easter,7.4
+364,Rudderless,Other,7.5
+364,Gentlemen Broncos,SummerVacation,6.2
+364,Nick Saban: Gamechanger,SummerVacation,7.6
+365,The Amati Girls,Other,5.1
+365,Stolen Summer,SummerVacation,6.5
+365,Stoked: The Rise and Fall of Gator,SummerVacation,7.2
+365,Forty Shades of Blue,Christmas,6.2
+365,Preaching to the Choir,Easter,5.4
+365,The Lucky Ones,Other,6.9
+365,On Any Sunday: The Next Chapter,Christmas,7.1
+365,The King of Kong: A Fistful of Quarters,Other,8.1
+365,Beautifully Broken,SummerVacation,5.8
+365,Bully,Easter,7.3
+366,The Ten,Easter,5
+366,Marilyn Hotchkiss' Ballroom Dancing & Charm School,Other,6.6
+366,Lola Versus,SummerVacation,5.4
+366,Uncle Nino,Other,6.7
+366,Believe,Christmas,5.1
+366,The Home Teachers,Other,4.6
+366,Patterns of Evidence: Exodus,Other,7.2
+367,Rebel in the Rye,Other,6.7
+367,Prince of Central Park,Christmas,5.1
+367,Lightning in a Bottle,SummerVacation,7.7
+367,Monster Beach Party,Easter,7
+367,Girls Will Be Girls,SummerVacation,6.9
+367,The Sea of Trees,SummerVacation,6.1
+367,Seymour: An Introduction,Other,7.5
+367,Mike Wallace Is Here,Other,7
+367,Derrida,Other,6.5
+367,Dirty Wars,Other,7.5
+368,Best of Enemies: Buckley vs. Vidal,SummerVacation,7.6
+368,Redacted,Christmas,6.1
+368,Winnebago Man,Easter,7.2
+369,The Quiet,SummerVacation,6.3
+369,Naqoyqatsi,Other,6.6
+369,Rocket Science,Other,6.6
+369,Drinking Buddies,SummerVacation,6.1
+369,Super Sucker,Other,4.4
+369,Two Night Stand,Other,6.4
+369,Medicine for Melancholy,Easter,6.7
+369,Morning Light,Easter,5.8
+369,Landline,SummerVacation,6.4
+370,The Polar Express,Christmas,6.6
+370,American Hardcore,Other,7.4
+370,Sound of My Voice,SummerVacation,6.6
+370,Harvard Beats Yale 29-29,Christmas,7.2
+371,Being Elmo: A Puppeteer's Journey,Easter,7.6
+371,The Turandot Project,Other,7.2
+371,Hansel & Gretel,Other,4.1
+371,The Skeptic,SummerVacation,5.6
+371,Eating Out,Other,5.8
+371,Joshua,SummerVacation,5.9
+371,I Origins,Other,7.4
+371,Lo and Behold: Reveries of the Connected World,SummerVacation,7
+372,One Child Nation,SummerVacation,7.5
+372,Tangerine,SummerVacation,7.1
+372,Outsourced,Christmas,7
+373,Hava Nagila: The Movie,Other,5.8
+373,The 13th Alley,SummerVacation,6.1
+373,Last Days in Vietnam,Other,7.6
+373,Wilson,Easter,5.8
+373,Saturday's Warrior,Easter,5.5
+374,Bartleby,Easter,6.4
+374,Dirty Deeds,SummerVacation,5.8
+374,The House of the Devil,SummerVacation,6.4
+374,When Comedy Went to School,SummerVacation,6.2
+374,The Wrecking Crew!,Easter,7.6
+374,Wiener-Dog,SummerVacation,5.9
+374,"South of Heaven, West of Hell",Other,4.1
+374,Bush's Brain,Easter,6.7
+374,Deepsea Challenge 3D,Other,6.8
+374,God Bless America,SummerVacation,7.2
+374,The Interrupters,SummerVacation,7.5
+374,Out of Liberty,Other,4.6
+375,Mr. Church,Christmas,7.6
+375,King of the Jungle,Other,6
+375,Red Army,Other,7.7
+375,Friends and Family,SummerVacation,6.2
+375,Koch,Other,6.3
+375,The Foot Fist Way,Other,6.3
+375,Under Our Skin,SummerVacation,7.9
+375,Detropia,Other,6.5
+376,Maze,Other,6.3
+376,Baptists at Our Barbecue,Other,5.7
+376,Conan O'Brien Can't Stop,SummerVacation,7
+376,Green Card Fever,SummerVacation,5.9
+376,Keep the Lights On,SummerVacation,6.4
+376,Dahmer,Easter,5.6
+376,Her Smell,SummerVacation,6.2
+376,Deliver Us from Evil,Other,7.9
+376,The Legend of God's Gun,SummerVacation,3.5
+376,Wakefield,SummerVacation,6.3
+377,Munger Road,Other,4.5
+377,CSNY/D<U+00C3><U+00A9>j<U+00C3><U+00A0> Vu,SummerVacation,7.1
+377,Brooklyn Lobster,Christmas,6.3
+377,Linsanity,Other,7.3
+378,Phil Ochs: There But for Fortune,Other,7.6
+378,Universal Soldier: Day of Reckoning,Other,5
+378,Camp,Other,6.9
+378,City of Gold,Easter,7.1
+378,Mystery Team,Other,6.7
+378,I Got the Hook Up 2,SummerVacation,3.3
+379,Adam & Steve,SummerVacation,5.9
+379,The Music Never Stopped,Other,7.5
+379,The English Teacher,SummerVacation,5.8
+379,Canal Street,Other,4
+379,The Family Fang,SummerVacation,6.1
+379,Room 237,Other,6.2
+380,Hello I Must Be Going,Other,6.2
+380,Range 15,SummerVacation,5
+380,Be Here to Love Me: A Film About Townes Van Zandt,Christmas,7.9
+380,When Will I Be Loved,SummerVacation,4.4
+380,Delirious,SummerVacation,6.5
+380,Not Today,Easter,5.7
+380,XX/XY,SummerVacation,5.9
+380,Only the Brave,Other,5.3
+380,The Mysteries of Pittsburgh,Other,5.4
+380,Chop Shop,Other,7.3
+380,She's Beautiful When She's Angry,Other,7.9
+381,God's Pocket,SummerVacation,6.1
+381,Old Joy,Other,6.7
+381,Stevie,Easter,7.9
+381,Journey from the Fall,Easter,7.1
+381,The Bronze,Easter,6.1
+381,"Kumiko, the Treasure Hunter",Other,6.6
+381,Red Hook Summer,SummerVacation,4.9
+381,May it Last: A Portrait of the Avett Brothers,Other,8.5
+382,Mr. Right,Easter,6.3
+382,Dark Horse,SummerVacation,5.9
+382,Love N' Dancing,Other,5.4
+382,Wrecked,SummerVacation,5.3
+382,Once I Was a Beehive,SummerVacation,6.2
+382,Sons of Provo,Other,5.8
+382,Chris & Don. A Love Story,SummerVacation,7.6
+383,Loggerheads,Easter,7.1
+383,Sonny,Easter,5.6
+383,How the Garcia Girls Spent Their Summer,SummerVacation,6.3
+383,Peggy Guggenheim: Art Addict,Christmas,7.1
+383,Aftershock,SummerVacation,4.8
+383,Survival of the Dead,SummerVacation,4.9
+383,Crips and Bloods: Made in America,Other,6.9
+384,Undertow,Christmas,6.6
+384,The Afflicted,Easter,4.6
+384,White on Rice,Easter,6.2
+384,Sangre de mi sangre,Other,6.9
+384,The Weathered Underground,Other,6.2
+384,Gleason,SummerVacation,8.4
+384,Call + Response,Other,7.1
+384,The Endless,Easter,6.5
+384,Glen Campbell: I'll Be Me,Other,8
+385,Henry's Crime,Other,6
+385,Ira & Abby,SummerVacation,6.5
+385,American Chai,Other,6.2
+385,Love Ranch,Other,5.6
+385,The Catcher Was a Spy,SummerVacation,6.2
+385,Extraction,Christmas,4.1
+385,Harry & Snowman,Other,7.6
+386,The Hebrew Hammer,Easter,6.1
+386,Skills Like This,Easter,6.1
+386,The Central Park Five,Easter,7.6
+386,"Filth to Ashes, Flesh to Dust",Other,2.3
+387,The Walker,SummerVacation,5.8
+387,Prey for Rock & Roll,SummerVacation,6.2
+387,D.E.B.S.,Easter,5.2
+387,The Canyons,SummerVacation,3.8
+388,October Baby,Easter,6.7
+388,Robot Stories,Other,5.9
+388,5 to 7,Other,7.1
+388,Bubble,Other,6.6
+388,Where's the Party Yaar?,SummerVacation,4.9
+388,Stonewall Uprising,SummerVacation,7.2
+389,Fidel,SummerVacation,7.5
+389,The Stanford Prison Experiment,SummerVacation,6.9
+389,Anything But Love,Other,6.1
+389,The Slammin' Salmon,Other,6.4
+389,Children Underground,Other,8.3
+390,Elaine Stritch: Shoot Me,Other,7.5
+390,Amy's Orgasm,Other,5.2
+390,New York in the 50's,Other,6
+390,Mine 9,Easter,7.4
+390,Honeydripper,SummerVacation,6.6
+390,The War Tapes,Easter,7.3
+390,Brigsby Bear,Other,7.3
+391,Officer Down,Other,5.5
+391,Welcome to Me,SummerVacation,5.9
+391,Amigo,SummerVacation,5.7
+391,Games People Play: New York,Easter,3.9
+391,The End of Poverty?,Christmas,7.4
+392,3 Generations,Other,5.9
+392,Full of It,SummerVacation,5.5
+392,The Boys: The Sherman Brothers' Story,Easter,7.8
+392,The Romantics,SummerVacation,5.1
+392,First Morning,Christmas,6.6
+392,Repo! The Genetic Opera,Christmas,6.6
+392,Broken Bridges,Other,6.1
+392,Lost River,Easter,5.8
+393,Bounce: Behind the Velvet Rope,Other,6.5
+393,Go for It!,SummerVacation,3.7
+393,Bustin' Down the Door,SummerVacation,7
+393,Drawing Restraint 9,Easter,6.5
+393,In a Dream,Easter,7.7
+394,Edmond,Christmas,6.2
+394,New Suit,Other,5.7
+394,Valley of the Heart's Delight,Easter,5.7
+394,When the Road Bends... Tales of a Gypsy Caravan,SummerVacation,7.7
+394,Bellflower,Easter,6.4
+395,Dummy,Other,6.7
+395,The Black Panthers: Vanguard of the Revolution,Other,7.3
+395,Lizzie,Other,5.8
+395,Funny Ha Ha,Easter,6.4
+395,Brooklyn Rules,SummerVacation,6.3
+395,Broken Hill,Other,6.3
+395,Unsullied,SummerVacation,4.3
+396,Constantine's Sword,Easter,7.1
+396,Wristcutters: A Love Story,Christmas,7.3
+396,Scottsboro: An American Tragedy,Other,7.3
+396,The Future of Food,SummerVacation,7.8
+396,Hometown Legend,Other,5.7
+396,See What I'm Saying: The Deaf Entertainers Documentary,Easter,7.3
+396,10 Years,Other,6.1
+396,Iraq in Fragments,Other,7.3
+397,Chicago 10,Other,7.4
+397,Lovely Molly,SummerVacation,5.3
+397,Manic,SummerVacation,7.3
+397,Bart Got a Room,Easter,5.6
+397,"Faith, Hope & Love",Easter,6.8
+397,Freakonomics,Other,6.4
+397,Chrystal,Other,6.6
+398,Blackway,SummerVacation,5.3
+398,Touching Home,Easter,5.8
+398,Jinn,Easter,4.2
+398,Unidentified,SummerVacation,3.4
+398,Carlos Castaneda: Enigma of a Sorcerer,Other,5.5
+398,My Name Is Bruce,Easter,6.2
+398,Visual Acoustics,Other,7.4
+398,Novitiate,Other,6.6
+399,Dopamine,Other,6
+399,30 Years to Life,Other,6
+399,Road to Nowhere,Easter,5.4
+399,Innocence,Other,4.6
+399,A Place at the Table,Easter,6.9
+399,The Loneliest Planet,Other,5.5
+399,Marwencol,Other,7.6
+400,Trucker,Easter,6.7
+400,The War Within,Other,6.8
+400,Lush,SummerVacation,4.6
+400,What Alice Found,Other,6.5
+400,InAPPropriate Comedy,SummerVacation,2.8
+400,Saint John of Las Vegas,SummerVacation,5.7
+400,Guerrilla: The Taking of Patty Hearst,SummerVacation,7.3
+400,Any Day Now,Other,7.5
+401,Battlefield America,SummerVacation,2.5
+401,Best Worst Movie,Easter,7.3
+402,The Bounce Back,Christmas,5.1
+402,Magic Trip: Ken Kesey's Search for a Kool Place,SummerVacation,6.9
+402,Blood Done Sign My Name,Other,6.6
+402,Dolores,Other,6.9
+402,Only the Strong Survive,SummerVacation,6.8
+402,American Casino,SummerVacation,7.7
+402,Handcart,Other,4.6
+403,Revenge of the Electric Car,SummerVacation,7.2
+403,Hesburgh,SummerVacation,7.8
+403,Dorian Blues,Other,6.6
+403,Royal Kill,Easter,2.9
+403,My Uncle Rafael,Other,5.9
+403,Down and Out with the Dolls,Easter,6
+403,Flavors,SummerVacation,7.2
+404,Middle of Nowhere,Other,6.4
+404,Deli Man,Christmas,7
+404,The Young Unknowns,Easter,4.7
+404,Celsius 41.11: The Temperature at Which the Brain... Begins to Die,Other,4.3
+404,Feed the Fish,Other,6
+404,Naked in Ashes,Other,7.9
+404,The Last of Robin Hood,Christmas,5.7
+405,A Glimpse Inside the Mind of Charles Swan III,Easter,4.8
+405,Sky Kids,SummerVacation,6.9
+405,Glastonbury,Easter,6.6
+405,Lost and Found in Armenia,SummerVacation,6.2
+405,The Good Guy,Other,5.8
+405,The Last Sin Eater,Other,5.7
+405,Cold Weather,Easter,6.2
+406,Life After Beth,SummerVacation,5.6
+406,8: The Mormon Proposition,Other,7
+406,Seeing Other People,Easter,5.8
+406,The Talent Given Us,SummerVacation,5.5
+406,Thunder Soul,Other,7.5
+407,Dirty Girl,SummerVacation,6.4
+407,Shelter,Easter,7.7
+407,The Puffy Chair,Easter,6.5
+407,Falcon Rising,Christmas,5.8
+407,Beeswax,Easter,5.9
+408,Chuck,SummerVacation,6.5
+408,Brother to Brother,Other,7.1
+408,Family,Easter,6.2
+408,Flow: For Love of Water,Christmas,7.6
+409,Tim and Eric's Billion Dollar Movie,Other,5.4
+409,The Invitation,Easter,6.6
+409,Blaze,SummerVacation,6.6
+409,Kings of the Evening,Other,5.9
+409,Steve Jobs: The Man in the Machine,Other,6.9
+409,Awesome; I Fuckin' Shot That!,Easter,7.5
+409,Beautiful Boy,Christmas,6.6
+409,Cutie and the Boxer,Christmas,7.2
+409,Alive Inside,Other,8.2
+410,The Golden Boys,Christmas,6
+410,High School,Christmas,5.8
+410,Lonesome Jim,Christmas,6.6
+410,Cooties,Other,5.7
+410,Boys Life 4: Four Play,SummerVacation,6.1
+410,I Will Follow,Other,6
+410,Rock School,SummerVacation,6.4
+410,Baghead,Other,6
+410,Mistaken for Strangers,Easter,7.3
+410,Crazy Love,SummerVacation,7
+411,Hounddog,Other,6.3
+411,Beach Rats,Other,6.4
+411,Bright Leaves,Other,7.1
+411,Oy Vey! My Son Is Gay!!,Christmas,5.1
+411,We Live in Public,Other,7.2
+411,To Dust,Easter,5.8
+412,Crazy on the Outside,Other,5.5
+412,The Galapagos Affair: Satan Came to Eden,SummerVacation,6.7
+412,Snipes,Other,5.6
+412,Brotherly Love,Easter,6.7
+412,The Great New Wonderful,Easter,5.6
+412,Satanic,SummerVacation,3.7
+412,Brooklyn Castle,Easter,7.3
+413,A Family Affair,Other,5
+413,Screen Door Jesus,Easter,5.2
+413,Our Brand Is Crisis,Easter,7
+413,Proud American,Other,1.1
+413,The Cartel,Other,7.4
+413,Heart of a Dog,Easter,7.1
+414,Waking Sleeping Beauty,Other,7.6
+414,Come Early Morning,SummerVacation,6.1
+414,Steep,Other,7.4
+414,Vidal Sassoon: The Movie,Christmas,6.4
+414,"Life, Animated",Other,7.5
+414,Art and Craft,Easter,7.1
+415,Puncture,Easter,6.8
+415,Uncertainty,SummerVacation,5.8
+415,Hollywood Buddha,Easter,5
+415,For the Bible Tells Me So,Other,7.8
+415,The First Saturday in May,Easter,7.2
+415,Before We Go,SummerVacation,6.8
+415,Voyage of Time: The IMAX Experience,Other,7.9
+416,Pearl Jam: Let's Play Two,Other,8.4
+416,Cowboys and Angels,Easter,6
+416,Breaking Upwards,Easter,6.2
+416,Somewhere Between,SummerVacation,7.8
+416,Cocaine Cowboys,Christmas,7.8
+416,Were the World Mine,SummerVacation,6.9
+417,Supermensch: The Legend of Shep Gordon,SummerVacation,7.4
+417,Beware of Mr. Baker,SummerVacation,7.6
+417,Manglehorn,SummerVacation,5.6
+417,Momma's Man,SummerVacation,6
+417,Constellation,Other,3.8
+417,Afternoon Delight,Christmas,5.7
+417,Our City Dreams,Other,6.7
+417,Night Catches Us,Christmas,6.2
+418,Rob the Mob,Easter,6.3
+418,Brief Interviews with Hideous Men,Other,5.6
+418,Just a Kiss,SummerVacation,5
+418,The Grand,SummerVacation,6
+418,Touchback,Easter,6.5
+418,A.C.O.D.,Other,5.6
+418,My Flesh and Blood,Other,8.2
+418,Chalk,Easter,6.2
+418,Prodigal Sons,SummerVacation,7.1
+418,AmeriGeddon,SummerVacation,3.4
+418,Rosenwald,SummerVacation,8
+419,God Grew Tired of Us,Other,7.9
+419,Blank City,Easter,7.1
+420,No Such Thing,Christmas,6.1
+420,Fuel,Other,7.5
+420,Wasabi Tuna,SummerVacation,3.3
+420,Oh My God,SummerVacation,6.1
+420,Rosencrantz and Guildenstern Are Undead,Other,5.1
+420,Mississippi Grind,SummerVacation,6.4
+420,Passage to Zarahemla,Other,5.1
+420,Somm,SummerVacation,7
+421,The Mostly Unfabulous Social Life of Ethan Green,Easter,6.2
+421,Chelsea Walls,SummerVacation,5.1
+421,Wind Chill,SummerVacation,5.8
+421,Them That Follow,SummerVacation,5.2
+421,The Mudge Boy,Other,7.1
+421,Escape from Tomorrow,SummerVacation,5.1
+421,The Undefeated,SummerVacation,1.9
+421,Lost Woods,Easter,2.4
+421,Advanced Style,SummerVacation,7.3
+422,Trumbo,SummerVacation,7.4
+422,Super Capers: The Origins of Ed and the Missing Bullion,Easter,3.1
+422,On the Outs,Easter,6.9
+422,Jonestown: The Life and Death of Peoples Temple,Easter,7.8
+422,Copperhead,SummerVacation,5.5
+422,"Love, Kennedy",SummerVacation,6.5
+423,Listen Up Philip,Other,6.3
+423,Harvard Man,SummerVacation,4.9
+423,Unbranded,Other,7.4
+423,35 and Ticking,SummerVacation,5.6
+423,Little Woods,Easter,6.1
+423,Jimmy Vestvood: Amerikan Hero,SummerVacation,5.2
+423,Chasing Trane: The John Coltrane Documentary,Easter,7.3
+423,American Swing,Other,6.1
+423,Monumental: In Search of America's National Treasure,Easter,5
+424,The Alphabet Killer,Christmas,5.2
+424,10th & Wolf,Easter,6.3
+424,Tumbledown,Other,6.2
+424,Butter,Other,6.2
+424,The TV Set,Easter,6.5
+424,The Windmill Movie,SummerVacation,6.3
+424,Ciao America,Other,7.4
+424,Strange Powers: Stephin Merritt and the Magnetic Fields,SummerVacation,7.2
+425,Boy Culture,Other,6.8
+425,Song One,Other,5.8
+425,Streetballers,SummerVacation,5.6
+425,We Are What We Are,Other,5.9
+425,Code Black,SummerVacation,7.3
+426,Explicit Ills,Easter,5.7
+426,Bright Ones,Easter,7.2
+426,The Hunting Ground,Other,7.4
+426,Another Gay Sequel: Gays Gone Wild!,Christmas,4
+426,2012: Time for Change,Other,7.1
+427,A Decade Under the Influence,Other,7.6
+427,What the Bleep!?: Down the Rabbit Hole,Easter,6.5
+427,Rejoice and Shout,SummerVacation,6
+427,An American Affair,Other,6.2
+427,Never Been Thawed,Easter,6
+427,My Kid Could Paint That,Christmas,7.1
+427,Roman Polanski: Wanted and Desired,Christmas,7.2
+427,Free the Mind,SummerVacation,6.2
+428,Halston,SummerVacation,6.6
+428,Martin & Orloff,Easter,6.6
+428,LUV,Other,5.9
+428,Dedication,Other,6.7
+428,A Little Help,SummerVacation,5.6
+428,Crazy Horse,Other,6.4
+428,Freetown,Easter,4.7
+429,Kabluey,SummerVacation,6.6
+429,Deceptive Practice: The Mysteries and Mentors of Ricky Jay,Other,7.1
+429,Afternoon of a Faun: Tanaquil Le Clercq,Other,7.3
+429,Stolen,Other,6
+429,Marina Abramovic: The Artist Is Present,SummerVacation,7.9
+430,L.A. Twister,SummerVacation,5.9
+430,The Garden,Easter,7.3
+430,Snake & Mongoose,Other,5.7
+430,Dancing Across Borders,Easter,6.3
+431,Earth Days,SummerVacation,7.2
+431,Easy,Easter,5.8
+431,The Forgiveness of Blood,Other,6.8
+431,Ellie Parker,Other,6.4
+431,Interview with the Assassin,SummerVacation,6.5
+431,Greetings from the Shore,Other,5.9
+431,Racing Dreams,SummerVacation,7
+432,Gang of Roses,Other,2.4
+432,The Answer Man,Christmas,6.4
+432,Hiding and Seeking: Faith and Tolerance After the Holocaust,Other,7.8
+432,Evil Bong 3: The Wrath of Bong,Easter,3.7
+432,The Love Witch,Easter,6.2
+432,Before You Know It,SummerVacation,5
+433,Term Life,Easter,5.5
+433,Salvation Boulevard,SummerVacation,5.3
+433,Flannel Pajamas,Other,5.9
+433,The Punk Singer,Easter,7.4
+433,Nas: Time Is Illmatic,Other,7.1
+433,Cool It,SummerVacation,7
+433,Starlet,SummerVacation,6.8
+434,New Best Friend,Easter,5.3
+434,Perestroika,Easter,4.4
+434,John Dies at the End,Other,6.4
+434,Teknolust,Other,5.3
+434,Deadly Renovations,Other,2.9
+434,Exporting Raymond,Other,6.9
+434,Mutual Appreciation,SummerVacation,6.7
+434,William Eggleston in the Real World,Christmas,6.4
+435,Keep on Keepin' On,Easter,7.7
+435,P.S. Your Cat Is Dead!,Other,5.4
+435,Crazy Wisdom: The Life & Times of Chogyam Trungpa Rinpoche,Christmas,7.3
+435,I Am a Sex Addict,Easter,6
+435,Pray the Devil Back to Hell,SummerVacation,7.7
+435,Long Strange Trip - The Untold Story of The Grateful Dead,SummerVacation,8.3
+436,Tell Them Who You Are,SummerVacation,7.1
+436,Beyond Vanilla,Other,5.4
+436,Sinbad: The Fifth Voyage,Other,5.6
+436,Gotta Dance,Easter,7.6
+436,Piercing,Other,5.6
+436,Complete Unknown,SummerVacation,5.4
+437,What They Had,Christmas,6.6
+437,As Good as Dead,Other,5.2
+437,Coyote County Loser,Other,6.2
+437,The Vault,Other,4.8
+437,Computer Chess,Christmas,6.3
+437,Straight-Jacket,Easter,6.6
+437,12 and Holding,SummerVacation,7.5
+437,Trial by Fire,SummerVacation,6.8
+437,Death of a Dynasty,SummerVacation,3.6
+438,Believe in Me,Other,7.1
+438,Donnie Darko,Other,8
+438,Inhale,Other,6.6
+438,Lana's Rain,Other,6.5
+438,"Me & You, Us, Forever",Other,3.8
+438,Sir! No Sir!,Other,7.7
+438,The Big Gay Musical,SummerVacation,6.4
+438,A Band Called Death,SummerVacation,7.5
+438,Ballet 422,Easter,6.2
+439,Winter Passing,SummerVacation,6.3
+439,Europa Report,SummerVacation,6.4
+439,Hatchet,Easter,5.7
+439,Save Me,Other,6.7
+440,Framing John DeLorean,SummerVacation,6.4
+440,Death in Love,SummerVacation,4.8
+440,Luster,Easter,5.5
+440,Citizen Jane: Battle for the City,Easter,7
+440,David and Goliath,Easter,4.3
+440,The Lottery,SummerVacation,7
+440,Spinning Plates,Other,7.1
+441,American Storytellers,Easter,7.7
+441,Final: The Rapture,Other,5.7
+441,Time Out of Mind,Other,5.7
+441,The Harimaya Bridge,SummerVacation,6.4
+441,Weather Girl,SummerVacation,5.8
+441,Slaughter Creek,Easter,3.1
+441,Monsters and Men,Other,5.7
+441,Kids for Cash,SummerVacation,7.1
+442,Downloading Nancy,SummerVacation,5.8
+442,Humboldt County,Other,6.4
+442,Gore Vidal: The United States of Amnesia,Other,7.7
+442,Tom Dowd & the Language of Music,Other,8.3
+442,Merchants of Doubt,Christmas,7.7
+442,The Other Dream Team,Other,8.4
+442,The Real Dirt on Farmer John,Other,7.4
+443,What Would Jesus Buy?,Christmas,6.4
+443,White Girl,Christmas,5.7
+443,Coherence,SummerVacation,7.2
+443,The Year of the Yao,SummerVacation,7.3
+443,The Guys,Christmas,6.4
+443,Tying the Knot,SummerVacation,7
+443,Spark: A Burning Man Story,SummerVacation,6.2
+443,Al Franken: God Spoke,Easter,6.4
+443,Patti Smith: Dream of Life,Easter,7.2
+443,God of Vampires,SummerVacation,4
+443,David Lynch: The Art Life,Easter,7.2
+444,Dirty Love,SummerVacation,3.6
+444,I Want Someone to Eat Cheese With,Easter,6.1
+444,Fireflies in the Garden,SummerVacation,6.5
+444,Mini's First Time,SummerVacation,5.8
+444,I Do... Until I Don't,Other,4.6
+444,Walt & El Grupo,Easter,6.3
+444,Who Will Write Our History,SummerVacation,7.5
+444,Gimme the Loot,Other,6.6
+444,Kumar<U+00C3><U+00A9>,Easter,7.5
+445,The Journey,SummerVacation,7.1
+445,Ballast,Other,6.9
+445,If I Die Tonight,Other,6.5
+445,Puffs: Filmed Live Off Broadway,SummerVacation,8.7
+446,Cover,Other,5.4
+446,Absolute Wilson,Other,7
+446,Liars Club,Christmas,6.7
+446,Justice,SummerVacation,6.4
+446,Garmento,Easter,6.2
+446,A Wink and a Smile,SummerVacation,7
+446,How to Survive a Plague,Christmas,7.6
+446,Cropsey,Easter,6.3
+447,Public Speaking,Christmas,7.7
+447,Fay Grim,Other,6.2
+447,Vigilante Diaries,SummerVacation,6.3
+447,Red Doors,Other,6.4
+447,Stonewall,Other,5.2
+447,Redwood Highway,Easter,6.4
+447,Ain't in It for My Health: A Film About Levon Helm,Easter,7.2
+447,Scotty and the Secret History of Hollywood,SummerVacation,6.6
+448,The Open Road,SummerVacation,5.4
+448,Hidden in Plain Sight,SummerVacation,6.5
+448,Deal,SummerVacation,5.4
+448,Music Within,Other,7.3
+448,28 Hotel Rooms,Christmas,5.8
+448,The Last Five Years,Other,5.9
+449,Going Shopping,Other,4.7
+449,Ping Pong Playa,Other,5.9
+449,The Gospel According to Andr<U+00C3><U+00A9>,SummerVacation,6.3
+449,The Human Experience,SummerVacation,7.1
+449,The Man in 3B,Christmas,5.1
+449,Una noche,Other,6.7
+450,Violet & Daisy,SummerVacation,6.1
+450,Crazy as Hell,Other,5.9
+450,Finding Amanda,Easter,5.5
+450,After Freedom,SummerVacation,6.6
+450,Severed Ways: The Norse Discovery of America,SummerVacation,4.6
+450,The Wind,Easter,5.5
+450,The Fits,Other,6.7
+451,Blessed Is the Match: The Life and Death of Hannah Senesh,Other,7
+451,Smiley Face,Other,5.8
+451,America the Beautiful,Easter,6.9
+451,Down to the Bone,Easter,6.7
+451,GasLand,Other,7.7
+451,Dean,SummerVacation,6.2
+451,America: Freedom to Fascism,SummerVacation,8
+451,Bettie Page Reveals All,Christmas,7.1
+451,Escape Fire: The Fight to Rescue American Healthcare,Other,7.3
+451,Mister America,Other,6.6
+452,The Zodiac,SummerVacation,5.4
+452,Showboy,SummerVacation,5.1
+452,Limelight,Easter,6.7
+452,An Unreasonable Man,Other,7.9
+452,August Evening,SummerVacation,6.9
+452,Big Star: Nothing Can Hurt Me,Easter,7
+452,Naked Fame,SummerVacation,5.1
+452,Gook,Other,7
+452,Between Love & Goodbye,Other,5.7
+453,Band Aid,SummerVacation,6.6
+453,Knights of Badassdom,SummerVacation,5.6
+453,Love and a Bullet,SummerVacation,5.1
+453,Hollywood Dreams,SummerVacation,4.2
+453,Dare,SummerVacation,5.8
+453,The Magic of Belle Isle,SummerVacation,7
+453,Color of the Cross,Christmas,2.9
+453,We the Animals,SummerVacation,6.9
+453,Shoot Down,Easter,5.7
+453,Crime After Crime,SummerVacation,7.6
+453,The Investigator,Other,5.3
+454,Boulevard,SummerVacation,5.8
+454,Women in Trouble,SummerVacation,5.7
+454,Cartas a Elena,Easter,5.9
+454,A Four Letter Word,Easter,5.4
+454,Crown Heights,SummerVacation,6.5
+454,Putty Hill,Other,5.9
+454,Hell House,Easter,6.8
+455,Mozart and the Whale,Other,6.9
+455,Carter High,Other,5.1
+455,Fabled,SummerVacation,5.2
+455,"Sex, Politics & Cocktails",SummerVacation,4.1
+455,The Missing Person,Christmas,6.1
+455,Cowgirls 'n Angels,SummerVacation,6.1
+455,The Witness,SummerVacation,7
+455,Ca$h,Easter,6
+455,Shotgun Stories,Easter,7.2
+455,Body of War,Other,7.8
+455,American Satan,Other,5.5
+456,Holly,Other,6.8
+456,William S. Burroughs: A Man Within,Christmas,7.2
+456,The New Twenty,SummerVacation,5.1
+456,Night at the Golden Eagle,SummerVacation,5.9
+457,The Anarchist Cookbook,SummerVacation,5.1
+457,God the Father,Other,6
+457,Experimenter,Other,6.6
+457,Adventures of Power,Other,5.9
+457,Eva Hesse,Easter,7
+457,Drivers Wanted,SummerVacation,6.9
+457,Chooch,Easter,4
+457,The Business of Being Born,Other,7.4
+457,Farmageddon,SummerVacation,7.1
+457,The United States of Autism,Easter,6.3
+457,City of Ghosts,SummerVacation,7.4
+458,One Track Heart: The Story of Krishna Das,SummerVacation,6.6
+458,The Slaughter Rule,Other,6
+458,Suits on the Loose,Other,5.4
+458,Vulgar,Easter,5.3
+458,Take Out,Other,7
+458,Burn,Easter,7.5
+459,Be Natural: The Untold Story of Alice Guy-Blach<U+00C3><U+00A9>,Christmas,7.5
+459,The Legend of Leigh Bowery,SummerVacation,7.4
+459,WMD: Weapons of Mass Deception,SummerVacation,7.7
+459,Dark Matter,Easter,6
+459,Finding Joe,Other,6.7
+459,Unconscious,SummerVacation,6.6
+459,Home,SummerVacation,5.7
+459,Rich Hill,SummerVacation,7.2
+460,Gypsy 83,SummerVacation,6.9
+460,Take Every Wave: The Life of Laird Hamilton,Easter,7.3
+460,April Showers,Easter,5.8
+460,Manfast,Easter,3.5
+460,The Overnighters,Other,7.4
+460,Last Dance,SummerVacation,7.4
+460,Happy Valley,Easter,6.3
+461,Splinterheads,Other,5.9
+461,ShowBusiness: The Road to Broadway,Easter,7.9
+461,The Obama Effect,SummerVacation,1.8
+461,Pipe Dream,Christmas,5.9
+461,Allah Made Me Funny: Live in Concert,Other,5.7
+461,Snowmen,Christmas,6.1
+462,Tennessee,Easter,5.5
+462,Please Stand By,Other,6.7
+462,Camera Obscura,Other,4.2
+462,The Perfect Family,Easter,5.7
+462,Chocolate City,SummerVacation,3.9
+462,My Brother,Easter,5.6
+462,Slutty Summer,SummerVacation,5
+463,Marjorie Prime,Other,6.3
+463,Vajra Sky Over Tibet,Other,7.3
+463,A Foreign Affair,Other,6
+463,Blue Caprice,SummerVacation,6
+463,Expired,SummerVacation,6.1
+463,The Other F Word,Christmas,7.3
+463,Kicks,Other,6.4
+464,Poster Boy,SummerVacation,6.1
+464,Lambert & Stamp,Easter,6.5
+464,The Oath,Other,5.3
+464,Chelsea on the Rocks,Easter,6
+464,Bigger Than the Sky,Other,5.9
+464,Michael Moore in TrumpLand,Other,5.6
+465,Aurora Borealis,Easter,6.7
+465,Dallas 362,SummerVacation,6.2
+465,King's Faith,Easter,6.4
+465,The Education of Charlie Banks,Easter,6.6
+465,Superstar in a Housedress,SummerVacation,7.6
+465,Lansdown,Easter,3.5
+465,Brake,SummerVacation,6.1
+465,An Honest Liar,Christmas,7.5
+465,Manito,Other,6.7
+465,Cherry,SummerVacation,6.8
+465,Bloodline,SummerVacation,5.8
+465,Ivory Tower,SummerVacation,7
+465,Big Sonia,Christmas,7.5
+466,Hardflip,SummerVacation,5.5
+466,Touched with Fire,SummerVacation,6.2
+466,Nola,SummerVacation,5.3
+466,Lila & Eve,SummerVacation,5.8
+466,Somebody Up There Likes Me,Easter,5.8
+466,Orgasm Inc.,Other,5.9
+467,Fish Without a Bicycle,Other,3.8
+467,Vamps,Christmas,5.1
+467,The List,Easter,3.9
+467,People Places Things,SummerVacation,6.9
+467,Jewtopia,Christmas,4.4
+467,Nobody,Other,6.8
+467,Voices in Wartime,Easter,6.8
+467,Beautiful Losers,SummerVacation,7.1
+467,Korengal,Christmas,6.8
+467,Krisha,Easter,7.2
+468,A Plumm Summer,Other,6
+468,Carmen and Geoffrey,Other,7.7
+468,All Things Must Pass: The Rise and Fall of Tower Records,Other,7.3
+468,Acts of Worship,Other,6.2
+468,Ahead of Time: The Extraordinary Journey of Ruth Gruber,Other,7.9
+468,The Brink,Easter,6
+468,Ceremony,SummerVacation,5.5
+468,Man Push Cart,SummerVacation,7
+468,War Dance,Christmas,7.8
+468,The Last Dispatch,SummerVacation,7.8
+468,The First Time,Other,6.8
+469,That Man: Peter Berlin,Easter,6.8
+469,The Hottest State,Easter,6.1
+469,Spoken Word,Easter,6.5
+469,Christmas Eve,Christmas,5
+469,Sherman's Way,Easter,5.4
+469,Maestro,Other,7.4
+469,Alabama Moon,Easter,6.5
+469,The Bad Batch,SummerVacation,5.3
+470,Crop Circles: Quest for Truth,SummerVacation,7
+470,Eat This New York,Other,6.9
+470,The Elephant King,Other,6.3
+470,Kalamazoo?,Easter,4.9
+470,Hating Breitbart,Other,6.9
+470,Zero Day,Other,7.2
+471,Brotherhood,Christmas,6.4
+471,Suspended Animation,Christmas,5.3
+471,The Mesmerist,Easter,5.2
+471,The Nines,Christmas,6.3
+471,Hell and Back,Other,5.4
+471,Ex Libris: New York Public Library,Christmas,7.4
+471,Flower,Easter,6
+471,Plagues and Pleasures on the Salton Sea,Other,7.4
+471,The Art of Being Straight,SummerVacation,4.9
+472,What We Do Is Secret,SummerVacation,6.4
+472,Jane and Emma,Other,5.9
+472,"Connected: An Autoblogography About Love, Death & Technology",Other,5.7
+473,Love in the Time of Money,Other,5.3
+473,Jayne Mansfield's Car,SummerVacation,6.3
+473,Charlie Says,SummerVacation,5.7
+473,Sex Positive,Easter,6.4
+473,Living in Emergency,Christmas,8
+473,Pump,Other,7.7
+473,The Woodmans,Other,7
+474,The Scoundrel's Wife,Easter,6
+474,Every Day,Easter,5.7
+474,Revolution #9,Easter,6.9
+474,180<U+00C2>¡ã South,Other,7.6
+474,Frankie and Johnny Are Married,Christmas,5.8
+474,The Strange Case of Dr. Jekyll and Mr. Hyde,Other,3.6
+474,The Reception,Easter,5.8
+474,Concussion,Christmas,5.6
+474,One Peace at a Time,Easter,7.3
+474,The Principle,Other,5.5
+475,"Milwaukee, Minnesota",Christmas,6.3
+475,Who Is Harry Nilsson (And Why Is Everybody Talkin' About Him?),Other,7.6
+475,Peter and Vandy,Other,6.3
+475,David & Layla,Other,5.4
+475,Saint Judy,Easter,5.8
+475,On the Ice,Christmas,6.3
+476,Controlled Chaos,Other,7.2
+476,Shanghai Red,Easter,5.9
+476,The Motel,Other,6.7
+476,Songs My Brothers Taught Me,Other,6.8
+476,Orwell Rolls in His Grave,Christmas,8
+476,Hateship Loveship,SummerVacation,6.1
+476,The Invisible War,Other,7.6
+476,Whose Streets?,SummerVacation,4.9
+477,In My Sleep,Easter,5.5
+477,Looking for Palladin,Other,5.5
+477,Pursuit of Happiness,Other,5.7
+477,"Surfer, Dude",Other,4.7
+477,Jimmy Carter Man from Plains,SummerVacation,7.1
+477,Yellow Day,Christmas,6.5
+477,Alien Abduction,SummerVacation,4.9
+477,Runaway Slave,Other,6.8
+478,4:44 Last Day on Earth,Christmas,4.6
+478,Mapplethorpe,Other,6.1
+478,Score: A Film Music Documentary,Other,7.5
+478,The Dogwalker,Easter,6.9
+478,12 O'Clock Boys,Other,6.4
+478,Darfur Now,Christmas,6.8
+478,Gunnin' for That #1 Spot,Other,6.4
+478,Cop Car,SummerVacation,6.3
+479,Loopers: The Caddie's Long Walk,SummerVacation,7.5
+479,Even Money,Christmas,5.9
+479,Bereavement,SummerVacation,5.1
+479,Lbs.,Easter,6.8
+479,Group,SummerVacation,6.2
+479,An Inconsistent Truth,Other,5.7
+479,Miss Sharon Jones!,SummerVacation,7.3
+479,After Tiller,Other,7.5
+479,V/H/S Viral,Other,4.2
+480,Multiple Sarcasms,Easter,4.9
+480,An Oversimplification of Her Beauty,Easter,6.3
+480,Bel Canto,Other,5.4
+480,Arranged,Other,7.3
+480,Water & Power,SummerVacation,6.2
+480,Buddha Heads,SummerVacation,4.3
+480,Afterschool,Other,6.1
+480,The Lumber Baron,SummerVacation,6
+481,Home Room,Easter,7.2
+481,Side by Side,SummerVacation,7.6
+481,Puccini for Beginners,Other,6
+481,Night of Henna,Easter,6.2
+481,Camp X-Ray,Other,6.9
+481,As I Lay Dying,Other,5.4
+481,The River Within,Other,5.4
+481,Ciao,Easter,6.6
+481,Champion,SummerVacation,5.8
+481,Remember the Goal,SummerVacation,5.8
+481,Suicide the Ripple Effect,Easter,7.4
+482,Down for Life,SummerVacation,6.3
+482,Sing Your Song,Easter,7.4
+482,A Ballerina's Tale,Other,6.4
+482,"Vendetta: No Conscience, No Mercy",SummerVacation,4.8
+482,Fort McCoy,SummerVacation,5.9
+482,Until Forever,Christmas,6.3
+482,ECCO,SummerVacation,5
+483,Go for Sisters,Easter,6.3
+483,Kurt Cobain About a Son,Other,7.4
+483,The Janky Promoters,Other,5.1
+483,Valley of Bones,Other,4.1
+483,The Myth of the American Sleepover,Easter,6.3
+483,Box Elder,Easter,6.8
+483,Victor,Easter,6.6
+483,Every Secret Thing,Easter,6.1
+484,The First $20 Million Is Always the Hardest,Other,5.6
+484,One Bright Shining Moment,Other,7.6
+484,High Times Potluck,Other,4.6
+484,The Exploding Girl,SummerVacation,6.3
+484,Caged No More,Other,5.4
+484,Faster,Easter,7.8
+484,Blind Date,Other,5.9
+484,King Corn,Easter,7
+484,Hell and Back Again,Other,6.5
+485,The Details,Easter,6.1
+485,Undoing,Christmas,4.2
+485,Tortilla Heaven,Other,5.3
+485,Winter of Frozen Dreams,Easter,4.6
+485,Perfect Opposites,Easter,5.5
+485,Addiction Incorporated,Other,7.1
+485,Whitey: United States of America v. James J. Bulger,SummerVacation,6.8
+486,Walking Out,Other,5.8
+486,Mr. Untouchable,Other,6.6
+486,Pandora's Promise,Christmas,7.4
+486,Jersey Guy,Easter,5
+486,Ashby,Other,6.4
+486,Grace,Christmas,5.1
+486,People Say I'm Crazy,Easter,7.9
+486,Behind the Burly Q,Easter,6.7
+486,Louder Than a Bomb,Easter,7.4
+486,Zero Days,SummerVacation,7.8
+487,Islander,SummerVacation,6.5
+487,Yonkers Joe,Other,6.4
+487,Cameraperson,Other,7.4
+487,Harry + Max,Other,5.5
+487,Melvin Goes to Dinner,Christmas,6.9
+487,A Letter to True,SummerVacation,6.5
+487,Eating Out 2: Sloppy Seconds,SummerVacation,6.2
+487,Do I Sound Gay?,SummerVacation,5.6
+487,The Babysitters,SummerVacation,5.6
+488,Off the Lip,SummerVacation,5.3
+488,Backwards,Other,5.6
+488,Ordinary Sinner,Other,5.3
+488,A Tale of Two Pizzas,Christmas,5.8
+488,All Roads Lead Home,Other,5.8
+488,Loren Cass,SummerVacation,5.2
+488,Return with Honor: A Missionary Homecoming,Other,4.8
+489,Happy Tears,Other,5.2
+489,Reeseville,Easter,5.1
+489,Spinning Into Butter,Easter,4.2
+489,Up for Grabs,SummerVacation,7.4
+489,Let the Fire Burn,Other,7.8
+489,Best Worst Thing That Ever Could Have Happened...,Other,7.7
+489,Kinyarwanda,Other,6.7
+490,The 24th Day,SummerVacation,6.5
+490,Digging for Fire,SummerVacation,5.8
+490,Duane Hopwood,Other,6.6
+490,I Sell the Dead,Other,6.1
+490,Dr. Benny,SummerVacation,6.8
+490,Revolution OS,Other,7.3
+490,Been Rich All My Life,Other,8.4
+490,Gregory Crewdson: Brief Encounters,Other,7.4
+490,When Harry Tries to Marry,Easter,4.6
+490,The Last Dalai Lama?,SummerVacation,7.4
+491,Can Mr. Smith Get to Washington Anymore?,Christmas,7.4
+491,Reunion,Easter,4.4
+491,Looking Through Lillian,SummerVacation,5.2
+491,Gory Gory Hallelujah,Christmas,4.1
+491,Beautiful Darling,Easter,7.3
+492,Road Hard,Easter,6.1
+492,Daltry Calhoun,Other,5.1
+492,Swimmers,Other,6.5
+492,Crutch,Other,5.3
+492,Damsel,SummerVacation,5.5
+492,Journeys with George,Easter,6.8
+492,Playback,Easter,4.2
+492,Ms. Purple,Other,6.1
+492,The Better Angels,Christmas,6.1
+492,Eleven Minutes,Easter,6.6
+492,Making the Boys,Easter,6.9
+493,American Teacher,Other,6.7
+493,American Gun,Easter,6.1
+493,The Last Winter,Other,5.6
+493,Armstrong,SummerVacation,6.8
+493,1915,Easter,4.3
+493,Toe to Toe,Other,5.2
+494,Fast Color,Easter,5.8
+494,Take Me to the River,SummerVacation,6.8
+494,All Babes Want to Kill Me,SummerVacation,4
+494,Ash Wednesday,Easter,5.9
+494,Natural Selection,Easter,6.5
+494,Douchebag,Other,6.2
+494,Pretty Ugly People,Easter,5
+494,It's a Disaster,SummerVacation,6.4
+494,Freestyle: The Art of Rhyme,Easter,7.6
+494,The Dhamma Brothers,Easter,7.6
+494,Puerto Ricans in Paris,SummerVacation,5.3
+495,Loverboy,Easter,5.4
+495,Spin,Other,6.3
+495,Adrift in Manhattan,SummerVacation,5.5
+495,"Love, Antosha",SummerVacation,8.1
+495,The Work and the Story,SummerVacation,5.7
+495,Good Dick,Other,6.4
+495,The Bride & The Grooms,Easter,7
+495,The Korean,SummerVacation,3.2
+496,The Dust Factory,SummerVacation,6
+496,Pete Seeger: The Power of Song,Easter,8.3
+496,Adult Beginners,Easter,5.6
+496,A Beautiful Soul,SummerVacation,6.4
+496,Girl Play,SummerVacation,4.5
+496,The Trials of Muhammad Ali,SummerVacation,7.4
+496,The Backyard,SummerVacation,6.7
+496,"Hey, Boo: Harper Lee and 'To Kill a Mockingbird'",SummerVacation,7.5
+496,Tragedy Girls,Other,6
+496,Through a Lens Darkly: Black Photographers and the Emergence of a People,Other,6.8
+497,He Was a Quiet Man,Christmas,6.8
+497,Zig Zag,SummerVacation,6
+497,Big Ain't Bad,Easter,5.5
+497,5B,SummerVacation,6.2
+497,Gogol Bordello Non-Stop,Other,7.5
+498,The Treatment,Easter,5.8
+498,The Trial,Other,5.5
+498,White Irish Drinkers,Easter,6.8
+498,Occupy Unmasked,Other,5.2
+498,Close Call,Easter,4.1
+498,Standing Still,SummerVacation,5.7
+498,"We Love You, Sally Carmichael!",SummerVacation,6
+498,Hell's Highway: The True Story of Highway Safety Films,SummerVacation,6.9
+498,One More Round,Other,6.2
+498,Terms and Conditions May Apply,SummerVacation,7.3
+499,Enemies of Laughter,Christmas,5.2
+499,Familiar Strangers,Easter,5.5
+499,Rick,Easter,6.1
+499,Results,SummerVacation,5.4
+499,The 4th Tenor,Christmas,5.2
+499,The Good Doctor,SummerVacation,5.5
+499,C.O.G.,Other,5.6
+499,Greener Grass,Other,6.3
+499,Abacus: Small Enough to Jail,SummerVacation,7.2
+500,Intoxicating,Other,4.7
+500,Finding Home,Easter,5.6
+500,Cat Run,Easter,5.6
+500,Kill Me Three Times,Easter,5.9
+500,The People I've Slept With,Christmas,4.8
+500,The Ministers,Other,4.5
+500,Air Guitar Nation,Other,7.1
+500,The Fight Within,SummerVacation,5.7
+501,The Fitzgerald Family Christmas,Christmas,6.2
+501,Kiss the Bride,SummerVacation,5.6
+501,Decoding Annie Parker,SummerVacation,6.2
+501,Wash Dry and Spin Out,SummerVacation,5.3
+501,Corked,SummerVacation,6.8
+501,Line of Duty,Other,5.1
+501,Evidence of a Haunting,Other,2.7
+502,Great Directors,Other,6.4
+502,Redemption Road,Easter,5.7
+502,Some Body,Other,6.5
+502,Independent Spirits: Faith Hubley/John Hubley,Christmas,0
+502,The Trouble with Terkel,SummerVacation,7
+502,Man from Reno,Easter,6.7
+502,Frontera,SummerVacation,6.6
+502,The Heart Is Deceitful Above All Things,Other,6.5
+502,Other People,Other,6.7
+502,MC5*: A True Testimonial,Easter,8
+502,Rising from Ashes,Other,7.5
+502,Being Frank,SummerVacation,5.8
+502,The Pleasure of Being Robbed,Other,5.9
+503,Eye of the Dolphin,SummerVacation,5.7
+503,Cheap Thrills,Easter,6.7
+503,Mind the Gap,Easter,7.1
+503,The Ballad of Bering Strait,Other,7.6
+503,L!fe Happens,Easter,5.6
+503,Death of a Ghost Hunter,Other,4.5
+503,James White,Christmas,7.1
+504,Milk and Honey,Other,6.4
+504,Mr. Smith Gets a Hustler,SummerVacation,4.7
+504,The One I Wrote for You,Christmas,5.9
+504,A Kind of Murder,Christmas,5.3
+504,Zoo,SummerVacation,5.6
+504,Best F(r)iends: Volume 1,Easter,5.4
+505,Exorcism,Easter,1.8
+505,Devil Girl,Christmas,3.7
+505,Venus and Serena,SummerVacation,6.3
+505,Behind the Mask: The Rise of Leslie Vernon,Other,6.7
+505,By Hook or by Crook,SummerVacation,5.7
+505,Living Life,Other,7.2
+505,Who Gets to Call It Art?,Other,6.9
+505,Carbon Nation,Other,6.8
+506,The Last Ride,SummerVacation,5.8
+506,A House on a Hill,Easter,6.6
+506,"Love, Cecil",SummerVacation,6.8
+506,The Mountain,SummerVacation,5.5
+506,The Freebie,Other,5.1
+506,Greedy Lying Bastards,Easter,5.7
+506,Generation Wealth,SummerVacation,6.5
+507,Ballplayer: Pelotero,SummerVacation,7.2
+507,Diggers,Easter,6.3
+507,Main Street,SummerVacation,4.7
+507,<U+00C2><U+00A1>He matado a mi marido!,Easter,6.5
+507,The Citizen,Other,7
+507,Skate Kitchen,SummerVacation,6.8
+507,Virgin,SummerVacation,5.5
+507,Twist of Faith,SummerVacation,7.2
+508,Trudell,Other,7.2
+508,Dreamkiller,Other,2.8
+508,Caesar and Otto's Summer Camp Massacre,SummerVacation,3.9
+508,But Deliver Us from Evil,Easter,2.7
+509,Making Waves: The Art of Cinematic Sound,Other,7.6
+509,Queen of Earth,SummerVacation,6.3
+509,Evil Remains,Other,4
+509,Heartbreak Hospital,Christmas,5.7
+509,Author: The JT LeRoy Story,SummerVacation,7.1
+509,Occupation: Dreamland,SummerVacation,7.2
+509,Through the Fire,Easter,7.2
+509,Frontrunners,Other,6.4
+509,GMO OMG,Other,6.5
+509,Hellion,SummerVacation,6.1
+509,The Pruitt-Igoe Myth,Other,7.5
+510,The Dukes,Christmas,6.1
+510,Fuck,Christmas,7
+510,Waiting for Forever,Other,6
+510,Legends from the Sky,Other,6.3
+510,Union Square,SummerVacation,5.1
+510,Ghetto Physics,Other,5.9
+510,Zombeavers,Easter,4.8
+510,American Made Movie,SummerVacation,5.9
+511,Blind,SummerVacation,5.8
+511,"OC87: The Obsessive Compulsive, Major Depression, Bipolar, Asperger's Movie",Other,6.3
+511,With All Deliberate Speed,SummerVacation,7.8
+511,Aristide and the Endless Revolution,SummerVacation,8.1
+511,Maxed Out,Easter,7.2
+511,Besotted,SummerVacation,5.3
+511,Don McKay,Easter,5.8
+511,Shuttle,Other,5.7
+511,Beasts of No Nation,Other,7.7
+512,The Jimmy Show,Other,5.2
+512,Low Down,Other,6.1
+512,The Canyon,Other,5.9
+512,On Broadway,Easter,6.1
+512,Paper Man,SummerVacation,6.6
+512,Science Fair,Other,7.7
+512,Bonnie & Clyde vs. Dracula,Easter,4.4
+512,"Tim Timmerman, Hope of America",Easter,5.5
+513,Diminished Capacity,SummerVacation,5.6
+513,Off the Black,Christmas,6.6
+513,The Amateurs,Easter,6.3
+513,Harvest,SummerVacation,5.3
+513,Handsome Harry,Christmas,6.1
+513,Andre Gregory: Before and After Dinner,Easter,5.8
+513,Last Call at the Oasis,SummerVacation,7.4
+513,At Middleton,Other,6.5
+513,Dina,Other,6.8
+514,King Cobra,Other,5.6
+514,Finishing the Game: The Search for a New Bruce Lee,Other,6
+514,Wake,Christmas,6.6
+514,Ping Pong Summer,SummerVacation,5.4
+514,Holla II,Easter,6.7
+514,Violet Tendencies,Easter,6.2
+514,America Betrayed,Other,7.6
+515,Tab Hunter Confidential,Other,7.7
+515,To Be Takei,SummerVacation,6.8
+515,Immigration Tango,Easter,3.5
+515,Jim,Other,5.4
+515,Language of a Broken Heart,SummerVacation,5.8
+515,Islam: What the West Needs to Know,Other,6.4
+515,Because of Gr<U+00C3><U+00A1>cia,Other,7.1
+515,Confessionsofa Ex-Doofus-ItchyFooted Mutha,SummerVacation,7.4
+516,Garden Party,SummerVacation,5.5
+516,High on the Hog,Easter,3.7
+516,Master of the Game,Christmas,7.3
+516,How to Be a Serial Killer,Christmas,5.5
+516,Solitude,Christmas,7.2
+516,After,SummerVacation,4.8
+516,The Taqwacores,Other,6
+516,Billy the Kid,Easter,7.4
+516,Heaven Knows What,SummerVacation,6.7
+517,The Last Place on Earth,Other,6.1
+517,CBGB,Other,6.6
+517,The Living Wake,SummerVacation,6.4
+517,Anesthesia,Other,6.1
+517,Ranchero,SummerVacation,5.4
+517,The Comedy,Other,6.5
+518,Fat Kid Rules the World,Easter,6.4
+518,Love Object,Other,6.3
+518,The Objective,Easter,5.5
+518,The Final Year,Other,6.3
+518,The Retrieval,Easter,6.6
+518,The Short Game,Other,7.4
+519,Sue<U+00C3>¡Ào,SummerVacation,5.2
+519,The Dry Land,Other,5.6
+519,The Discoverers,SummerVacation,5.6
+519,Giuliani Time,SummerVacation,6.5
+519,The Girl in the Book,Christmas,6.1
+520,Transformation: The Life and Legacy of Werner Erhard,Easter,6.7
+520,Particles of Truth,SummerVacation,6.8
+520,How to Make Money Selling Drugs,Christmas,7.6
+520,Nasty Baby,Other,5.6
+520,The Roost,Other,4.9
+520,NOW: In the Wings on a World Stage,SummerVacation,7.2
+520,The FP,Easter,5.5
+520,So Much So Fast,Other,7.5
+521,Quattro Noza,Other,2.6
+521,After the Cup: Sons of Sakhnin United,Easter,6.9
+521,I Used to Be Darker,Christmas,5.6
+522,All's Faire in Love,Other,5
+522,Trying to Get Good: The Jazz Odyssey of Jack Sheldon,Easter,8
+522,Chapter & Verse,Other,6.3
+522,Blackbird,SummerVacation,5.5
+522,Children of Invention,Other,6.4
+522,Lucky Them,Easter,6.1
+522,Do Not Resist,Other,7
+522,Herb & Dorothy 50X50,Other,5.9
+523,Paul Williams Still Alive,Easter,6.9
+523,Harold and Lillian: A Hollywood Love Story,SummerVacation,7.9
+523,Raiders!: The Story of the Greatest Fan Film Ever Made,SummerVacation,6.9
+523,Alice Neel,SummerVacation,7.5
+523,The Internet's Own Boy: The Story of Aaron Swartz,SummerVacation,8.1
+523,Union,SummerVacation,3.8
+524,Bill Nye: Science Guy,Easter,6
+524,The Hillside Strangler,Christmas,5.3
+524,A Birder's Guide to Everything,Easter,6.3
+524,Answers to Nothing,Other,5.1
+524,The Congressman,Easter,6.3
+524,Isn't This a Time! A Tribute Concert for Harold Leventhal,SummerVacation,9.2
+524,The Situation,Other,6.3
+524,Death by China,SummerVacation,5.3
+525,Wait for Your Laugh,Christmas,8.3
+525,Sacred Stage: The Mariinsky Theater,Other,8.8
+525,American Mustang,Other,7.3
+526,Waiting for Armageddon,Other,6.4
+526,Monogamy,Easter,5
+526,Hit So Hard,Christmas,6.9
+526,Big Sur,Christmas,5.8
+526,This Divided State,SummerVacation,7.3
+526,Vengeance: A Love Story,Other,5.2
+526,Batkid Begins: The Wish Heard Around the World,SummerVacation,6.8
+527,The Hip Hop Project,Easter,5.7
+527,The Painting,Other,6.1
+527,Te Ata,Other,6.6
+527,The Keeping Room,Other,6
+527,Mansome,Christmas,5.4
+527,Savannah,Easter,5.8
+527,Circle,Other,3.3
+527,Saints and Sinners,SummerVacation,5.8
+527,Resurrect Dead: The Mystery of the Toynbee Tiles,SummerVacation,7.3
+528,Loosies,Christmas,6.2
+528,Noise,Christmas,6.2
+528,Randy and the Mob,Other,5.9
+528,The Ground Truth,Other,7.5
+528,Buster's Mal Heart,SummerVacation,6.1
+529,Dark Streets,SummerVacation,4.5
+529,The Helix... Loaded,Easter,2.1
+529,Skateland,SummerVacation,5.7
+529,Touchy Feely,SummerVacation,5.3
+529,A Master Builder,SummerVacation,5.9
+529,Wildflower,Easter,5.2
+529,Favela Rising,Easter,7.2
+530,Turn It Around: The Story of East Bay Punk,SummerVacation,7.9
+530,Far Out Isn't Far Enough: The Tomi Ungerer Story,Christmas,7.8
+530,Happy Here and Now,SummerVacation,5
+530,Holding Trevor,SummerVacation,5.5
+530,Memory: The Origins of Alien,Other,6.7
+531,I Love Your Work,Christmas,5.3
+531,Comic-Con Episode IV: A Fan's Hope,Christmas,7
+531,Wonderful World,Easter,6.1
+531,Day Zero,Easter,5.9
+531,Freaks of Nature,Other,5.9
+531,The Greasy Strangler,Other,5.7
+531,My Entire High School Sinking Into the Sea,Other,6.1
+531,Suicide Killers,SummerVacation,6.3
+532,Max Rose,Other,6.2
+532,Cruel World,Other,3.9
+532,Sex Sells: The Making of 'Touch<U+00C3><U+00A9>',Other,4.8
+532,Orchestra of Exiles,Christmas,6.8
+532,Underdogs,Easter,5.8
+532,Return to the Hiding Place,SummerVacation,4.8
+532,Moving McAllister,Other,5.3
+533,Moog,Other,6.3
+533,Oka!,Other,5.6
+533,Nowhere Man,Easter,3.7
+533,All About Evil,SummerVacation,6.1
+533,The Death of Dick Long,Other,6.3
+533,Colma: The Musical,Easter,6.4
+533,The Girl,Christmas,6.2
+534,I Am Big Bird: The Caroll Spinney Story,SummerVacation,7.4
+534,Stolen,Other,6.1
+534,Film Geek,Other,6.1
+534,Canvas,Christmas,6.6
+534,Studio 54,Other,6.9
+534,There's No Place Like Utopia,SummerVacation,5.8
+534,District of Corruption,Other,3.4
+534,Architects of Denial,Other,7.9
+535,Bert Stern: Original Madman,SummerVacation,6.7
+535,Cook County,Christmas,6.7
+535,Yiddish Theater: A Love Story,SummerVacation,7.8
+535,Musical Chairs,Other,4.7
+535,The Dog,SummerVacation,6.5
+535,Ever Again,Christmas,6.1
+535,Trapped,Other,7
+536,Stolen Childhoods,SummerVacation,6.8
+536,April's Shower,SummerVacation,4.9
+536,Zenith,Other,6.7
+536,Cthulhu,Christmas,4.6
+536,Creative Control,Easter,5.4
+536,Running from Crazy,Other,6.4
+536,Life of a King,SummerVacation,6.9
+536,Killer Unicorn,SummerVacation,2.8
+537,Dislecksia: The Movie,Easter,8.2
+537,Tales from the Script,Other,7.1
+537,Three Days of Rain,SummerVacation,5.5
+537,Archie's Final Project,Other,7.2
+537,If You Build It,Easter,7.2
+537,Donald Cried,Easter,6.5
+538,I Melt with You,SummerVacation,6
+538,Moondance Alexander,Other,6.3
+538,The Outcasts,Easter,5.5
+538,In a Valley of Violence,Other,6
+538,An Acceptable Loss,Other,5
+539,Hide Away,Other,5.7
+539,Interior. Leather Bar.,Other,5.1
+539,10E,Other,7
+539,Side Effects,Other,4.9
+539,I Smile Back,Christmas,6.1
+540,Drunk Stoned Brilliant Dead: The Story of the National Lampoon,Other,7.2
+540,Military Intelligence and You!,Other,6.1
+540,Happiness Runs,SummerVacation,4.9
+540,Teenage,Easter,6.5
+540,Risk/Reward,Easter,7.7
+540,Dark Money,SummerVacation,7
+541,Raising Flagg,Easter,5.4
+541,Swing,Other,5.5
+541,Getting Grace,Other,7.3
+541,Child of God,SummerVacation,5.5
+541,Desolation Center,Other,7.1
+541,Logan,Other,6
+542,Full Grown Men,Easter,4.9
+542,Misconceptions,Other,4.5
+542,Peep World,Easter,5.6
+543,Adult World,Other,6.1
+543,Command and Control,Easter,7.3
+543,Finding Bliss,Christmas,5.3
+543,Motocross Kids,Other,3.9
+543,Day Night Day Night,Easter,6.2
+543,Dead Man's Burden,SummerVacation,5.5
+544,The Architect,Easter,5.5
+544,Least Among Saints,Other,6.5
+544,Fighting Words,Easter,4.7
+544,Sold,Easter,6.8
+544,Making Grace,SummerVacation,5.3
+544,Entertainment,Christmas,5.6
+544,Not Cool,Other,4.3
+545,Sympathy for Delicious,Easter,5.8
+545,Harold,SummerVacation,5.5
+545,Who the #$&% Is Jackson Pollock?,Christmas,7
+545,Saving Brinton,SummerVacation,7.7
+546,Keep the Change,Easter,6.3
+546,Marathon,Easter,6.3
+546,One Last Thing...,SummerVacation,6.6
+546,Dream Boy,Christmas,6.2
+546,Your Mommy Kills Animals!,SummerVacation,6.5
+546,Under the Boardwalk: The Monopoly Story,Other,6.2
+547,Bloodworth,SummerVacation,6.1
+547,Plush,Other,5.3
+547,Lake City,Easter,5.9
+547,Watercolors,Christmas,6.4
+547,Itty Bitty Titty Committee,Other,5.5
+547,Monumental: David Brower's Fight for Wild America,SummerVacation,8
+548,Rockets Redglare!,Other,7.5
+548,America the Beautiful 2: The Thin Commandments,Other,6.7
+548,August,Other,5.3
+548,Gemini,Easter,5.4
+548,Struck by Lightning,Other,6.3
+548,Nobody Walks,Other,5.3
+548,I Trust You to Kill Me,Easter,7.4
+548,Beneath the Harvest Sky,Easter,6.2
+549,Local Color,SummerVacation,6.9
+549,This Ain't No Mouse Music,Other,7.3
+549,Simon Killer,Easter,6.3
+549,Christmas at Maxwell's,Christmas,5.7
+549,BearCity,SummerVacation,6
+549,Rebirth,SummerVacation,7.1
+550,The Day,Other,5.2
+550,Backseat,Easter,6.9
+550,Madeline's Madeline,SummerVacation,6.4
+550,Back Door Channels: The Price of Peace,Other,7.4
+550,Spooky House,Easter,5.2
+550,The Cat Rescuers,SummerVacation,7.6
+551,Spring,Easter,6.7
+551,Tiger Eyes,SummerVacation,6.3
+551,The Fall of Night,Other,5.9
+551,Rid of Me,Christmas,6.6
+551,Sacco and Vanzetti,SummerVacation,7
+551,Tickling Giants,Easter,8.3
+552,The Power of Few,Other,5.2
+552,Radio Unnameable,Easter,7.2
+552,The Comedians of Comedy,Easter,7.3
+552,Boom for Real: The Late Teenage Years of Jean-Michel Basquiat,SummerVacation,6.6
+552,Elektra Luxx,Easter,5.1
+552,Red Herring,Other,2.9
+552,It Felt Like Love,Easter,5.5
+553,Cold Comes the Night,Other,5.7
+553,The Go-Getter,Other,6.6
+553,InSight,Easter,4.9
+553,The Seven Five,SummerVacation,7.6
+553,Quest,Christmas,7.2
+554,The Hero of Color City,SummerVacation,3.9
+554,Quid Pro Quo,Other,6.2
+554,Speed-Dating,SummerVacation,2.5
+554,Person to Person,SummerVacation,5.7
+554,The Iran Job,Other,7.2
+555,Waltzing Anna,SummerVacation,5.1
+555,3 Weeks in Yerevan,SummerVacation,7.2
+555,Saving Banksy,Other,6.8
+555,Wrestle,Other,7.8
+556,So B. It,Other,6.8
+556,Harry Dean Stanton: Partly Fiction,Other,7.5
+556,Sputnik Fever,SummerVacation,7.5
+556,Live Freaky Die Freaky,SummerVacation,5
+557,Donnybrook,Other,5.3
+557,Danny Says,Other,6.7
+557,78/52: Hitchcock's Shower Scene,Other,7.3
+557,The Conrad Boys,Easter,6
+557,Dear Mr. Watterson,SummerVacation,6.4
+557,Documented,SummerVacation,6.6
+558,Carol Channing: Larger Than Life,Other,7.6
+558,River of Fundament,Other,7.2
+558,Happy Christmas,SummerVacation,5.5
+558,The Flower of Kim Jong II,SummerVacation,6.9
+558,The Land,SummerVacation,6.4
+559,Casting By,Christmas,7.6
+559,Southern Baptist Sissies,Christmas,7.2
+559,Jenny's Wedding,SummerVacation,5.5
+559,Red,Other,7
+559,Helena from the Wedding,Easter,4.6
+559,The Revisionaries,Easter,7
+560,Slipstream,Easter,4.9
+560,Shock and Awe,SummerVacation,6.1
+560,A Long Way Off,SummerVacation,4.5
+560,Murder Eleven,Other,3.9
+560,Chasing Einstein,Other,7.2
+560,...So Goes the Nation,Other,6.6
+560,Just Say Love,SummerVacation,5.5
+560,Girl Model,Other,6.5
+561,A Bird of the Air,Other,6.6
+561,In Pursuit of Silence,SummerVacation,7.2
+561,The ABCs of Death,Easter,4.7
+561,Ode to Joy,SummerVacation,6.3
+562,Steve McQueen: The Man & Le Mans,Christmas,6.8
+562,In/Significant Others,Other,6
+562,Losing Control,Easter,4.3
+562,Vito Bonafacci,SummerVacation,7.2
+562,Of Mind and Music,Other,7
+562,The Sound of Silence,Other,5.3
+563,Is That a Gun in Your Pocket?,Other,5.6
+563,Lucky,SummerVacation,5.4
+563,Always at The Carlyle,SummerVacation,6.2
+563,<U+00C3>¡ëvocateur: The Morton Downey Jr. Movie,Easter,6.8
+563,Hood of Horror,Christmas,4
+563,Woodshock,Other,4.2
+563,Tru Loved,Other,5.4
+563,Prophet's Prey,Other,7.3
+563,Better Than Something: Jay Reatard,Easter,7.6
+564,Stephanie Daley,Other,6.3
+564,Tio Papi,Other,6.1
+564,Crazy Like a Fox,Other,5.5
+564,The Homeless Billionaire,SummerVacation,5.5
+564,Round of Your Life,SummerVacation,4.1
+564,"3<U+00C2><U+00BD> Minutes, Ten Bullets",Other,7.2
+565,Waiting for Lightning,Christmas,7.3
+565,Naked Boys Singing!,Other,5.9
+565,Without the King,Easter,6.8
+565,General Magic,SummerVacation,7.4
+566,Corman's World: Exploits of a Hollywood Rebel,Other,7.6
+566,Match,Other,6.7
+566,The Clovehitch Killer,Christmas,6.5
+566,Amexicano,Easter,7
+566,Last Weekend,SummerVacation,5.5
+566,Our Nixon,Easter,6.6
+567,The Perfect Race,Other,0
+567,Wedding Palace,Other,5.6
+567,Fall to Grace,Easter,7
+567,For Ellen,Other,6
+567,The Full Picture,SummerVacation,7.8
+567,A Good Day to Be Black & Sexy,Other,4.8
+567,Lake of Fire,Other,8.2
+568,Badland,SummerVacation,6.1
+568,Sister Code,SummerVacation,4.5
+568,Bad Milo,SummerVacation,5.6
+568,Coastlines,Other,5.8
+568,Stealing America: Vote by Vote,SummerVacation,7
+568,The Highest Pass,Easter,7.1
+569,Zerophilia,Other,6.1
+569,El Superstar: The Unlikely Rise of Juan Frances,SummerVacation,6.4
+569,Far From the Tree,SummerVacation,7.5
+569,Christian Mingle,Other,4.2
+569,Hannah Takes the Stairs,SummerVacation,5.6
+569,Spa Night,Christmas,6
+569,Scandalous: The True Story of the National Enquirer,Christmas,5.5
+569,Whensday,SummerVacation,7.5
+570,Troublemakers: The Story of Land Art,Other,6.5
+570,The Afterlight,Other,7.3
+570,Kill Your Idols,Other,6.5
+570,How to Grow a Band,Easter,6.9
+570,Welcome to Leith,Christmas,7
+570,Born to Fly: Elizabeth Streb vs. Gravity,Other,6.8
+571,Grassroots,Christmas,5.3
+571,I'll Believe You,Christmas,5.6
+571,The Samuel Project,Other,8.1
+571,Special,Christmas,6.9
+571,Honeymoon,Other,5.7
+572,Emoticon ;),SummerVacation,4.7
+572,Arnolds Park,SummerVacation,4.4
+572,"Phoenix, Oregon",Easter,8
+572,Take,SummerVacation,6
+572,Bending the Arc,Other,8
+572,In Over My Head,Other,5.4
+573,And They're Off,Other,3.8
+573,Happy Valley,Christmas,7.1
+573,Tchoupitoulas,Easter,6.4
+574,The Color Wheel,SummerVacation,6.7
+574,Tanner Hall,Other,5.8
+574,loudQUIETloud: A Film About the Pixies,Other,7.2
+574,Poultrygeist: Night of the Chicken Dead,SummerVacation,6.1
+574,You Wont Miss Me,Other,4.8
+574,Joseph Pulitzer: Voice of the People,Other,6.8
+574,The Last Resort,Other,7.3
+575,Rails & Ties,Easter,6.8
+575,Sophomore,Other,6.3
+575,History of Jazz: Oxygen for the Ears,SummerVacation,8.1
+575,Chained for Life,Other,6.9
+575,Growing Up Smith,Other,6.8
+575,The Winding Stream,Easter,7.7
+576,Wish Me Away,SummerVacation,7.4
+576,Falling Awake,Other,5.9
+576,Trust Fund,SummerVacation,5
+576,Choose Connor,SummerVacation,6.3
+576,The Catechism Cataclysm,Other,5.6
+576,Kettle of Fish,Easter,5.2
+576,Great World of Sound,Easter,6.8
+576,Bad Reputation,Other,7.3
+576,Video Games: The Movie,SummerVacation,6.1
+576,Virginia Minnesota,Easter,5.5
+576,Rat Film,Other,6.7
+577,Daylight,SummerVacation,5
+577,Amira & Sam,Other,6.1
+577,Saint of 9/11,Easter,7.7
+578,"Sorry, Haters",Easter,6.2
+578,Nights and Weekends,Other,6.1
+578,Jamel Shabazz Street Photographer,SummerVacation,6.4
+578,Don Verdean,Christmas,5.4
+578,NightLights,SummerVacation,7.9
+578,How to Let Go of the World: and Love All the Things Climate Can't Change,Easter,6.9
+579,Dealin' with Idiots,SummerVacation,5.5
+579,Imaginary Witness: Hollywood and the Holocaust,Christmas,7.5
+579,"Kill Me, Deadly",Easter,7.2
+579,"Buttons, A New Musical Film",Christmas,5.6
+579,Mendy,Other,5.6
+580,The Tripper,Other,5
+580,Little Birds,Other,6.1
+580,Dave Made a Maze,SummerVacation,6.2
+580,We Go Way Back,Easter,5.6
+580,Runoff,SummerVacation,5.9
+581,Being Charlie,SummerVacation,6.3
+581,Turn the River,Other,5.9
+581,Drool,Other,5.7
+581,The Sons of Tennessee Williams,SummerVacation,5.8
+581,The History of Future Folk,SummerVacation,7.2
+581,Beyond Honor,Easter,5.7
+582,Coming Up Roses,Other,7.3
+582,Dreamland,SummerVacation,6.4
+582,God and Gays: Bridging the Gap,Easter,6.7
+582,Wasted! The Story of Food Waste,Other,7.4
+582,Balls to the Wall,Easter,3.8
+582,The Intervention,SummerVacation,6
+583,The Weird World of Blowfly,Other,6.4
+583,The Prophet's Son,Other,5.3
+583,Love & Taxes,Easter,7
+583,Tre,Easter,4.8
+583,Wrinkles the Clown,Other,4.7
+584,Pizza,SummerVacation,5.7
+584,Dirty Laundry,SummerVacation,6.2
+584,The Price of Everything,Other,7.2
+584,Return,Other,6.1
+584,Americons,Christmas,6.2
+584,Design Is One: The Vignellis,Other,7.1
+584,Super Dark Times,Other,6.6
+585,The Lie,Christmas,5
+585,Out of the Clear Blue Sky,SummerVacation,6.7
+585,Twisted: A Balloonamentary,Easter,8.1
+585,The Nightmare,SummerVacation,5.8
+585,Spettacolo,Other,7.1
+586,Say Uncle,SummerVacation,5.5
+586,Blood Ties,SummerVacation,7
+586,Solar Flare,SummerVacation,2.9
+586,A Picture of You,Other,6.3
+586,Signature Move,Other,5.6
+586,Best F(r)iends Volume Two,SummerVacation,5.1
+587,Hair High,Easter,6.8
+587,Restitution,Other,3.6
+587,"Like Sunday, Like Rain",Other,6.9
+587,The Seventh Fire,SummerVacation,6
+587,Guardian Angel,Other,7.7
+587,Where God Left His Shoes,Easter,7.2
+587,Wild Tigers I Have Known,SummerVacation,6.1
+587,Support the Girls,SummerVacation,6.4
+588,Kiss of the Damned,Easter,5.5
+588,Screwball,Easter,7.2
+588,Lamb,Other,6.3
+589,American Zombie,Easter,5
+589,Steal a Pencil for Me,Easter,7.4
+589,The Unbelievers,Christmas,6.9
+589,7 Witches,Easter,3.5
+590,What Love Is,Easter,5.3
+590,King Leopold's Ghost,SummerVacation,7.9
+590,Take Me Home,Other,6.8
+590,Dealt,Other,7.6
+590,Watchers of the Sky,Other,7.2
+590,Justice Is Mind,Other,7
+590,Who Does She Think She Is?,SummerVacation,8.1
+590,The Eyes of My Mother,Christmas,6.2
+591,California Solo,Other,6.2
+591,Rapid Response,Other,6.8
+591,A Perfect Man,Other,5.2
+591,"Hare Krishna! The Mantra, the Movement and the Swami Who Started It",Christmas,9.7
+591,Tap World,SummerVacation,7.2
+591,Now & Later,Other,5.1
+592,The Dog Wedding,Easter,8.6
+592,Off Season,Easter,5
+592,Run for Your Life,Other,7
+592,Only the Young,SummerVacation,6.5
+593,Street Fight,Easter,8
+593,Wetlands Preserved: The Story of an Activist Nightclub,Easter,7.6
+593,Time to Choose,SummerVacation,7.5
+594,Dorfman in Love,Easter,6
+594,Lemon,SummerVacation,4.6
+594,American Cannibal,SummerVacation,4.9
+594,Kung Fu Joe,Easter,1.7
+595,A Green Story,SummerVacation,5.5
+595,Imprisoned,Other,6.2
+595,Trade of Innocents,Other,5.4
+595,Take Me to the River,Other,6.2
+595,Lower Learning,SummerVacation,3.9
+595,Look,Other,6.6
+595,The Transfiguration,Easter,6
+596,Carrie Pilby,Easter,6.6
+596,Kelly & Cal,Easter,6.2
+596,The Tollbooth,Other,5.4
+596,Breakdance Academy,SummerVacation,7.4
+596,Quiet City,Easter,6.4
+596,Kate Plays Christine,Other,6.3
+597,Can't Stand Losing You: Surviving the Police,Christmas,6.9
+597,Looking for Kitty,SummerVacation,6
+597,The Hawk Is Dying,SummerVacation,6
+598,Descent,Easter,4.8
+598,Ribbons,SummerVacation,6.3
+598,Stand Clear of the Closing Doors,Easter,6.3
+599,Coffee Date,Christmas,6.2
+599,Radio Dreams,SummerVacation,6.1
+599,36 Saints,Other,2.6
+599,Made Me Do It,Other,6.1
+599,Front Cover,SummerVacation,6.3
+599,Slow Learners,SummerVacation,5.8
+600,House of Usher,SummerVacation,2.9
+600,Midget Zombie Takeover,Other,5
+600,30 Years of Garbage: The Garbage Pail Kids Story,Other,7.1
+601,Animals,SummerVacation,6.3
+601,A Resurrection,Easter,3.9
+601,And Then Came Love,SummerVacation,4.6
+601,Never Stand Still,SummerVacation,6.5
+601,Psychopathia Sexualis,SummerVacation,3.8
+601,Hank and Asha,Other,6.5
+601,If the Dancer Dances,Easter,8.1
+601,Bronx Gothic,SummerVacation,6.2
+602,Magician: The Astonishing Life and Work of Orson Welles,Christmas,6.9
+602,Made in Cleveland,SummerVacation,4.9
+602,Going Under,SummerVacation,4.9
+603,The Great Buster: A Celebration,Other,7.5
+603,Gayby,Easter,6
+603,American Meat,Easter,8
+604,How to Rob a Bank (and 10 Tips to Actually Get Away with It),SummerVacation,6.1
+604,6 Month Rule,SummerVacation,4.9
+604,The Olivia Experiment,Christmas,6.5
+604,Boy Meets Girl,Other,7.1
+605,Live Free or Die,Easter,5.5
+605,Barefoot,Other,6.6
+605,Evil Intent,Christmas,6.7
+605,Head Games,Other,7.3
+605,In Search of Fellini,Other,6.2
+606,95 Miles to Go,Other,5.9
+606,Disfigured,SummerVacation,6.5
+606,The Lucky Man,Other,5.6
+606,Falling Away,Easter,3.7
+606,Shanghai Calling,Other,6.2
+607,Wild Canaries,Other,6
+607,Skid Marks,Other,3.5
+607,Four Eyed Monsters,Other,6.2
+608,Dog Lover's Symphony,SummerVacation,2.6
+608,Misery Loves Comedy,Easter,6.3
+608,Shepard & Dark,Other,6.4
+608,The Pretty One,Easter,6.3
+608,The Fianc<U+00C3><U+00A9>,Christmas,2.4
+609,Love After Love,Easter,5.4
+610,Pawn Shop Chronicles,Other,5.9
+610,Dysfunctional Friends,Other,5.1
+610,China Blue,Other,7.5
+610,Southbound,Other,5.9
+611,The Trouble with Bliss,Easter,5.3
+611,Herbie Hancock: Possibilities,Easter,6.9
+611,The Challenger,Other,5.6
+611,Bisbee '17,Other,6.7
+611,The Meanest Man in Texas,SummerVacation,6.6
+611,Informant,Other,6.2
+612,Days and Nights,Easter,4.6
+612,Birth of the Living Dead,Other,7
+612,Rank,Easter,7
+612,George Takei's Allegiance,Christmas,8.6
+612,Jasmine,SummerVacation,5.6
+613,The Other One,Easter,6.5
+613,Simple Creature,SummerVacation,3.9
+613,The Dead Center,Other,5.6
+613,Nostalgia,Other,5.5
+613,Goat,Other,5.7
+614,The Pleasures of Being Out of Step,SummerVacation,7.6
+614,Virginia,SummerVacation,5.4
+614,Butterfly Girl,Easter,8.4
+615,The Black Dove,Easter,5.4
+615,"A Woman, a Part",Easter,5.3
+615,Bodied,Christmas,7.1
+615,K2: Siren of the Himalayas,Christmas,7.2
+616,Filmworker,SummerVacation,7.5
+616,George Bush Goes to Heaven,SummerVacation,7.4
+617,The End of Love,Other,5.9
+617,A Boy. A Girl. A Dream.,Other,4.7
+617,The Plagiarists,SummerVacation,5.3
+617,Be Here Now,Other,8.7
+617,Call Me Kuchu,SummerVacation,7.6
+618,The Grace of Jake,Easter,6.8
+618,Generation Startup,Other,6.6
+618,"Hale County This Morning, This Evening",Other,6.3
+619,Reparation,Christmas,5.9
+619,FAQs,SummerVacation,5.8
+619,Touch the Wall,Christmas,7.4
+620,Abominable,Easter,5.1
+620,Freshman Orientation,Other,5.4
+620,Ultrasuede: In Search of Halston,Other,5.3
+620,Ghost Team One,Other,4.3
+620,Beloved Beast,Other,3.1
+621,Splinter,SummerVacation,4.8
+621,Blue Jay,Other,7.3
+621,"Now, Forager",SummerVacation,6.5
+622,A Reason,SummerVacation,6.6
+622,Headspace,Other,4.6
+622,Thank You for Your Service,Other,7.4
+622,Big Words,Other,6.1
+623,Dead Awake,SummerVacation,4.6
+623,Already Tomorrow in Hong Kong,Other,6.5
+623,The Man Who Shook the Hand of Vicente Fernandez,Easter,6.1
+623,Under the Eiffel Tower,Other,4.9
+623,Revenge of the Mekons,Christmas,7.3
+624,Choking Man,Christmas,5.9
+624,Time Changer,Christmas,5.2
+624,The Institute,Other,6.2
+624,The Great Invisible,Easter,6.6
+625,Black White + Gray: A Portrait of Sam Wagstaff and Robert Mapplethorpe,Other,6.8
+625,Band of Robbers,Easter,6
+625,Hello Herman,SummerVacation,5.8
+626,This Last Lonely Place,Easter,7.9
+626,Massacre on Aisle 12,Christmas,5.3
+626,The Happy Sad,SummerVacation,5.1
+627,If I Didn't Care,SummerVacation,4.9
+627,Downloaded,SummerVacation,6.8
+627,A Beginner's Guide to Snuff,Easter,4.8
+627,PAY 2 PLAY: Democracy's High Stakes,Other,8.4
+627,Never,Easter,6.2
+628,Something to Cheer About,Other,7.2
+628,Very Good Girls,SummerVacation,6
+628,A Teacher,Other,4.7
+628,Man Underground,SummerVacation,6.4
+628,100 Acres of Hell,Easter,2.9
+628,Kickboxer: Retaliation,Other,5
+629,10 Days in a Madhouse,Christmas,6.7
+629,All About Nina,Other,6
+629,The Do-Deca-Pentathlon,Other,6
+629,As It Is in Heaven,SummerVacation,7.3
+629,Body at Brighton Rock,Easter,4.6
+629,Love Me True,Other,5.2
+630,"No Pay, Nudity",Christmas,6
+630,Buzzard,Easter,6.4
+630,The Work,Other,7.9
+631,And While We Were Here,SummerVacation,5.8
+631,Gone Doggy Gone,Easter,4.9
+632,Money Fight,Other,4
+632,Girls Against Boys,Other,4.8
+633,Zyzzyx Rd,Other,4
+633,Desperate Acts of Magic,Christmas,5.1
+633,Mosquita y Mari,Other,6.2
+633,Closing Escrow,Other,5.4
+634,Before I Disappear,Christmas,7.2
+634,G.I. Jesus,Other,2
+635,Trafficked,Other,5.6
+635,The Brass Teapot,Easter,6.4
+635,Home Run Showdown,Other,4.8
+636,Assaulted: Civil Rights Under Fire,SummerVacation,6.9
+637,Mansfield 66/67,Easter,5.9
+637,Sal,Christmas,4.7
+637,Revelation: Dawn of Global Government,Other,6.9
+637,Man on a Mission: Richard Garriott's Road to the Stars,Easter,6.9
+637,A Murder in the Park,SummerVacation,7.2
+638,Radio Free Albemuth,SummerVacation,5.7
+638,Minding the Gap,SummerVacation,8.1
+638,State Like Sleep,Other,4.2
+638,Search Engines,Easter,4.3
+638,"Small, Beautifully Moving Parts",Easter,5.7
+639,Running for Grace,Other,6.1
+639,General Education,SummerVacation,4.5
+639,Ktown Cowboys,Easter,6.8
+639,Emptying the Skies,Easter,7.4
+639,The Gliksmans,Christmas,7
+640,About Cherry,SummerVacation,4.8
+640,Casting About,SummerVacation,6.8
+640,Just Before I Go,Easter,6.4
+640,Brief Reunion,SummerVacation,7
+640,The Sacrament,SummerVacation,6.1
+641,Brooklyn Brothers Beat the Best,Other,6.6
+641,Down the Shore,Other,5.9
+641,Quantum Hoops,Christmas,8
+641,The Channel,Easter,3.1
+641,Mother of a Day,SummerVacation,0
+642,Wallflower,SummerVacation,7.5
+643,Roadie,Other,6
+643,Coming Through the Rye,Other,6.3
+643,Black Irish,Easter,7
+643,Almost Human,Other,4.6
+644,Rottentail,Easter,3.5
+644,Operation Homecoming: Writing the Wartime Experience,Other,7.2
+644,The Quitter,Other,8.3
+645,Last Days Here,Easter,7.5
+645,Harry Benson: Shoot First,Christmas,7.2
+645,Little Accidents,SummerVacation,5.8
+646,Ten 'til Noon,Other,5.5
+647,Bad Grandmas,Other,4.4
+647,Price Check,Easter,5.4
+647,Mr. Blue Sky,Christmas,7.4
+647,Welcome to Pine Hill,Easter,6.2
+647,Holy Hell,SummerVacation,7.1
+648,Eternity: The Movie,Other,7.3
+648,Fired!,Other,5.6
+648,"One Cut, One Life",SummerVacation,6
+648,The Giant Mechanical Man,Easter,6.7
+648,Woman Walks Ahead,SummerVacation,6.6
+648,Food Evolution,SummerVacation,7
+649,Nancy,SummerVacation,6.2
+649,Men Go to Battle,Other,5.2
+649,Gringo Trails,Other,7.8
+650,Life Partners,Christmas,6.2
+650,The Playroom,Other,5.3
+650,The Freedom to Marry,Easter,7.3
+650,En el s<U+00C3><U+00A9>ptimo d<U+00C3>-a,SummerVacation,7.1
+651,"Love, Marilyn",SummerVacation,7.3
+651,Brave New Jersey,SummerVacation,5.4
+651,Five Dances,Other,7.1
+651,Station to Station,Easter,6.3
+652,Rock the Bells,Easter,7.7
+652,B-Side,Easter,6.9
+653,The Pardon,Easter,5.6
+653,In Our Nature,Easter,5.7
+653,Always Shine,Christmas,5.6
+653,Come Back to Me,SummerVacation,5.9
+653,Everything's Cool,SummerVacation,6.8
+654,On the Map,Christmas,7.5
+654,93Queen,Other,7.6
+654,Windfall,SummerVacation,5
+655,Laura Smiles,Easter,5.8
+655,Meet Me in Montenegro,SummerVacation,5.7
+655,Game Day,Other,7
+655,The Beat Hotel,Easter,6.6
+656,Five Nights in Maine,SummerVacation,4.5
+656,Raze,Other,5.2
+656,The Riot Act,Other,4.4
+657,Crazy Eyes,Easter,4
+657,The Untold Story,Other,5.7
+657,Be Somebody,SummerVacation,5.7
+658,The Last Fall,Easter,5.6
+658,The Boy Downstairs,Other,5.7
+658,The Adderall Diaries,Easter,5.3
+659,Berkeley,Other,5
+659,ABCs of Death 2,Other,5.4
+660,I'm Reed Fish,Easter,5.7
+660,American Animal,Easter,4.4
+660,Realms,SummerVacation,3.9
+660,Starcrossed,Other,3.9
+660,Straight Outta Tompkins,Easter,5.3
+661,Revelation Road 2: The Sea of Glass and Fire,SummerVacation,5.2
+661,Antonio Lopez 1970: Sex Fashion & Disco,Other,6.5
+661,BuzzKill,Other,4.4
+661,One Small Hitch,Other,6.6
+661,Contemporary Color,Easter,6.2
+662,Before You Know It,SummerVacation,6.2
+663,'Tis Autumn: The Search for Jackie Paris,Christmas,7.1
+663,Vince Giordano: There's a Future in the Past,SummerVacation,8.4
+663,Wastelander,Other,2.6
+663,Save the Date,Christmas,5.8
+663,All Is Bright,Other,5.6
+663,Brother Nature,Other,4.8
+663,Aatsinki: The Story of Arctic Cowboys,Christmas,6.8
+664,Sweet Virginia,Christmas,6.2
+664,Area 51,SummerVacation,4.2
+664,Booker's Place: A Mississippi Story,Easter,7.8
+664,Chef Flynn,Christmas,6.8
+664,Newtown,Other,6.8
+665,Downtown Express,Other,8.1
+665,Shangri-La Suite,Other,5.1
+665,Outside In,Easter,6.6
+666,Newlyweds,Christmas,6.3
+667,3 Geezers!,SummerVacation,3.3
+667,Cavemen,SummerVacation,5.3
+667,Gabriel,SummerVacation,6.4
+667,A Space Program,Easter,6.4
+668,Pawn,Other,5.7
+668,The Sisterhood of Night,Other,6.2
+668,You're Gonna Miss Me,Easter,7.6
+668,Art Is... The Permanent Revolution,Easter,6.3
+669,The Doctor from India,SummerVacation,6
+669,Infliction,Easter,5.7
+669,Contracted,Christmas,5.3
+669,Spices of Liberty,Other,5.8
+670,Silver Circle,Easter,6.4
+671,Oswald's Ghost,Other,6.6
+671,Kid Cannabis,Easter,6.4
+671,Pickin' & Grinnin',Easter,6.4
+672,Morning,Other,5.8
+672,Divine Intervention,Christmas,3.9
+672,Flex Is Kings,Other,5.4
+672,"Intent to Destroy: Death, Denial & Depiction",Christmas,7.8
+673,The Last Rampage,Other,5.7
+673,Unborn in the USA: Inside the War on Abortion,SummerVacation,6.1
+673,The Only Real Game,SummerVacation,7.3
+674,Bad Blood,Other,5.5
+674,Four Lane Highway,SummerVacation,7.1
+675,The Dog Problem,SummerVacation,6.3
+675,River Runs Red,Christmas,4.8
+675,After the Wizard,SummerVacation,2.8
+675,Permanent,Christmas,5.5
+676,Here and Now,Christmas,4.3
+676,Apart,Other,5.4
+676,"Sex, Death and Bowling",Other,5.2
+677,Never Goin' Back,SummerVacation,6
+677,Medeas,SummerVacation,6.4
+677,Carl,Easter,2.7
+677,Heal,Other,6.8
+678,A Kid Like Jake,SummerVacation,5.3
+678,Top Spin,Christmas,6.9
+678,The Ghastly Love of Johnny X,Easter,5.6
+679,Flakes,Easter,6
+679,Why Stop Now?,SummerVacation,5.6
+679,The Happy Poet,Other,6.1
+679,"Half The Road: The Passion, Pitfalls & Power of Women's Professional Cycling",Easter,8
+679,Viper Club,Other,5.5
+679,Shout Gladi Gladi,Other,5.1
+681,Smiling Through the Apocalypse,Other,6.2
+681,Axe Giant: The Wrath of Paul Bunyan,SummerVacation,3.5
+681,Bomb City,Easter,6.9
+681,Frank Serpico,Christmas,6.7
+682,The Tribes of Palos Verdes,Christmas,5.8
+683,Drew: The Man Behind the Poster,SummerVacation,7.5
+683,Horn from the Heart: The Paul Butterfield Story,Other,7.2
+683,Split: A Deeper Divide,Other,7.1
+683,Hacker,Christmas,6.2
+684,Cynthia,Other,4.5
+684,The Living,SummerVacation,6.1
+684,I Kissed a Vampire,Easter,4.1
+684,What Happened Last Night,Christmas,3.8
+685,She's Lost Control,Easter,5.3
+685,Free the Nipple,Christmas,3.9
+685,In Search of Greatness,Christmas,6.5
+685,Approaching Midnight,SummerVacation,4.3
+685,Dystopia: 2013,Other,2.7
+687,Approaching the Unknown,SummerVacation,4.8
+687,Hollidaysburg,Other,5.8
+688,Beta Test,SummerVacation,6
+688,Death Valley,Other,3.7
+688,The Word,Other,6.7
+688,Last Flight of the Champion,SummerVacation,5.7
+688,Lovesong,Other,6.3
+689,Jack & Diane,Easter,4.4
+689,Stop the Pounding Heart,Christmas,6.7
+690,Cassadaga,Other,5.3
+690,SBK The-Movie,Christmas,7.2
+691,Amelia 2.0,SummerVacation,6.1
+691,The Assassin's Code,SummerVacation,5
+691,Nature Calls,Other,3.9
+691,Almost in Love,Other,5.5
+692,Locker 13,Easter,4.7
+692,The Last Day of August,Other,7.2
+692,Miss Hill: Making Dance Matter,Christmas,7
+692,The Lost Arcade,Christmas,6.6
+693,Against the Sun,Other,6.5
+693,The Hacker Wars,Other,6.5
+694,Meeting Evil,Easter,5.3
+694,Aftermath,Easter,5
+695,The Happy House,SummerVacation,4.4
+695,Frank & Lola,Christmas,5.9
+696,InSpectres,Other,6
+697,The Girl on the Train,Other,4.3
+697,Bigger,Other,6.4
+697,Lycan,SummerVacation,6.4
+698,Red Flag,SummerVacation,5.5
+698,Providence,Other,7.3
+698,The Knife of Don Juan,Other,7.1
+698,The Eyes,Easter,4.9
+699,Best Man Down,Other,6.4
+699,Mojave,Christmas,5.2
+700,Hal,Other,7.1
+700,Detention of the Dead,Easter,4.5
+701,The China Hustle,Easter,7.2
+702,The Package,Other,5
+702,Silicon Cowboys,Other,6.8
+703,Refuge,SummerVacation,5.9
+704,Veer!,Christmas,7.4
+704,Indigo Children,Other,6.6
+704,Mi America,Other,6.5
+704,Golden Kingdom,Other,6.3
+705,Jake Squared,SummerVacation,4.5
+705,Know How,SummerVacation,6.9
+705,Talent Has Hunger,Easter,7.2
+706,Roseanne for President!,SummerVacation,4.5
+706,McCanick,Easter,4.7
+706,Drunk Wedding,SummerVacation,4.6
+706,Garry Winogrand: All Things are Photographable,Other,7.6
+706,Mr. Chibbs,SummerVacation,7.1
+707,Syrup,SummerVacation,5.7
+707,Windsor Drive,SummerVacation,3
+707,Two-Bit Waltz,Easter,5
+707,Served Like a Girl,SummerVacation,8.1
+708,Blackhats,Other,6
+708,The Wait,Easter,4.7
+708,First We Take Brooklyn,Other,3.8
+709,Golden Exits,Other,5.8
+709,Evergreen: The Road to Legalization,Other,7.3
+709,From Nowhere,Other,6.9
+710,Julia,Other,4.5
+710,Missionary,Other,5.3
+711,On Her Shoulders,Christmas,7.3
+711,The Ballad of Lefty Brown,Christmas,6.2
+712,Humor Me,Other,5.9
+712,It Had to Be You,Other,5.4
+712,Body,Christmas,5.2
+713,Hayride 2,Easter,2.9
+715,L.A. Slasher,SummerVacation,3.3
+716,Anita Ho,Christmas,6.3
+717,Ghost Team,SummerVacation,4.6
+717,Me You and Five Bucks,SummerVacation,5.4
+718,The Reagan Show,SummerVacation,6.3
+718,The Dying of the Light,Christmas,7.2
+719,The Jazz Funeral,SummerVacation,7.2
+719,The Charnel House,Christmas,4.4
+720,The Dark Below,Easter,4.2
+720,The Heart of Nuba,Easter,9
+721,The Looking Glass,SummerVacation,5.9
+722,Small Group,Other,9.2
+723,Undrafted,SummerVacation,6.4
+723,The Persian Connection,Easter,4.9
+724,Elizabeth Blue,Other,6.1
+726,Along the Roadside,Other,6.8
+727,The House of Tomorrow,SummerVacation,6.2
+727,3 Nights in the Desert,Other,5.3
+728,Childless,Easter,5.9
+729,The Fuzz,SummerVacation,6.4
+729,Miss Stevens,Other,6.6
+730,The Automatic Hate,Easter,6.3
+731,Search Party,SummerVacation,5.6
+732,Synchronicity,Other,5.5
+734,The Man from Earth: Holocene,Other,5.3
+735,Sollers Point,SummerVacation,5.7
+735,Maximum Ride,SummerVacation,3.6
+736,Goodland,SummerVacation,5.1
+736,Breaking a Monster,SummerVacation,5.6
+738,The Hollow,Other,4.6
+738,Poor Boy,Easter,4.3
+739,Company Town,Other,6.9
+740,The Loving Story,Easter,7.7
+741,Restored Me,SummerVacation,7
+741,Charm City,Easter,7.2
+741,Night School,Easter,7.1
+742,Burning Bodhi,Easter,4.8
+742,I Love You Both,SummerVacation,4.3
+743,Best and Most Beautiful Things,Christmas,6.2
+744,A Boy Called Po,Other,6.9
+745,The Pulitzer at 100,SummerVacation,6.5
+745,The Professor: Tai Chi's Journey West,SummerVacation,7.3
+750,Memoria,Easter,5.1
+750,My Father Die,Other,5.6
+751,Ridge Runners,Other,3.9
+751,Badsville,Easter,6.4
+752,A Beautiful Now,Other,5.5
+752,Emily,Other,6.7
+753,Miss India America,Easter,5.4
+754,The Gender Card Flip,Christmas,4.9
+757,Officer Downe,Christmas,4.1
+758,A Girl Like Grace,SummerVacation,5.9
+758,Death House,Other,3
+758,"Love, Sweat and Tears",SummerVacation,6.8
+760,Green is Gold,Other,6
+762,Justice,Other,4
+763,Kepler's Dream,Other,6.1
+764,Demons,Christmas,6.2
+764,Winning Formula,SummerVacation,8.1
+765,The Female Brain,Other,5.7
+766,Half the Picture,SummerVacation,6.6
+768,Take Me,SummerVacation,6.1
+769,Miles,SummerVacation,5.7
+770,The Happys,Easter,7.1
+772,Dayveon,Other,6.3
+773,Freak Show,Other,6.9
+773,"Accidental Courtesy: Daryl Davis, Race & America",Other,7.6
+776,Izzy Gets the F*ck Across Town,SummerVacation,5.4
+777,Apocalypsis,Easter,7.8
+778,Extraordinary Ordinary People,Other,6.3
+780,Active Measures,SummerVacation,7.9
+782,Who We Are Now,SummerVacation,6.4
+784,Anything,SummerVacation,5.9
+786,Crime + Punishment,SummerVacation,7.4
+789,Desolation,Christmas,5.8
+790,306 Hollywood,Other,6.6
+805,Trust Machine: The Story of Blockchain,Other,7.4
+807,The Public Image is Rotten,Other,8.1
+808,The Last Movie Star,Easter,6.9
+809,Chasing the Blues,Other,7.4
+810,Weed the People,Other,7.1
+812,Our Blood is Wine,Christmas,6
+813,Like Me,Other,5.3
+815,American Socialist: The Life and Times of Eugene Victor Debs,Easter,6.6
+817,My Art,Other,4.2
+818,American Chaos,SummerVacation,5.1
+820,The Most Unknown,SummerVacation,6.6
+821,The Last Race,Christmas,5.9
+823,Summer '03,Christmas,5.4
+826,Bullitt County,Other,4.9
+830,The Advocates,Other,6.9
+835,Zoo Wars,Easter,4.7
+836,Survivors Guide To Prison,Other,7.1
+838,Summer of '67,SummerVacation,5
+840,Blood Feast,Other,4.7
+846,Painless,Other,6.3
+847,In Echo Park,Other,4.5
+849,Duck Butter,Easter,5.2
+855,An Actor Prepares,SummerVacation,5.1
+856,Are We Not Cats,Other,5.8
+858,In Searching,Christmas,4.6
+859,Intersection,Other,7.8
+860,Notes on an Appearance,SummerVacation,5.4
+861,The Texture of Falling,SummerVacation,6.8
+862,Social Animals,Other,5.2
+863,An L.A. Minute,SummerVacation,5.2
+865,The Long Dumb Road,Christmas,6
+866,Weightless,Christmas,6.2
+870,Stella's Last Weekend,Other,6.3
+871,Armed,Other,3.3
+872,American Dresser,Other,5.1
+876,Fourplay,Easter,4.8
+878,The Cage Fighter,Easter,5.7
+883,Nana,Christmas,7
+888,The Lost Village,Other,3.8
+890,That Way Madness Lies...,Christmas,6.5
+891,Beauty and the Beholder,Other,4.4
+898,Higher Power,SummerVacation,5.4

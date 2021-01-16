@@ -1,0 +1,200 @@
+"number","old_state","replace_to"
+1,"AK Anchorage County","AK Anchorage Municipality"
+2,"AK Fairbanks North Star County","AK Fairbanks North Star Borough"
+3,"AK Juneau County","AK Juneau City and Borough"
+4,"AK Kenai Peninsula County","AK Kenai Peninsula Borough"
+5,"AK Ketchikan Gateway County","AK Ketchikan Gateway Borough"
+6,"AK Matanuska-Susitna County","AK Matanuska-Susitna Borough"
+7,"AK Petersburg County","AK Petersburg Borough"
+8,"AK Southeast Fairbanks County","AK Southeast Fairbanks Census Area"
+9,"AK Unassigned County",
+10,"AK Yukon-Koyukuk County","AK Yukon-Koyukuk Census Area"
+11,"AR Unassigned County",
+12,"AZ Unassigned County",
+13,"CA Unassigned County",
+14,"CO Out of state County",
+15,"CO Unassigned County",
+16,"CT Unassigned County",
+17,"DC District of Columbia County","DC District of Columbia"
+18,"DE Unassigned County",
+19,"Diamond Princess Riverside County",
+20,"Diamond Princess San Diego County",
+21,"Diamond Princess Sonoma County",
+22,"Diamond Princess Unassigned County",
+23,"FL Desoto County","FL DeSoto County"
+24,"FL Unassigned County",
+25,"GA Mcduffie County","GA McDuffie County"
+26,"GA Mcintosh County","GA McIntosh County"
+27,"GA Unassigned County",
+28,"Grand Princess Grand Princess  County",
+29,"Grand Princess San Diego County",
+30,"Grand Princess Solano County",
+31,"Grand Princess Unassigned County",
+32,"GU Guam County",
+33,"HI Residents diagnosed Outside of HI County",
+34,"HI Unassigned County",
+35,"IA Obrien County","IA O'Brien County"
+36,"IA Unassigned County",
+37,"IL La Salle County","IL LaSalle County"
+38,"IL Unassigned County",
+39,"IN Verm. County","IN Vermillion County"
+40,"KY Unassigned County",
+41,"LA Acadia County","LA Acadia Parish"
+42,"LA Allen County","LA Allen Parish"
+43,"LA Ascension County","LA Ascension Parish"
+44,"LA Assumption County","LA Assumption Parish"
+45,"LA Avoyelles County","LA Avoyelles Parish"
+46,"LA Beauregard County","LA Beauregard Parish"
+47,"LA Bienville County","LA Bienville Parish"
+48,"LA Bossier County","LA Bossier Parish"
+49,"LA Caddo County","LA Caddo Parish"
+50,"LA Calcasieu County","LA Calcasieu Parish"
+51,"LA Caldwell County","LA Caldwell Parish"
+52,"LA Catahoula County","LA Catahoula Parish"
+53,"LA Claiborne County","LA Claiborne Parish"
+54,"LA Concordia County","LA Concordia Parish"
+55,"LA De Soto County","LA De Soto Parish"
+56,"LA East Baton Rouge County","LA East Baton Rouge Parish"
+57,"LA East Carroll County","LA East Carroll Parish"
+58,"LA East Feliciana County","LA East Feliciana Parish"
+59,"LA Evangeline County","LA Evangeline Parish"
+60,"LA Franklin County","LA Franklin Parish"
+61,"LA Grant County","LA Grant Parish"
+62,"LA Iberia County","LA Iberia Parish"
+63,"LA Iberville County","LA Iberville Parish"
+64,"LA Jackson County","LA Jackson Parish"
+65,"LA Jefferson County","LA Jefferson Parish"
+66,"LA Jefferson Davis County","LA Jefferson Davis Parish"
+67,"LA La Salle County","LA La Salle Parish"
+68,"LA Lafayette County","LA Lafayette Parish"
+69,"LA Lafourche County","LA Lafourche Parish"
+70,"LA Lincoln County","LA Lincoln Parish"
+71,"LA Livingston County","LA Livingston Parish"
+72,"LA Madison County","LA Madison Parish"
+73,"LA Morehouse County","LA Morehouse Parish"
+74,"LA Natchitoches County","LA Natchitoches Parish"
+75,"LA Orleans County","LA Orleans Parish"
+76,"LA Ouachita County","LA Ouachita Parish"
+77,"LA Parish Under Investigation County","LA Parish Under Investigation Parish"
+78,"LA Plaquemines County","LA Plaquemines Parish"
+79,"LA Pointe Coupee County","LA Pointe Coupee Parish"
+80,"LA Rapides County","LA Rapides Parish"
+81,"LA Red River County","LA Red River Parish"
+82,"LA Richland County","LA Richland Parish"
+83,"LA Sabine County","LA Sabine Parish"
+84,"LA St. Bernard County","LA St. Bernard Parish"
+85,"LA St. Charles County","LA St. Charles Parish"
+86,"LA St. Helena County","LA St. Helena Parish"
+87,"LA St. James County","LA St. James Parish"
+88,"LA St. John the Baptist County","LA St. John the Baptist Parish"
+89,"LA St. Landry County","LA St. Landry Parish"
+90,"LA St. Martin County","LA St. Martin Parish"
+91,"LA St. Mary County","LA St. Mary Parish"
+92,"LA St. Tammany County","LA St. Tammany Parish"
+93,"LA Tangipahoa County","LA Tangipahoa Parish"
+94,"LA Terrebonne County","LA Terrebonne Parish"
+95,"LA Union County","LA Union Parish"
+96,"LA Vermilion County","LA Vermilion Parish"
+97,"LA Vernon County","LA Vernon Parish"
+98,"LA Washington County","LA Washington Parish"
+99,"LA Webster County","LA Webster Parish"
+100,"LA West Baton Rouge County","LA West Baton Rouge Parish"
+101,"LA West Feliciana County","LA West Feliciana Parish"
+102,"LA Winn County","LA Winn Parish"
+103,"MA Dukes and Nantucket County","MA Nantucket County"
+104,"MA Unassigned County",
+105,"MD Baltimore City County","MD Baltimore County"
+106,"ME Unassigned County",
+107,"MI Other County",
+108,"MI Out of State County",
+109,"MI Unknown County",
+110,"MI Wayne--Detroit County","MI Wayne County"
+111,"MN Blue earth County","MN Blue Earth County"
+112,"MN Filmore County","MN Fillmore County"
+113,"MN Lac Qui Parle County","MN Lac qui Parle County"
+114,"MN Unassigned County",
+115,"MO Joplin County",
+116,"MO Kansas City County",
+117,"MO St. Louis City County","MO St. Louis city"
+118,"MO TBD County",
+119,"MP Saipan County",
+120,"MP Unassigned County",
+121,"NC Rutherford  County","NC Rutherford County"
+122,"NE Unassigned County",
+123,"NH Hillsborough-Manchester County","NH Hillsborough County"
+124,"NH Hillsborough-Nashua County","NH Hillsborough County"
+125,"NH Hillsborough-other County","NH Hillsborough County"
+126,"NH Unassigned County",
+127,"NJ Unassigned County",
+128,"NM Dona Ana County","NM Do�a Ana County"
+129,"NM Unassigned County",
+130,"NN Apache County","AZ Apache County"
+131,"NN Cibola County","NM Cibola County"
+132,"NN Coconino County","AZ Coconino County"
+133,"NN McKinley County","NM McKinley County"
+134,"NN Navajo County","AZ Navajo County"
+135,"NN San Juan, NM County","NM San Juan County"
+136,"NN San Juan, UT County","UT San Juan County"
+137,"NN Unassigned County",
+138,"NV Carson City County","NV Carson City"
+139,"NV Unassigned County",
+140,"NY Unassigned County",
+141,"OK Out-of-State County",
+142,"PA ​Armstrong County","PA Armstrong County"
+143,"PA ​Carbon County","PA Carbon County"
+144,"PA ​Clearfield County","PA Clearfield County"
+145,"PA ​Somerset County","PA Somerset County"
+146,"PA Mckean County","PA McKean County"
+147,"PR Puerto Rico County",
+148,"RI Unassigned County",
+149,"TN Dekalb County","TN DeKalb County"
+150,"TN Out-of-state County",
+151,"TN Unassigned County",
+152,"TX El Paso--Fort Bliss County","TX El Paso County"
+153,"TX Harris--Houston County","TX Harris County"
+154,"TX Harris--Non Houston County","TX Harris County"
+155,"UT Central Utah County","UT Utah County"
+156,"UT Weber-Morgan County","UT Weber County"
+157,"VA Alexandria County","VA Alexandria city"
+158,"VA Bristol County","VA Bristol city"
+159,"VA Buena Vista City County","VA Buena Vista city"
+160,"VA Charke County","VA Clarke County"
+161,"VA Charlottesville County","VA Charlottesville city"
+162,"VA Chesapeake County","VA Chesapeake city"
+163,"VA Covington County","VA Covington city"
+164,"VA Danville County","VA Danville city"
+165,"VA Emporia County","VA Emporia city"
+166,"VA Franklin City County","VA Franklin city"
+167,"VA Fredericksburg County","VA Fredericksburg city"
+168,"VA Galax County","VA Galax city"
+169,"VA Hampton County","VA Hampton city"
+170,"VA Harrisonburg County","VA Harrisonburg city"
+171,"VA Hopewell County","VA Hopewell city"
+172,"VA Lexington County","VA Lexington city"
+173,"VA Lynchburg County","VA Lynchburg city"
+174,"VA Manassas City County","VA Manassas city"
+175,"VA Manassas Park County","VA Manassas Park city"
+176,"VA Newport News County","VA Newport News city"
+177,"VA Norfolk County","VA Norfolk city"
+178,"VA Petersburg County","VA Petersburg city"
+179,"VA Poquoson County","VA Poquoson city"
+180,"VA Portsmouth County","VA Portsmouth city"
+181,"VA Radford County","VA Radford city"
+182,"VA Richmond City County","VA Richmond city"
+183,"VA Roanoke City County","VA Roanoke city"
+184,"VA Salem County","VA Salem city"
+185,"VA Suffolk County","VA Suffolk city"
+186,"VA Unassigned County",
+187,"VA Unknown County",
+188,"VA Virginia Beach County","VA Virginia Beach city"
+189,"VA Waynesboro County","VA Waynesboro city"
+190,"VA Williamsburg County","VA Williamsburg city"
+191,"VA Winchester County","VA Winchester city"
+192,"VI St. Croix County",
+193,"VI St. John County",
+194,"VI St. Thomas County",
+195,"VI Unassigned County",
+196,"VT Unassigned County",
+197,"WA Unassigned County",
+198,"WI Unassigned County",
+199,"Wuhan Evacuee Unassigned County",

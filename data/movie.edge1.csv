@@ -1,0 +1,23 @@
+from,to
+movie,Avengers: Endgame
+movie,Avatar
+movie,Titanic
+movie,Star Wars: Episode VII - The Force Awakens
+movie,Avengers: Infinity War
+movie,Jurassic World
+movie,The Lion King
+movie,The Avengers
+movie,Furious 7
+movie,Frozen 7
+movie,Avengers: Age of Ultron
+movie,Harry Potter and the Deathly Hallows: Part 2
+movie,Black Panther
+movie,Star Wars: Episode VIII - The Last Jedi
+movie,Jurassic World: Fallen Kingdom
+type,Action
+type,Science
+type,Disaster
+type,Romance
+type,Adventure
+final,movie
+final,type

@@ -1,0 +1,362 @@
+type,rmb,sold,brand,region,lnrmb
+Apple iPhone,3459.9,597,Apple,not-china,8.148994966
+Apple iPhone 11,6919.89,6205,Apple,not-china,8.842155153
+Apple iPhone 11 Pro,8601.13,4473,Apple,not-china,9.059648869
+Apple iPhone 11 Pro Max,10402.09,7087,Apple,not-china,9.249762026
+Apple iPhone 4,787.2,130,Apple,not-china,6.668482346
+Apple iPhone 4 CDMA,945.5,8,Apple,not-china,6.851713888
+Apple iPhone 4s,712.68,626,Apple,not-china,6.569032512
+Apple iPhone 5,1205.24,1215,Apple,not-china,7.094433996
+Apple iPhone 5c,913.66,357,Apple,not-china,6.817458511
+Apple iPhone 5s,1290.91,3254,Apple,not-china,7.163102675
+Apple iPhone 6,1742.9,6736,Apple,not-china,7.463305672
+Apple iPhone 6 Plus,2383.67,2728,Apple,not-china,7.776396596
+Apple iPhone 6s,1728.6,9448,Apple,not-china,7.455067111
+Apple iPhone 6s Plus,2287.65,5881,Apple,not-china,7.735280369
+Apple iPhone 7,2945.34,11418,Apple,not-china,7.987979539
+Apple iPhone 7 Plus,3725.25,13582,Apple,not-china,8.222889243
+Apple iPhone 8,4174.63,2735,Apple,not-china,8.336781011
+Apple iPhone 8 Plus,4409.24,3936,Apple,not-china,8.391457618
+Apple iPhone SE,1813.48,1359,Apple,not-china,7.50300293
+Apple iPhone X,5887.84,8428,Apple,not-china,8.680644486
+Apple iPhone XR,5584.2,8067,Apple,not-china,8.62769646
+Apple iPhone XS,6881.15,4179,Apple,not-china,8.836541068
+Apple iPhone XS Max,7771.07,8519,Apple,not-china,8.958163143
+Asus Live G500TG,717.81,20,ASUS,china,6.57620491
+Asus ROG Phone II ZS660KL,4796.89,5590,ASUS,china,8.47572307
+Asus Zenfone 2 Deluxe ZE551ML,1061.27,1609,ASUS,china,6.967221583
+Asus Zenfone 3 Deluxe 5.5 ZS550KL,675.36,29,ASUS,china,6.515245882
+Asus Zenfone 3 Max ZC520TL,736.54,324,ASUS,china,6.601963545
+Asus Zenfone 3 Max ZC553KL,1013.04,55,ASUS,china,6.92071099
+Asus Zenfone 3 ZE520KL,1181.88,980,ASUS,china,7.07486167
+Asus Zenfone 4 Max Plus ZC554KL,1207.39,568,ASUS,china,7.096216284
+Asus Zenfone 4 Max Pro ZC554KL,1162.33,2191,ASUS,china,7.05818189
+Asus Zenfone 4 Max ZC520KL,548.61,220,ASUS,china,6.307387807
+Asus Zenfone 4 Selfie Lite ZB553KL,1686.95,384,ASUS,china,7.430677444
+Asus Zenfone 4 Selfie Pro ZD552KL,847.26,91,ASUS,china,6.742007613
+Asus Zenfone 4 Selfie ZD553KL,710.94,2227,ASUS,china,6.566588038
+Asus Zenfone 5 A501CG (2015),1048.32,897,ASUS,china,6.954944162
+Asus Zenfone 5 Lite ZC600KL,1598.09,522,ASUS,china,7.376564445
+Asus Zenfone 5 ZE620KL,1352.92,9185,ASUS,china,7.210020499
+Asus Zenfone 5z ZS620KL,3376.8,379,ASUS,china,8.124683794
+Asus Zenfone 6 ZS630KL,3535.03,503,ASUS,china,8.170477065
+Asus Zenfone Go T500,553.19,1659,ASUS,china,6.315701523
+Asus ZenFone Lite (L1) ZA551KL,482.4,153,ASUS,china,6.178773645
+Asus ZenFone Live (L1) ZA550KL,515.96,9382,ASUS,china,6.246029243
+Asus ZenFone Live (L2),527.93,5138,ASUS,china,6.268963699
+Asus Zenfone Live ZB501KL,603,780,ASUS,china,6.401917197
+Asus Zenfone Max (M1) ZB555KL,613.78,11984,ASUS,china,6.419636558
+Asus Zenfone Max (M2) ZB633KL,891.3,4060,ASUS,china,6.792681071
+Asus Zenfone Max Pro (M1) ZB601KL/ZB602K,1016.11,38010,ASUS,china,6.92373689
+Asus Zenfone Max Pro (M2) ZB631KL,1782.95,2556,ASUS,china,7.486024575
+Asus Zenfone Selfie ZD551KL,1206,147,ASUS,china,7.095064377
+Honor 10,2894.4,176,Honor,china,7.970533115
+Honor 10 Lite,1099.65,1109,Honor,china,7.002747226
+Honor 7,955.15,54,Honor,china,6.861868396
+Honor 7A,1345.41,218,Honor,china,7.204454078
+Honor 7S,537.68,701,Honor,china,6.287263588
+Honor 8A Pro,828.01,225,Honor,china,6.719025232
+Honor 8X,1776.99,1493,Honor,china,7.482676201
+Honor 9 Lite,746.72,1091,Honor,china,6.615690282
+Honor 9N (9i),900.4,233,Honor,china,6.802839109
+Huawei Ascend Y540,674.88,110,Huawei,china,6.514534897
+Huawei Enjoy 10,2412,224,Huawei,china,7.788211558
+Huawei Enjoy 9,2556.72,168,Huawei,china,7.846480466
+Huawei Mate 10,3135.6,230,Huawei,china,8.050575822
+Huawei Mate 10 Lite,904.5,182,Huawei,china,6.807382305
+Huawei Mate 10 Pro,3502.22,55,Huawei,china,8.161152332
+Huawei Mate 20 Pro,6271.2,140,Huawei,china,8.743723003
+Huawei Mate 20 X,1555.5,158,Huawei,china,7.349552316
+Huawei Mate 30,3851.96,6,Huawei,china,8.256337389
+Huawei Mate 30 Pro,5125.68,1002,Huawei,china,8.542018478
+Huawei nova 2,1491.49,650,Huawei,china,7.307530899
+Huawei nova 3i,1608.72,1324,Huawei,china,7.383194111
+Huawei nova 4,1442.38,26,Huawei,china,7.274049806
+Huawei nova 5T,2239.68,16666,Huawei,china,7.714088278
+Huawei nova 7 5G,1157.76,21,Huawei,china,7.054242383
+Huawei P10 Plus,2412,130,Huawei,china,7.788211558
+Huawei P20,4003.92,27,Huawei,china,8.29502916
+Huawei P20 Pro,4702.92,108,Huawei,china,8.455938871
+Huawei P30,4823.68,1093,Huawei,china,8.481292401
+Huawei P30 lite,1643.4,5355,Huawei,china,7.404522545
+Huawei P30 lite New Edition,1062.18,1304,Huawei,china,6.968078679
+Huawei P30 Pro,4576.55,3802,Huawei,china,8.428700718
+Huawei P8 Lite (2017),455.87,6,Huawei,china,6.122207681
+Huawei Y5II,504.71,50,Huawei,china,6.223984007
+Huawei Y6,578.88,276,Huawei,china,6.361095202
+Huawei Y6 (2018),650.76,100,Huawei,china,6.478140911
+Huawei Y6 Pro (2019),1688.4,180,Huawei,china,7.431536614
+Huawei Y7 Pro (2018),968.18,381,Huawei,china,6.87541802
+Huawei Y7 Pro (2019),1121.58,1811,Huawei,china,7.022493684
+Infinix Hot 4 Pro,759.64,82,Infinix,china,6.632844637
+Infinix Hot 5,769.43,120,Infinix,china,6.645649981
+Infinix Hot 6,751.79,902,Infinix,china,6.62245703
+Infinix Hot 7 Pro,1028.06,2638,Infinix,china,6.93542881
+Infinix Hot 8,741.51,40471,Infinix,china,6.608688648
+Infinix Hot 9,914.15,39,Infinix,china,6.817994672
+Infinix Hot S,683.8,6,Infinix,china,6.527665477
+Infinix Hot S3,1055.01,170,Infinix,china,6.961305525
+Infinix Note 4,9643.18,145,Infinix,china,9.174006209
+Infinix Note 5,1206,300,Infinix,china,7.095064377
+Infinix S4,1271.12,483,Infinix,china,7.147653681
+Infinix S5,1010.63,3038,Infinix,china,6.918329178
+Infinix S5 lite,802.55,3916,Infinix,china,6.687794158
+Infinix Smart,753.75,220,Infinix,china,6.625060748
+Infinix Smart 4,584.98,7385,Infinix,china,6.371577659
+Infinix Zero 5,2074.32,188,Infinix,china,7.637388668
+Nokia 1,707.43,1800,Nokia,not-china,6.561638685
+Nokia 1 Plus,952.74,1200,Nokia,not-china,6.859342044
+Nokia 2,723.12,28,Nokia,not-china,6.583575183
+Nokia 2.2,676.68,1559,Nokia,not-china,6.517198488
+Nokia 3,771.84,274,Nokia,not-china,6.648777275
+Nokia 3.1 A,960.46,138,Nokia,not-china,6.867412336
+Nokia 3.1 Plus,1141.66,220,Nokia,not-china,7.040238623
+Nokia 4.2,1073.1,372,Nokia,not-china,6.978306935
+Nokia 5,916.56,174,Nokia,not-china,6.820627532
+Nokia 6.1 Plus (Nokia X6),1435.48,6564,Nokia,not-china,7.269254567
+Nokia 7.1,2412,120,Nokia,not-china,7.788211558
+Nokia 7.2,2653.2,146,Nokia,not-china,7.883521738
+Nokia 8.1 (Nokia X7),3376.8,84,Nokia,not-china,8.124683794
+Oppo A1k,800.02,27624,OPPO,china,6.684636727
+Oppo A31 (2015),1241.32,1441,OPPO,china,7.123930609
+Oppo A31 (2020),1222.82,1264,OPPO,china,7.108914946
+Oppo A37,731.27,19257,OPPO,china,6.594782749
+Oppo A39,791.04,344,OPPO,china,6.673348535
+Oppo A3s,948.06,48227,OPPO,china,6.854417791
+Oppo A5 (2020),1240.94,35490,OPPO,china,7.123624436
+Oppo A5 (AX5),1288.08,1770,OPPO,china,7.160908017
+Oppo A57,1231.54,2815,OPPO,china,7.116020698
+Oppo A5s (AX5s),941.94,89500,OPPO,china,6.847941578
+Oppo A7,1128.19,15172,OPPO,china,7.028369858
+Oppo A71 (2017),906.99,2165,OPPO,china,6.810131425
+Oppo A7x,2026.08,49,OPPO,china,7.613858171
+Oppo A83,1007.77,6645,OPPO,china,6.915495248
+Oppo A9,1749.89,39767,OPPO,china,7.467308208
+Oppo A91,1756.9,47,OPPO,china,7.471306171
+Oppo F1 Plus,1452.45,987,OPPO,china,7.281007065
+Oppo F11,1717.28,19783,OPPO,china,7.448496923
+Oppo F11 Pro,2216.44,19691,OPPO,china,7.703657584
+Oppo F1s,1492,3187,OPPO,china,7.307872781
+Oppo F3,1684.29,3351,OPPO,china,7.429099389
+Oppo F3 Plus,2086.14,346,OPPO,china,7.643070747
+Oppo F5,1304.81,9683,OPPO,china,7.173812715
+Oppo F5 Youth,1203.79,1159,OPPO,china,7.093230192
+Oppo F7,1618.05,5892,OPPO,china,7.388976999
+Oppo F7 Youth,1564.66,259,OPPO,china,7.355423827
+Oppo F9 (F9 Pro),1735.21,55583,OPPO,china,7.458883723
+Oppo Find X,964.32,204,OPPO,china,6.87142319
+Oppo Joy 3,1060.8,25,OPPO,china,6.966778619
+Oppo K3,1879.62,1558,OPPO,china,7.538824908
+Oppo Mirror 3,1145.3,1482,OPPO,china,7.04342189
+Oppo Neo 5s,482.4,70,OPPO,china,6.178773645
+Oppo Neo 7,1447.2,235,OPPO,china,7.277385934
+Oppo Reno,2994.19,980,OPPO,china,8.004429023
+Oppo Reno 10x zoom,5081.15,187,OPPO,china,8.533292893
+Oppo Reno A,2627.42,1954,OPPO,china,7.873757655
+Oppo Reno2,3465.31,2295,OPPO,china,8.150557374
+Oppo Reno2 F,2264.61,10365,OPPO,china,7.725157838
+Oppo Reno2 Z,2990.88,50,OPPO,china,8.003322937
+Oppo Reno3 Pro 5G,2488.22,734,OPPO,china,7.819322874
+Realme 2,1037.16,56,Realme,china,6.944241488
+Realme 2 Pro,1495.44,53,Realme,china,7.310175757
+Realme 3,961.18,1688,Realme,china,6.868161696
+Realme 5 Pro,1881.36,128,Realme,china,7.539750199
+Realme 5i,1020.6,56,Realme,china,6.928145969
+Realme 6,1231.16,277352,Realme,china,7.115712093
+Realme C1,743.5,457,Realme,china,6.611368766
+Realme C2,727.46,376,Realme,china,6.589559015
+Realme U1,1612.18,518,Realme,china,7.385342579
+Realme XT,2050.2,5,Realme,china,7.625692628
+Samsung A51 5G,2033.84,6295,Samsung,not-china,7.617680911
+Samsung Galaxy A01,698.52,1463,Samsung,not-china,6.548963811
+Samsung Galaxy A10,826.96,38036,Samsung,not-china,6.717756326
+Samsung Galaxy A10s,782.77,525852,Samsung,not-china,6.662838911
+Samsung Galaxy A2 Core,536.29,32850,Samsung,not-china,6.28467506
+Samsung Galaxy A20,1126.31,8802,Samsung,not-china,7.026702082
+Samsung Galaxy A20s,1066.18,60530,Samsung,not-china,6.971837446
+Samsung Galaxy A30,1367.3,12815,Samsung,not-china,7.220593271
+Samsung Galaxy A30s,1358.26,38469,Samsung,not-china,7.213959748
+Samsung Galaxy A40,3256.2,144,Samsung,not-china,8.08831615
+Samsung Galaxy A5 (2016),1109.52,108,Samsung,not-china,7.011682768
+Samsung Galaxy A5 (2017),2170.8,288,Samsung,not-china,7.682851042
+Samsung Galaxy A50,1904.87,35262,Samsung,not-china,7.552169044
+Samsung Galaxy A50s,1680.08,53483,Samsung,not-china,7.42659669
+Samsung Galaxy A51,2034.43,29896,Samsung,not-china,7.61797096
+Samsung Galaxy A6 (2018),1406.51,2572,Samsung,not-china,7.248866738
+Samsung Galaxy A6+ (2018),1682.13,76,Samsung,not-china,7.427816126
+Samsung Galaxy A60,2570.87,184,Samsung,not-china,7.851999642
+Samsung Galaxy A7,1997.9,1542,Samsung,not-china,7.599851908
+Samsung Galaxy A7 (2016),871.9,417,Samsung,not-china,6.770674738
+Samsung Galaxy A7 (2017),1507.98,196,Samsung,not-china,7.318526286
+Samsung Galaxy A7 (2018),1915,8110,Samsung,not-china,7.557472902
+Samsung Galaxy A70,2384.87,22884,Samsung,not-china,7.776899894
+Samsung Galaxy A70s,2894.4,251,Samsung,not-china,7.970533115
+Samsung Galaxy A71,2857.75,7326,Samsung,not-china,7.957789881
+Samsung Galaxy A8,2569.47,960,Samsung,not-china,7.851454931
+Samsung Galaxy A8 (2018),2078.18,2306,Samsung,not-china,7.63924779
+Samsung Galaxy A8 Star (A9 Star),2199.51,2252,Samsung,not-china,7.695989887
+Samsung Galaxy A80,3717.79,3055,Samsung,not-china,8.220884685
+Samsung Galaxy A9 (2018),2172.03,2423,Samsung,not-china,7.683417493
+Samsung Galaxy A9 Pro (2016),1122.46,1345,Samsung,not-china,7.023277984
+Samsung Galaxy C9 Pro,1543.23,1166,Samsung,not-china,7.341632902
+Samsung Galaxy Express Prime,258.08,20,Samsung,not-china,5.553269614
+Samsung Galaxy Fold,13451.72,24,Samsung,not-china,9.506862258
+Samsung Galaxy Fold 5G,11818.8,24,Samsung,not-china,9.377446763
+Samsung Galaxy Folder,2170.8,141,Samsung,not-china,7.682851042
+Samsung Galaxy J1,482.4,42,Samsung,not-china,6.178773645
+Samsung Galaxy J1 4G,345.4,185,Samsung,not-china,5.844703166
+Samsung Galaxy J1 Ace,559.32,1254,Samsung,not-china,6.32672176
+Samsung Galaxy J1 mini prime,573.71,1321,Samsung,not-china,6.352124042
+Samsung Galaxy J2,964.8,540,Samsung,not-china,6.871920826
+Samsung Galaxy J2 Core,819.33,2192,Samsung,not-china,6.708486933
+Samsung Galaxy J2 Core (2020),584.67,470,Samsung,not-china,6.371047586
+Samsung Galaxy J2 Prime,682.13,38748,Samsung,not-china,6.525220256
+Samsung Galaxy J2 Pro (2016),764.73,2622,Samsung,not-china,6.63952283
+Samsung Galaxy J2 Pro (2018),964.8,70,Samsung,not-china,6.871920826
+Samsung Galaxy J3 (2016),830.5,348,Samsung,not-china,6.722027929
+Samsung Galaxy J3 Pro,881.51,837,Samsung,not-china,6.781636346
+Samsung Galaxy J4,864.1,1204,Samsung,not-china,6.761688503
+Samsung Galaxy J5,1251.01,869,Samsung,not-china,7.131706504
+Samsung Galaxy J5 Prime,1471.32,90,Samsung,not-china,7.293915236
+Samsung Galaxy J6,1090.53,1652,Samsung,not-china,6.994419096
+Samsung Galaxy J7,1567.39,516,Samsung,not-china,7.357167095
+Samsung Galaxy J7 (2016),795.48,18,Samsung,not-china,6.678945706
+Samsung Galaxy J7 (2017),1157.28,433,Samsung,not-china,7.053827703
+Samsung Galaxy J7 Duo,1094.12,1769,Samsung,not-china,6.997705666
+Samsung Galaxy J7 Prime,1204.75,2207,Samsung,not-china,7.094027356
+Samsung Galaxy J7 Prime 2,703.82,294,Samsung,not-china,6.556522642
+Samsung Galaxy J7 Pro,1287.64,4001,Samsung,not-china,7.160566364
+Samsung Galaxy J8,1391.46,779,Samsung,not-china,7.238108835
+Samsung Galaxy M10,717.75,74453,Samsung,not-china,6.576121319
+Samsung Galaxy M20,1209.02,10390,Samsung,not-china,7.097565393
+Samsung Galaxy M30,1366.03,7412,Samsung,not-china,7.219664002
+Samsung Galaxy M30s,1435.73,18263,Samsung,not-china,7.26942871
+Samsung Galaxy M31,1815.07,2216,Samsung,not-china,7.503879313
+Samsung Galaxy M40,2219.04,223,Samsung,not-china,7.704829949
+Samsung Galaxy Note 10 Lite,5735.64,2936,Samsung,not-china,8.654454619
+Samsung Galaxy Note FE,4329.09,6547,Samsung,not-china,8.373112637
+Samsung Galaxy Note10,7312.7,196,Samsung,not-china,8.897367842
+Samsung Galaxy Note8,3376.32,568,Samsung,not-china,8.124541638
+Samsung Galaxy Note9,4389.84,91,Samsung,not-china,8.387048059
+Samsung Galaxy S10,4729.19,813,Samsung,not-china,8.461509219
+Samsung Galaxy S10 Lite,4050.5,728,Samsung,not-china,8.306595609
+Samsung Galaxy S10e,4473.59,592,Samsung,not-china,8.405946497
+Samsung Galaxy S20,5735.09,63,Samsung,not-china,8.654358723
+Samsung Galaxy S20 Ultra 5G,8157.3,381,Samsung,not-china,9.006668511
+Samsung Galaxy S4 mini I9195I,1394.94,691,Samsung,not-china,7.240606683
+Samsung Galaxy S5 Neo,603,20,Samsung,not-china,6.401917197
+Samsung Galaxy S6,1402.98,71,Samsung,not-china,7.246353825
+Samsung Galaxy S6 active,1551.24,177,Samsung,not-china,7.34680989
+Samsung Galaxy S6 edge,1248.21,102,Samsung,not-china,7.129465804
+Samsung Galaxy S7,1924.78,178,Samsung,not-china,7.562566954
+Samsung Galaxy S7 edge,2392.92,2661,Samsung,not-china,7.780269657
+Samsung Galaxy S8,3104.5,1875,Samsung,not-china,8.040607951
+Samsung Galaxy S9,3619.08,764,Samsung,not-china,8.193975129
+Samsung Galaxy Xcover 4,689.19,5765,Samsung,not-china,6.535516995
+Samsung Galaxy Z Flip,916.56,499,Samsung,not-china,6.820627532
+vivo iQOO Pro,1923.25,1602,vivo,china,7.561771742
+vivo NEX A,2015.9,320,vivo,china,7.608821025
+vivo NEX Dual Display,1111.88,1845,vivo,china,7.013807555
+vivo S1,1431.24,17197,vivo,china,7.26629648
+vivo S1 Pro,1723.42,6875,vivo,china,7.452065968
+vivo V11 (V11 Pro),1636.07,27259,vivo,china,7.400052304
+vivo V11i,1567.8,281,vivo,china,7.357428642
+vivo V15,1829.85,22319,vivo,china,7.511989275
+vivo V15 Pro,2280.94,16031,vivo,china,7.732342918
+vivo V17,2669.28,520,vivo,china,7.889564052
+vivo V17 Pro,2304.63,11315,vivo,china,7.742675422
+vivo V19,2266.18,785,vivo,china,7.725850874
+vivo V5,1456.37,451,vivo,china,7.283702317
+vivo V5 Plus,1344.67,480,vivo,china,7.203903909
+vivo V5s,1350.7,205,vivo,china,7.208378256
+vivo V7,1342.66,330,vivo,china,7.202408
+vivo V9,1568.18,7303,vivo,china,7.35767099
+vivo X5Max Platinum Edition,1942.13,146,vivo,china,7.571540588
+vivo Y11 (2019),1114.31,3514,vivo,china,7.015990658
+vivo Y12,909.86,68701,vivo,china,6.813290742
+vivo Y15,1118.33,23595,vivo,china,7.01959178
+vivo Y17,1241.94,29150,vivo,china,7.124429952
+vivo Y19,1430.31,4913,vivo,china,7.265646483
+vivo Y21,771.36,17,vivo,china,6.648155191
+vivo Y51,964.8,24,vivo,china,6.871920826
+vivo Y53,771.79,69,vivo,china,6.648712492
+vivo Y65,1447.2,468,vivo,china,7.277385934
+vivo Y69,1302.48,38,vivo,china,7.172025418
+vivo Y71,884.22,8410,vivo,china,6.7847059
+vivo Y81,892.14,7535,vivo,china,6.793623071
+vivo Y83,1054.29,3170,vivo,china,6.960622834
+Vivo Y91C,815.84,50346,vivo,china,6.704218257
+vivo Y93,920.89,17705,vivo,china,6.825340594
+vivo Y95,1122.63,15709,vivo,china,7.023429426
+vivo Z1,1447.2,29,vivo,china,7.277385934
+vivo Z1Pro,1523.47,15567,vivo,china,7.328745907
+Xiaomi Black Shark 2,2395.41,2487,Xiaomi,china,7.781309685
+Xiaomi Black Shark 2 Pro,3460.22,2063,Xiaomi,china,8.14908745
+Xiaomi Mi 10 Lite 5G,1447.2,522,Xiaomi,china,7.277385934
+Xiaomi Mi 10 Youth 5G,1408.61,253,Xiaomi,china,7.250358682
+Xiaomi Mi 4i,907.88,1990,Xiaomi,china,6.811112211
+Xiaomi Mi 5c,747.72,2,Xiaomi,china,6.617028576
+Xiaomi Mi 5s,1832.64,222,Xiaomi,china,7.513512829
+Xiaomi Mi 6,839.68,1711,Xiaomi,china,6.733020867
+Xiaomi Mi 8,1953.72,124,Xiaomi,china,7.577490527
+Xiaomi Mi 8 Explorer,2966.76,122,Xiaomi,china,7.995225727
+Xiaomi Mi 8 Lite,1771.12,3622,Xiaomi,china,7.479367394
+Xiaomi Mi 8 Pro,3372.67,262,Xiaomi,china,8.123459995
+Xiaomi Mi 8 SE,2026.08,1276,Xiaomi,china,7.613858171
+Xiaomi Mi 9 Lite,1809,168,Xiaomi,china,7.500529485
+Xiaomi Mi 9T,2629.08,354,Xiaomi,china,7.874389254
+Xiaomi Mi 9T Pro,1953.72,1239,Xiaomi,china,7.577490527
+Xiaomi Mi A1 (Mi 5X),1641.84,19297,Xiaomi,china,7.403572843
+Xiaomi Mi A2 (Mi 6X),1078.17,12448,Xiaomi,china,6.983020438
+Xiaomi Mi A2 Lite (Redmi 6 Pro),915.47,37019,Xiaomi,china,6.819437595
+Xiaomi Mi Max,2714.95,407,Xiaomi,china,7.906528816
+Xiaomi Mi Max 2,1355.96,1340,Xiaomi,china,7.21226497
+Xiaomi Mi Max 3,1710.01,992,Xiaomi,china,7.444254497
+Xiaomi Mi Mix 2,3338.21,129,Xiaomi,china,8.113190014
+Xiaomi Mi Mix 2S,2547.07,396,Xiaomi,china,7.842698958
+Xiaomi Mi Mix 3,3028.13,1203,Xiaomi,china,8.015700546
+Xiaomi Mi Note 10,2255.59,1027,Xiaomi,china,7.721166859
+Xiaomi Mi Note 10 Pro,3775.49,1358,Xiaomi,china,8.236285455
+Xiaomi Mi Note 2,695.94,8755,Xiaomi,china,6.54526345
+Xiaomi Mi Note 3,1803.49,695,Xiaomi,china,7.497478956
+Xiaomi Mi Play,1291.49,1970,Xiaomi,china,7.16355187
+Xiaomi Pocophone F1,2203.76,17706,Xiaomi,china,7.697920271
+Xiaomi Redmi 2,453.12,1727,Xiaomi,china,6.116156991
+Xiaomi Redmi 2 Prime,638.25,9526,Xiaomi,china,6.458730056
+Xiaomi Redmi 2 Pro,421.5,1120,Xiaomi,china,6.043819777
+Xiaomi Redmi 3,776.56,2205,Xiaomi,china,6.654873909
+Xiaomi Redmi 3 Pro,675.36,96,Xiaomi,china,6.515245882
+Xiaomi Redmi 3s,848.98,1288,Xiaomi,china,6.744035629
+Xiaomi Redmi 3s Prime,520.65,314,Xiaomi,china,6.255078031
+Xiaomi Redmi 3x,964.8,110,Xiaomi,china,6.871920826
+Xiaomi Redmi 4 (4X),878.08,3438,Xiaomi,china,6.777737706
+Xiaomi Redmi 4 Prime,883.05,1635,Xiaomi,china,6.783381824
+Xiaomi Redmi 4A,608.24,8158,Xiaomi,china,6.410569541
+Xiaomi Redmi 5 Plus (Redmi Note 5),1060.03,45444,Xiaomi,china,6.966052489
+Xiaomi Redmi 5A,716.48,32778,Xiaomi,china,6.574350333
+Xiaomi Redmi 6A,618.38,332426,Xiaomi,china,6.427103155
+Xiaomi Redmi 7,864.67,27660,Xiaomi,china,6.762347931
+Xiaomi Redmi 7A,555.51,275774,Xiaomi,china,6.319886611
+Xiaomi Redmi 8,845.62,43666,Xiaomi,china,6.740070086
+Xiaomi Redmi 8A,656.45,14649,Xiaomi,china,6.486846529
+Xiaomi Redmi 8A Dual,313.46,829,Xiaomi,china,5.74767176
+Xiaomi Redmi 8A Pro,773.77,26,Xiaomi,china,6.651274672
+Xiaomi Redmi Go,525.18,7200,Xiaomi,china,6.263741061
+Xiaomi Redmi K20,2262.3,2164,Xiaomi,china,7.724137274
+Xiaomi Redmi K20 Pro,2455.42,529,Xiaomi,china,7.806053105
+Xiaomi Redmi K30,998.57,1150,Xiaomi,china,6.906324256
+Xiaomi Redmi Note 2,511.08,12582,Xiaomi,china,6.236526134
+Xiaomi Redmi Note 3,621.09,2086,Xiaomi,china,6.431475999
+Xiaomi Redmi Note 4,1210.81,6614,Xiaomi,china,7.099044836
+Xiaomi Redmi Note 4X,844.33,16297,Xiaomi,china,6.738543413
+Xiaomi Redmi Note 5 AI Dual Camera,1077.19,5448,Xiaomi,china,6.982111078
+Xiaomi Redmi Note 5 Pro,1084.95,36056,Xiaomi,china,6.989289182
+Xiaomi Redmi Note 6 Pro,1302.87,11955,Xiaomi,china,7.172324802
+Xiaomi Redmi Note 7,1198.5,106864,Xiaomi,china,7.088826054
+Xiaomi Redmi Note 7 Pro,1794.53,486,Xiaomi,china,7.492498428
+Xiaomi Redmi Note 8,1118.08,206246,Xiaomi,china,7.019368208
+Xiaomi Redmi Note 8 Pro,1574.96,78583,Xiaomi,china,7.361985154
+Xiaomi Redmi Note 9 Pro Max,868.32,6,Xiaomi,china,6.76656031
+Xiaomi Redmi Note Prime,927.66,1368,Xiaomi,china,6.832665286
+Xiaomi Redmi S2 (Redmi Y2),852.29,38224,Xiaomi,china,6.747926845
+Xiaomi Redmi Y1 (Note 5A),987.64,3882,Xiaomi,china,6.895318259
