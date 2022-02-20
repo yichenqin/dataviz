@@ -1,0 +1,53 @@
+"NationalRank","GlobalRank","State","gdp_per_capita2019"
+1,1,"District of Columbia",200277
+2,2,"New York",90043
+3,2,"Massachusetts",86942
+4,3,"Connecticut",81055
+5,3,"California",80563
+6,4,"Washington",80170
+7,4,"Delaware",78468
+8,4,"Alaska",76220
+9,4,"North Dakota",75321
+10,6,"New Jersey",73451
+11,6,"Maryland",71838
+12,6,"Illinois",71727
+13,6,"Hawaii",69593
+14,6,"Colorado",68828
+15,6,"Wyoming",68757
+16,6,"Minnesota",68427
+17,6,"Nebraska",66737
+18,6,"Texas",66149
+19,6,"New Hampshire",66069
+NA,NA,"United States",65281
+20,6,"Virginia",65824
+21,6,"Pennsylvania",64412
+22,8,"Iowa",62493
+23,8,"South Dakota",61104
+24,8,"Rhode Island",60830
+25,8,"Oregon",60558
+26,8,"Ohio",60464
+27,9,"Wisconsin",60425
+28,10,"Kansas",60310
+29,11,"Georgia",58896
+30,11,"Nevada",58570
+31,11,"Louisiana",57445
+32,11,"North Carolina",56862
+33,11,"Indiana",56702
+34,11,"Vermont",56525
+35,11,"Tennessee",56451
+36,11,"Michigan",54928
+37,12,"Missouri",54879
+38,12,"Oklahoma",52409
+39,13,"Florida",51745
+40,13,"Arizona",51179
+41,13,"Maine",50915
+42,15,"New Mexico",50022
+43,16,"Utah",49892
+44,16,"Montana",49540
+45,16,"Kentucky",48697
+46,16,"South Carolina",48547
+47,17,"Alabama",47735
+48,19,"Idaho",46043
+49,19,"West Virginia",43806
+50,19,"Arkansas",44808
+51,24,"Mississippi",40464
