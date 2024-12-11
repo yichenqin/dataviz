@@ -1,0 +1,536 @@
+--- 
+title: "Ch4 Descriptive Analytics"
+subtitle: "Descriptive Analytics and Data Visualization"
+author: "Yichen Qin (qinyn@ucmail.uc.edu), University of Cincinnati"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    number_sections: true
+    code_folding: "show"
+    toc: true
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+---
+
+
+# Descriptive Analytics {#descriptiveanalytics}
+
+The following R packages are needed for running the examples in this chapter.
+```{r, warning=FALSE, message=FALSE}
+library(ggplot2)
+library(tidyverse)
+library(readr) # for reading large files
+library(maps) # for generating simple maps 
+```
+
+After reading data into R and some basic data wrangling such as merging and filtering, we are now ready to perform some desciptive analytics, including some summary statistics, tabulation, and visualization.
+
+
+# Propose Your Question
+
+There are a zillions things you could do to the data. You cannot exhaust all the possibilities. Therefore, knowing what you want from the data can eliminate a lot of scenarios and let you focus on your objective. You should have a **overarching question** that guides you throughout the analysis.
+
+It’s usually a good idea to spend a few minutes to figure out what is the question you’re really interested in, and narrow it down to be as specific as possible (without becoming uninteresting).
+
+As a side note, one of the most important questions you can answer with an exploratory data analysis is “Do I have the right data to answer this question?” Often this question is difficult ot answer at first, but can become more clear as we sort through and look at the data.
+
+We use EPA's hourly ozone measurements in the entire U.S. for the year 2014 as an example. Data is available at https://aqs.epa.gov/aqsweb/airdata/download_files.html
+
+Here we analyze a air pollution dataset from the U.S. Environmental Protection Agency (EPA). The overarching question could be "Are air pollution levels higher on the east coast than on the west coast?" or "Are air pollution levels higher in New York City than in Los Angeles?" There is no wrong question. Suppose our question is "which counties have the highest levels of ozone pollution in Ohio, Indiana, and Kentucky?"
+
+
+
+<!--
+"Far better an approximate answer to the right question, which is often vague, than an exact answer to the wrong question, which can always be made precise." - John Tukey
+
+"I would rather be vaguely right, than precisely wrong." - John Maynard Keynes
+-->
+
+# Reading and Preprocessing Data
+
+After we propose the research question, we need to analyze data to provide the answer. Note that the raw data sometimes can be very messy and you will need extensive amount of data cleaning. This data below is relatively clean. But keep in mind that every data set is different and may require different handling.
+
+The data is in a comma-separated value (csv) file. Each row is one observation of ozone level in one location at a certain time (usually top of the hour) in USA. The size of data is pretty large so we use a special function to read data called `read_csv` which is available in the `readr` package.
+
+```{r}
+library(readr)
+ozone <- read_csv("data/hourly_44201_2014_OH_IN_KY.csv",
+                   col_types = "ccccinnccDcccncnnccccccc")
+names(ozone) <- make.names(names(ozone))
+```
+
+Note that `read_csv` has a argument `col_types` which specifies the class of each column. `c` is character, `n` is numeric, `i` is integer. You can take a look at the data file and specify the types or leave it unspecified, which may slow down the process of reading data.
+
+# Data Dimensions
+
+Once the data is read into R, you should check out the data's dimension, such as how many variables `ncol()`, how many observations `nrow()`.
+
+```{r}
+dim(ozone)
+nrow(ozone)
+ncol(ozone)
+names(ozone)
+```
+
+For each variable, what are the typical values? Use `str()` to examine the classes of each of the columns
+
+```{r}
+str(ozone)
+```
+
+It is also a good idea to check out the first and last a few rows just to see if the data is complete. Use `head()` and `tail()`. If the data is time series, then make sure the beginning time and ending time are correct.
+  
+```{r}
+head(ozone)
+tail(ozone)
+head(ozone[, c(6:7, 10)])
+tail(ozone[, c(6:7, 10)])
+```
+
+It is very helpful to use `tail` to check out the bottom of the data because sometimes the data is incorrectly read and the last a few observations often show some abnormality.
+
+# Counting as a Simple Check
+
+Usually, you will identify some landmarks to check if the data is complete. For example, our data is hourly observations of ozone levels for the entire country at the county level. Therefore, the two landmarks are the time and the county.
+
+For time, since the data is observed hourly, there should be all the hours per day per location. We check the time by `Time.Local` variable.
+
+```{r}
+table(ozone$Time.Local)
+table(ozone$State.Code)
+table(ozone$County.Code)
+table(ozone$Date.Local)
+```
+
+It seems that all hours are presented in the data. Of course, you can further check each location to see if all hours are present too, but this is good enough as a starting point.
+
+
+```{r eval=FALSE, echo=FALSE}
+filter(ozone, Time.Local == "13:14") %>%
+         select(State.Name, County.Name,
+                Date.Local,Time.Local,
+                Sample.Measurement)
+filter(ozone, State.Code == "36" & County.Code == "033" & Date.Local == "2014-09-30") %>%
+         select(Date.Local, Time.Local,
+                Sample.Measurement) %>%
+         as.data.frame
+```
+
+Since data measures all the counties, we should see exactly how many states are represented in this dataset and how many counties in each state.
+
+```{r}
+select(ozone, State.Name) %>% unique %>% nrow
+unique(ozone$State.Name)
+```
+
+<!--
+There are 53 states in total, which is a little bit odd. We further print out these states.
+We see that "District Of Columbia", "Puerto Rico", and "Country Of Mexico" are included in the data even though they are not states, but it is ok to have them in the data.
+-->
+
+# Validate Using External Source
+
+Verifying the quality of your data using a external data is very useful. It allows you to make sure the data is within reasonable range and they are not too many outliers. Validating the data can be as simple as checking the data against one single number, such as ozone level.
+
+Our data is about hourly ozone level. We can take a look at the ozone level first.
+
+```{r}
+summary(ozone$Sample.Measurement)
+```
+
+Do these numbers stay in the reasonable range? The current standard of ozone set in 2008 is annual fourth-highest daily maximum 8-hr concentration, averaged over 3 years should not exceed 0.075 parts per million (ppm). (Based on extensive scientific evidence about the effects of ozone on public health and welfare, on October 1, 2015, EPA strengthened the ground-level ozone standard to 0.070 ppm, averaged over an 8-hour period.) Even though this 0.075 is not exactly what we measure in the data, but it does offer us a guideline that most of the locations should have a 8 hour average lower than 0.075ppm.
+
+This seems to be the case because the third quartile is still much lower than 0.075. Even though the max is much larger than 0.075, this is expected as we know for a fact that some counties' air are heavily polluted. We can further look at 10\%, 20\%, ..., 90\% percentiles.
+
+```{r}
+quantile(ozone$Sample.Measurement, seq(0, 1, 0.1))
+```
+
+We can see that at least 90\% of the data is below the national standard.
+
+# Start Simple
+
+Try to answer your proposed question in the simplest way first. Our question is "Which counties in these three states have the highest levels of ambient ozone pollution?" For this question, what is the simplest solution? Rank all the counties by average ozone level could be the simplest. Even though there are issues with this method, such as average is not robust, this is a good starting point.
+
+```{r}
+ranking <- group_by(ozone, State.Name, County.Name) %>%
+         summarize(ozone = mean(Sample.Measurement)) %>%
+         as.data.frame %>% arrange(desc(ozone))
+head(ranking, 10)
+tail(ranking, 10)
+```
+
+It seems that the top 10 counties are all over OH, IN, and KY. So are the bottom 10 counties.
+
+Let's take a look at the county with the highest ozone level. Geauga, OH. How many observations do we have for this county?
+
+```{r}
+filter(ozone, State.Name == "Ohio" & County.Name == "Geauga") %>% nrow
+```
+
+Does this number make sense? There are 24 hours in a day and 365 days in a year, so the total number of observations should be around 8760. 
+However, there seems to be some observations missing. 
+What are they? It is not immediately clear why that is, but probably worth investigating later on.
+
+```{r}
+ozone_highcounty <- filter(ozone, State.Name == "Ohio" & County.Name == "Geauga")
+table(ozone_highcounty$Time.Local)
+length(unique(ozone_highcounty$Date.Local))
+```
+
+Now we understand that we observe less than 1 year of data.
+What are the months we observe data?
+
+```{r}
+filter(ozone, State.Name == "Ohio" & County.Name == "Geauga") %>%
+         mutate(month = factor(months(Date.Local), levels = month.name)) %>%
+         count(month)
+```
+
+We can further take a look at the monthly average ozone levels.
+
+```{r}
+#ozone <- mutate(ozone, Date.Local = as.Date(Date.Local))
+filter(ozone, State.Name == "Ohio" & County.Name == "Geauga") %>%
+         mutate(month = factor(months(Date.Local), levels = month.name)) %>%
+         group_by(month) %>%
+         summarize(ozone = mean(Sample.Measurement))
+```
+
+We can see from the output that ozone level is higher during the summer and lower during the winter. 
+One thing that worth further investigation is the most of the month have ozone level higher than 0.036, average ozone level of Geauga county.
+Only two months (Sep and Oct) have ozone level lower than 0.036.
+So it seems that the maximum of the average ozone level of each month may be even higher than what we have calculated.
+We may compare maximum of the monthly average in the next step.
+
+
+We can take a look at another location, say Hamilton, OH.
+
+```{r}
+filter(ozone, State.Name == "Ohio" & County.Name == "Hamilton") %>% nrow
+#ozone <- mutate(ozone, Date.Local = as.Date(Date.Local))
+filter(ozone, State.Name == "Ohio" & County.Name == "Hamilton") %>%
+         mutate(month = factor(months(Date.Local), levels = month.name)) %>%
+         group_by(month) %>%
+         summarize(ozone = mean(Sample.Measurement))
+filter(ozone, State.Name == "Ohio" & County.Name == "Hamilton") %>% nrow
+filter(ozone, State.Name == "Ohio" & County.Name == "Hamilton") %>%
+         mutate(month = factor(months(Date.Local), levels = month.name)) %>%
+         group_by(month) %>%
+         summarize(ozone = mean(Sample.Measurement))
+```
+
+Here we have more observation for this location. 
+We can check to see if there is anything wrong with the data. 
+Meanwhile, the monthly average is much lower in this location.
+
+It is also clear that the ozone level is lower in the winter and high in the summer, which partially explains why Geauga county is on the top since we do not have a lot of observations in winter for this location.
+
+Let us check other counties.
+
+```{r}
+filter(ozone, State.Name == "Indiana" & County.Name == "Perry") %>%
+         mutate(month = factor(months(Date.Local), levels = month.name)) %>%
+         group_by(month) %>%
+         summarize(ozone = mean(Sample.Measurement))
+filter(ozone, State.Name == "Kentucky" & County.Name == "Washington") %>%
+         mutate(month = factor(months(Date.Local), levels = month.name)) %>%
+         group_by(month) %>%
+         summarize(ozone = mean(Sample.Measurement))
+filter(ozone, State.Name == "Kentucky" & County.Name == "Jessamine") %>%
+         mutate(month = factor(months(Date.Local), levels = month.name)) %>%
+         group_by(month) %>%
+         summarize(ozone = mean(Sample.Measurement))
+```
+
+Now we have reazlied an important issue with our data, many counties do not have the ozone levels during the winter.
+This issue will limit our analysis since we cannot evaluate the overall ozone level of each county.
+In other words, our original question "Which counties have the highest levels of ambient ozone pollution?" cannot be fully answered.
+On the other hand, we can still partially answer this question.
+For example, if we only compare the summer months, e.g., June, July, and August, then it seems the data is more complete.
+This is not ideal, but this direction will still be able to tell us more about these counties.
+As you can see, the proposed question is updated during this process.
+
+If we only compare the average ozone level during the summer months, the ranking will be as follows.
+
+```{r}
+ranking <- ozone %>% 
+  mutate(month = factor(months(Date.Local), levels = month.name)) %>%
+  filter(month %in% c("June","July","August")) %>%
+  group_by(State.Name, County.Name) %>%
+  summarize(ozone = mean(Sample.Measurement)) %>%
+  as.data.frame %>% arrange(desc(ozone))
+head(ranking, 10)
+```
+
+# Challenge Your Solution
+
+Once the analysis is done, you should consider different ways to challenge your answer to verify that your analysis is correct. For this example, ranking all the counties using their average ozone level seems to be working well. However, how robust is the answer? We could potentially perturb the data by adding some noise or shuffling the data to see if the conclusion is still the same. This is sometimes called bootstrap. Essentially, we resample the observed data to get a few new data sample that are similar to the original sample but are randomly shuffled.
+
+```{r}
+set.seed(10234)
+N <- nrow(ozone)
+idx <- sample(N, N, replace = TRUE)
+ozone2 <- ozone[idx, ]
+ranking2 <- ozone %>% 
+  mutate(month = factor(months(Date.Local), levels = month.name)) %>%
+  filter(month %in% c("June","July","August")) %>%
+  group_by(State.Name, County.Name) %>%
+  summarize(ozone = mean(Sample.Measurement)) %>%
+  as.data.frame %>%
+  arrange(desc(ozone))
+cbind(head(ranking, 10),
+       head(ranking2, 10))
+```
+
+As we can see the top 10 from the original data and top 10 from the perturbed data are more or less the same, which means our answer is robust and stable. We can further look at the bottom 10.
+
+```{r}
+cbind(tail(ranking, 10),
+       tail(ranking2, 10))
+```
+
+The conclusion is the same.
+
+# More Questions
+
+After your proposed question is answered, you should check the whole analysis by raising a few additional questions.
+
+Do you have the right data? Sometimes, the analysis cannot be done using the data at hand. The conclusion is that the data is not appropriate for the proposed question. For example, if you don't have ozone level data or don't have county level observations, the analysis cannot be done.
+
+Do you need additional data? Even if the data is appropriate, the sample size may not be enough. You will not be able to get a stable answer. In the current example, we bootstrap the data to see if the rankings changed, but the better way to do this would be to simply get the data for previous years and re-do the rankings.
+
+Do you have the right question? After the analysis, you may be able to revise your original question. For example, instead of looking for the county with the highest ozone level, maybe we could target the counties whose ozone levels exceed the national standard or 0.075? But this would also require more data.
+
+
+The goal of exploratory data analysis is to get you thinking about your data and reasoning about your question. At this point, we can refine our question or collect new data, all in an iterative process to get at the truth.
+
+# Exploratory Data Visualization
+
+In this section, we introduce some basic visualization tools (R base plotting system) to quickly generate figures to get sense of the data (exploratory data visualization). This step helps analyst to prioritize tasks, it is less formal and we are less concerned with the details of the figures. The purpose is to get information fast and check out the data. To generate more refined final figures, we will use ggplot (explanatory data visualization) which is introduced later. 
+
+
+Here is a list of basic functions we will use: scatter plot, histogram, bar plot, box plot.
+
+<!---
+function | description
+---------|------------
+plot(x,y) | scatter plot
+plot(x,y,type="l") | line plot
+hist(x)   | histogram
+barplot(table(x)) | bar plot
+boxplot(x~y,data) | box plot
+--->
+
+Let's use a different data set as an example. One of the national ambient air quality standards in the U.S. concerns the long-term average level of fine particle pollution, also referred to as PM2.5. We have collected the annual mean PM2.5 averaged over the period of 2008 through 2010 for all counties in USA.
+
+For PM2.5, the EPA standard says that the "annual mean, averaged over 3 years” cannot exceed 12 micrograms per cubic meter.
+
+Our question is: Are there any counties in the U.S. that exceed the national standard for fine particle pollution? 
+
+```{r}
+pollution <- read.csv("data/avgpm25.csv", header = TRUE, stringsAsFactors = FALSE)
+head(pollution)
+```
+
+One way to force fips column to be string is by adding `colClasses` argument in `read.csv`.
+
+```{r}
+pollution <- read.csv("data/avgpm25.csv", 
+                      colClasses = c("numeric", 
+                                     "character", 
+                                     "character", 
+                                     "numeric", 
+                                     "numeric"))
+head(pollution)
+```
+
+# One Varible Visualization
+
+```{r}
+summary(pollution$pm25)
+mean(pollution$pm25)
+median(pollution$pm25)
+quantile(pollution$pm25,0.95)
+sd(pollution$pm25)
+var(pollution$pm25)
+IQR(pollution$pm25)
+range(pollution$pm25)
+```
+
+
+**Boxplot**
+
+The box shows the first quartile, second quartile (median), and third quartile. The the The bars are 1.5 times the inter-quartile range, or IQR, which is simply the distance from the bottom of the box to the top of the box.
+
+```{r}
+#boxplot(pollution$pm25, col = "blue")
+ggplot(data = pollution) + geom_boxplot(aes(y=pm25))
+```
+
+We see a few outliers beyond the upper and lower bounds, which are worth investigating. We can take out all observations with pm25 larger than 15 (around the upper bound).
+
+```{r}
+filter(pollution, pm25 > 15)
+```
+
+We can see these counties are all in California because the `fips` code starts with `06`. https://transition.fcc.gov/oet/info/maps/census/fips/fips.txt
+
+To visualize where there counties are, we can create a map and plot these locations.
+
+```{r}
+library(maps)
+map("county", "california")
+pollution_pm25_15=filter(pollution, pm25 > 15)
+points(pollution_pm25_15$longitude, pollution_pm25_15$latitude)
+```
+
+We will talk about how to generate pretty maps later (using `ggplot`), but for now this map tells us the most polluted counties are and they seem to be in the middel or southern part of California.
+
+**Histogram**
+
+We can further examine the distribution of PM2.5 of all counties using histogram. The boxplot is only visualizing five numbers, whereas the histogram displays the entire distribution.
+
+```{r}
+#hist(pollution$pm25, col = "green")
+#rug(pollution$pm25)
+ggplot(data=pollution) + 
+  geom_histogram(aes(x=pm25),binwidth = 0.5)
+```
+
+Here we use `rug` to add each data point on this histogram. We notice that there is a concentrated range 8-13 where a lot of counties lie in. Note that there are still quite a few counties above the level of 12, which may be worth investigating. We can further plot the data in more details by adjusting the bin size or bin number. Note that `hist()` function has a default algorithm for determining the number of bins.
+
+```{r}
+ggplot(data=pollution) + 
+  geom_histogram(aes(x=pm25),binwidth = 0.1)
+```
+
+We know see that there is a spike around 9. This is something worth investigating later.
+
+**Overlaying**
+
+We can annotate the figures with some key measurements, such as the PM2.5 standard 12 or the median of the observed PM2.5. This is sometimes called overlaying. You can overlay a horizontal line, or another plot.
+
+```{r}
+#boxplot(pollution$pm25, col = "blue")
+#abline(h = 12)
+ggplot(data=pollution) + 
+  geom_boxplot(aes(y=pm25)) +
+  geom_hline(yintercept = 12)
+```
+
+We can see that the majority of counties are below the national standard of 12. Meanwhile, we can overlay histogram too.
+
+```{r}
+#hist(pollution$pm25, col = "green")
+#abline(v = 12, lwd = 2)
+#abline(v = median(pollution$pm25), col = "magenta", lwd = 4)
+ggplot(data=pollution) + 
+  geom_histogram(aes(x=pm25),binwidth = 0.5) +
+  geom_vline(xintercept = 12) +
+  geom_vline(xintercept = median(pollution$pm25), linetype = "longdash")
+```
+
+We use `col` and `lwd` to specify the line in different format for better visualization.
+
+**Tabulation and barplot**
+
+So far we have visualize some numerical data. For categorical data, we can use barplot. For example, we can see how many counties are in the east region and the west region. We could also use `table()` to create a tabulation of the categorical data.
+
+```{r}
+table(pollution$region)
+#table(pollution$region) %>% barplot(col = "wheat")
+ggplot(data = pollution) + geom_bar(aes(x=region),position = "identity")
+```
+
+# Multiple Variables Visualization
+
+So far, we only visualize one variable, what if we want to visualiza multiple variables at the same time? There are a huge list of tools for such a task.
+
+To visualize a continuous and a categorical variables, we can overlay multiple boxplot or histograms.
+
+To visualize two continuous variables, we could use scatter plot. Sometimes, transformation may be neeeded.
+
+To visualize two continuous variables with a large sample size, we could use smooth scatter plot, which use color to indicate the density of dots.
+
+To visualize more than two variables, we sometimes need to combine what we show above, for example, multiple scatter plot or conditioning plots. Conditioning plots mean you hold variable fixed while plotting the relationship between two other variables. This is sometimes called stratification.
+
+We could also use color, shape, size, type of symbols to represent the additional variables.
+
+We could develop interactive plot which usually takes more effort, or create 3D plot. However, these plots often involve quite a bit of designing and are usually good for explanatory data visualization as opposed to exploratory data visualization.
+
+Of course, the technology is advancing fast, so there may be more new ways to visualize data in the future.
+
+Let's see some examples.
+
+```{r}
+#boxplot(pm25 ~ region, data = pollution, col = "red")
+ggplot(data = pollution) +
+  geom_boxplot(aes(x=region,y=pm25),fill="red")
+```
+
+Here the boxplot take a formula as input and plot the boxplot of PM2.5 conditional region. We can have side by side comparison of two regions. When you have more than two categories, then you will be able to see if there is a trend or change. In the figure, we see the PM2.5 is higher in the east than in the west.
+
+Similarly, we could plot multiple histograms and will be able to tell the change in distributions.
+
+```{r}
+pol_west = filter(pollution, region == "west")
+pol_east = filter(pollution, region == "east") 
+#par(mfrow = c(2, 1), mar = c(4, 4, 2, 1))
+#hist(pol_east$pm25, col = "green")
+#hist(pol_west$pm25, col = "green")
+ggplot(data=pol_west) +
+  geom_histogram(aes(x=pm25))
+ggplot(data=pol_east) +
+  geom_histogram(aes(x=pm25))
+```
+
+We can see PM2.5 in the western U.S. tends to be right-skewed with some outlying counties with very high levels. The PM2.5 in the east tends to be left skewed some counties having very low levels.
+
+To visualize two continuous variables, we use scatter plot. Here we visualize the relationship between the latitude of the location and its PM2.5 level.
+
+```{r}
+#plot(pollution$latitude, pollution$pm25)
+#abline(h = 12, lwd = 2, lty = 2)
+ggplot(data = pollution) +
+  geom_point(aes(x=latitude,y=pm25)) +
+  geom_hline(yintercept = 12)
+```
+
+As we move south to north in the U.S., we can see that the highest levels of PM2.5 tend to be in the middle region of the country. We can further add colors to visualize more variables. Here, we add region as a color.
+
+```{r}
+#col_vec = ifelse(pollution$region=="east", "black", "red")
+#plot(pollution$latitude, pollution$pm25, col = col_vec)
+#abline(h = 12, lwd = 2, lty = 2)
+ggplot(data = pollution) +
+  geom_point(aes(x=latitude,y=pm25,color=region)) +
+  geom_hline(yintercept = 12)
+```
+
+We can see the west coast counties are more diverging than the east coast and most of cities are below average, but the cities in the middle range of latitude is above the average.
+
+Since overlaying these points may be a little harder to see, we can further separate them into different plots.
+
+```{r}
+# par(mfrow = c(1, 2), mar = c(5, 4, 2, 1))
+# pol_west = filter(pollution, region == "west")
+# pol_east = filter(pollution, region == "east") 
+# plot(pol_west$latitude, pol_west$pm25, main = "West")
+# plot(pol_east$latitude, pol_east$pm25, main = "East")
+ggplot(data = pollution) +
+  geom_point(aes(x=latitude,y=pm25,color=region)) +
+  geom_hline(yintercept = 12) +
+  facet_wrap(~region)
+```
+
+Now we immediately see that the counties in the east coast have higher PM2.5 in the mid latitude and lower PM2.5 else where. The counties in the west region don't have such a relationship.
+
+**Exploratory vs explanatory**
+
+As we can see, exploratory data visualization is often "quick and dirty" and their purpose is to let you summarize the data and highlight any broad features. They are also useful for exploring basic questions about the data and for judging the evidence for or against certain hypotheses. 
+
+They may be useful for suggesting modeling strategies that can be employed in the "next step" of the data analysis process.
+
+As for explanatory data visualization, it usually requires careful design and implementation, which we will talk about in the next a few sections.

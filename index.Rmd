@@ -1,0 +1,43 @@
+--- 
+title: "Descriptive Analytics and Data Visualization"
+author: "Yichen Qin (qinyn@ucmail.uc.edu), University of Cincinnati"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    number_sections: true
+    code_folding: "show"
+    toc: true
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+---
+
+
+[Chapter 0 Welcome](Chapter00-preface.html)
+
+[Chapter 1 Introduction](Chapter01-intro.html)
+
+[Chapter 2 Analytics Tools](Chapter02-tools.html)
+
+[Chapter 3 Data Wrangling](Chapter03-datawrangling.html)
+
+[Chapter 4 Visualization Basics](Chapter04-basic.html)
+
+[Chapter 5 Visualization Case Study](Chapter05-case.html)
+
+[Chapter 6 Visualization Principles](Chapter06-principles.html)
+
+[Chapter 7 Visualization Types - Part I](Chapter07-typespart1.html), [Part II](Chapter07-typespart2.html)
+
+[Chapter 8 Time Series Visualization](Chapter08-time.html)
+
+[Chapter 9 Spatial Data Visualization](Chapter09-spatial.html)
+
+[Chapter 10 High-Dimensional Data Visualization](Chapter10-highdim.html)
+
+[Chapter 11 Network Visualization](Chapter11-network.html)
+
+[Chapter 12 Text Visualization](Chapter12-text.html)
+
+[Appendix](Chapter13-appendix.html)
+

@@ -1,0 +1,270 @@
+---
+title: "Ch13 Appendix"
+subtitle: "Descriptive Analytics and Data Visualization"
+author: "Yichen Qin (qinyn@ucmail.uc.edu), University of Cincinnati"
+date: "`r Sys.Date()`"
+output: 
+  bookdown::html_document2:
+    number_sections: true
+    code_folding: "show"
+    toc: true
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+---
+
+# Chapter 4 Part 1
+
+Obviously, it is possible to remember all the functions and commands to do visualization. 
+One efficient way to index all these commands is the R Cheatsheets
+The cheatsheet for ggplot is available here^[https://rstudio.com/resources/cheatsheets/], which provides us a quick overview of the structure of the package.
+
+## List of Geometry Functions
+
+- `geom_abline`: straight line, usually added to the visualization to show trend or fitted linear regression.
+- `geom_vline`: vertical line.
+- `geom_hline`: horizontal line.
+- `geom_line`: line plot, usually for time series data.
+- `geom_area`: area plot, usually for time series data.
+- `geom_histogram`: histogram
+- `geom_bin2d`: 2 dimensional histogram
+- `geom_contour`: contour lines to show the density estimation.
+- There are many others: `geom_dotplot`, 
+- `geom_jitter`: add random noise to scatterplot so that the points are identifiable. 
+- `geom_pointrange`:
+- `geom_ribbon`,
+`geom_spoke`,
+`geom_count`,
+`geom_errorbar`,
+`geom_label`,
+`geom_polygon`,
+`geom_rug`,
+`geom_step`,
+`geom_bar`,
+`geom_crossbar`,
+`geom_errorbarh`,
+`geom_qq`,
+`geom_segment`,
+`geom_text`,
+`geom_curve`,
+`geom_freqpoly`,
+`geom_linerange`,
+`geom_qq_line`,
+`geom_sf`,
+`geom_tile`,
+`geom_blank`,
+`geom_density`,
+`geom_hex`,
+`geom_map`,
+`geom_quantile`,
+`geom_sf_label`,
+`geom_violin`,
+`geom_boxplot`,
+`geom_density2d`,
+`geom_path`,
+`geom_raster`,
+`geom_sf_text`,
+`geom_col`,
+`geom_density_2d`,
+`geom_point`,
+`geom_rect`,
+`geom_smooth`.
+
+
+## List of Scale Functions
+
+The complete list of the scale functions is here^[https://ggplot2.tidyverse.org/reference/index.html#section-scales].
+We organize them according to their purposes as follows. 
+
+Here are the main categories (aesthetic mappings) of scale functions.
+
+- `scale_x_*()`: a class of functions to set up x axis.
+- `scale_y_*()`: a class of functions to set up y axis.
+- `scale_color_*()`: a class of functions to set up the symbol color dimension (`color` and `colour` are equivalent).
+- `scale_fill_*()`: a class of functions to set up the inside color of the symbol (`color` is the exterior color while `fill` is the filled color).
+- `scale_shape_*()`: a class of functions to set up the symbol shape dimension.
+- `scale_size_*()`: a class of functions to set up the symbol size dimension.
+- `scale_linetype_*()`: a class of function to set up the linetype dimension.
+- `scale_alpha_*()`: a class of function to transparency level dimension.
+
+Within each category, we further list its members.
+
+- `scale_x_*()`: a class of functions to set up x axis.
+  - `scale_x_continuous()`: use this function to set up x-axis if a quantitative/continuous variable is mapped to x-axis. 
+  - `scale_x_log10()`: log10 transformation of x-axis if it is a quantitative variable.
+  - `scale_x_sqrt()`: square root transformation of x-axis if it is a quantitative variable.
+  - `scale_x_reverse()`: flip the order of x-axis if it is a quantitative variable.
+  - `scale_x_discrete()`: qualitative/discrete variable on x-axis.
+  - `scale_x_binned()`: binned variable on x-axis.
+  - `scale_x_date()`: date variable on x-axis.
+  - `scale_x_datetime()`: data and time variable on x-axis.
+  - `scale_x_time()`: time variable on x-axis.
+
+- `scale_y_*()`: for y-axis.
+  - `scale_y_continuous()`: for quantitative variable.
+  - `scale_y_log10()`: for log10 transformation of quantitative variable.
+  - `scale_y_sqrt()`: for square root transformation of quantitative variable.
+  - `scale_y_reverse()`: to flip the order of x-axis
+  - `scale_y_discrete()`: for qualitative variable.
+  - `scale_y_binned()`: for binned variable.
+  - `scale_y_date()`: for date variable.
+  - `scale_y_datetime()`: for data and time variable.
+  - `scale_y_time()`: for time variable.
+  
+- `scale_color_*()`: for color dimension.
+  - `scale_color_brewer()`: for qualitative variable mapped to color, use R package `RColorBrewer`'s palatte.
+  - `scale_color_distiller()`: for quantitative variable mapped to color, use R package `RColorBrewer`'s palatte.
+  - `scale_color_fermenter()`: for binned variable mapped to color, use R package `RColorBrewer`'s palatte.
+  - `scale_color_continuous()`: default to `scale_color_gradient()`.
+  - `scale_color_binned()`: default to `scale_color_steps()`.
+  - `scale_color_discrete()`: default to `scale_fill_hue()`/`scale_fill_brewer()`. 
+  - `scale_color_gradient()`: for quantitative variable mapped to color, interpolate to two colors to get a palette (low-high).
+  - `scale_color_gradient2()`: for quantitative variable mapped to color, interpolate to three colors to get a palette (low-mid-high).
+  - `scale_color_gradientn()`: for quantitative variable mapped to color, interpolate to n colors to get a palette.
+  - `scale_color_grey()`: for quantitative variable mapped to color, interpolate to black and white to get a palette.
+  - `scale_color_hue()`: for qualitative variable mapped to color, not colour-blind safe palette.
+  - `scale_color_identity()`: for qualitative variable mapped to color, this variable has to already contain color as values.
+  - `scale_color_manual()`: for qualitative variable mapped to color, manually specify the color for each level.
+  - `scale_color_steps()`: for binned variable mapped to color, interpolate to two colors to get a palette (low-high).
+  - `scale_color_steps2()`: for binned variable mapped to color, interpolate to three colors to get a palette (low-mid-high).
+  - `scale_color_stepsn()`: for binned variable mapped to color, interpolate to n colors to get a palette.
+  - `scale_color_viridis_d()`: for qualitative variable mapped to color, use `viridis` color palette. 
+  - `scale_color_viridis_c()`: for quantitative variable mapped to color, use `viridis` color palette. 
+  - `scale_color_viridis_b()`: for binned variable mapped to color, use `viridis` color palette.
+
+- `scale_fill_*()`: 
+  - `scale_fill_brewer()`: for qualitative variable mapped to fill, use R package `RColorBrewer`'s palatte.
+  - `scale_fill_distiller()`: for quantitative variable mapped to fill, use R package `RColorBrewer`'s palatte.
+  - `scale_fill_fermenter()`: for binned variable mapped to fill, use R package `RColorBrewer`'s palatte.
+  - `scale_fill_continuous()`: default to `scale_fill_gradient()`.
+  - `scale_fill_binned()`: default to `scale_fill_steps()`.
+  - `scale_fill_discrete()`: default to `scale_fill_hue()`/`scale_fill_brewer()`. 
+  - `scale_fill_gradient()`: for quantitative variable mapped to fill, interpolate to two colors to get a palette (low-high).
+  - `scale_fill_gradient2()`: for quantitative variable mapped to fill, interpolate to three colors to get a palette (low-mid-high).
+  - `scale_fill_gradientn()`: for quantitative variable mapped to fill, interpolate to n colors to get a palette.
+  - `scale_fill_grey()`: for quantitative variable mapped to fill, interpolate to black and white to get a palette.
+  - `scale_fill_hue()`: for qualitative variable mapped to fill, not colour-blind safe palette.
+  - `scale_fill_identity()`: for qualitative variable mapped to fill, this variable has to already contain color as values.
+  - `scale_fill_manual()`: for qualitative variable mapped to fill, manually specify the color for each level.
+  - `scale_fill_steps()`: for binned variable mapped to fill, interpolate to two colors to get a palette (low-high).
+  - `scale_fill_steps2()`: for binned variable mapped to fill, interpolate to three colors to get a palette (low-mid-high).
+  - `scale_fill_stepsn()`: for binned variable mapped to fill, interpolate to n colors to get a palette.
+  - `scale_fill_viridis_d()`: for qualitative variable mapped to fill, use `viridis` color palette. 
+  - `scale_fill_viridis_c()`: for quantitative variable mapped to fill, use `viridis` color palette. 
+  - `scale_fill_viridis_b()`: for binned variable mapped to fill, use `viridis` color palette.
+
+- `scale_shape_*()`: a class of functions to set up the symbol shape dimension.
+  - `scale_shape_manual()`
+  - `scale_shape_identity()`
+  - `scale_shape_binned()`
+  - `scale_shape()`
+  
+- `scale_size_*()`: a class of functions to set up the symbol size dimension.
+  - `scale_size_manual()`
+  - `scale_size_identity()`
+  - `scale_size()`
+  - `scale_size_binned()` 
+  - `scale_size_area()` 
+  - `scale_size_binned_area()`
+  
+- `scale_linetype_*()`: a class of function to set up the linetype dimension.
+  - `scale_linetype_manual()`
+  - `scale_linetype_identity()`
+  - `scale_linetype()`
+  - `scale_linetype_binned()`
+  - `scale_linetype_continuous()`
+  - `scale_linetype_discrete()`
+  
+- `scale_alpha_*()`: a class of function to transparency level dimension.
+  - `scale_alpha_manual()`
+  - `scale_alpha_identity()`
+  - `scale_alpha()`
+  - `scale_alpha_continuous()`
+  - `scale_alpha_binned()`
+  - `scale_alpha_discrete()`
+  - `scale_alpha_ordinal()`
+  
+## List of Theme Functions
+
+Element	            | Setter              | Description
+--------------------|---------------------|-------------
+`plot.background`   |	`element_rect()`    | plot background
+`plot.title`        | `element_text()`    | plot title
+`plot.margin`       |	`margin()`          | margins around plot
+`axis.line`	        | `element_line()`    | line parallel to axis (hidden in default themes)
+`axis.text`	        | `element_text()`    | tick labels
+`axis.text.x`	      | `element_text()`    | x-axis tick labels
+`axis.text.y`	      | `element_text()`    | y-axis tick labels
+`axis.title`        | `element_text()`    | axis titles
+`axis.title.x`      | `element_text()`    | x-axis title
+`axis.title.y`      | `element_text()`    | y-axis title
+`axis.ticks`        | `element_line()`    | axis tick marks
+`axis.ticks.length`	| `unit()`            | length of tick marks
+`legend.background`	| `element_rect()`    | legend background
+`legend.key`        | `element_rect()`    | background of legend keys
+`legend.key.size`	  | `unit()`            | legend key size
+`legend.key.height`	| `unit()`            | legend key height
+`legend.key.width`  | `unit()`            | legend key width
+`legend.margin`	    | `unit()`            | legend margin
+`legend.text`	      | `element_text()`    | legend labels
+`legend.text.align`	| 0–1                 | legend label alignment (0 = right, 1 = left)
+`legend.title`      | `element_text()`    | legend name
+`legend.title.align`| 0–1                 | legend name alignment (0 = right, 1 = left)
+`panel.background`  | `element_rect()`    | panel background (under data)
+`panel.border`	    | `element_rect()`	  | panel border (over data)
+`panel.grid.major`	| `element_line()`    | major grid lines
+`panel.grid.major.x`| `element_line()`    | vertical major grid lines
+`panel.grid.major.y`| `element_line()`    | horizontal major grid lines
+`panel.grid.minor`	| `element_line()`    | minor grid lines
+`panel.grid.minor.x`| `element_line()`    | vertical minor grid lines
+`panel.grid.minor.y`| `element_line()`    | horizontal minor grid lines
+`aspect.ratio`	    | numeric             | plot aspect ratio
+`strip.background`	| `element_rect()`    | background of panel strips
+`strip.text`        | `element_text()`    | strip text
+`strip.text.x`	    | `element_text()`    | horizontal strip text
+`strip.text.y`	    | `element_text()`    | vertical strip text
+`panel.margin`	    | `unit()`            | margin between facets
+`panel.margin.x`    | `unit()`            | margin between facets (vertical)
+`panel.margin.y`    | `unit()`            | margin between facets (horizontal)
+
+# Chapter 4 Part 2
+
+## List of color functions
+
+  - `scale_color_brewer()`: for qualitative variable mapped to color, use R package `RColorBrewer`'s palatte.
+  - `scale_color_distiller()`: for quantitative variable mapped to color, use R package `RColorBrewer`'s palatte.
+  - `scale_color_viridis_d()`: for qualitative variable mapped to color, use `viridis` color palette. 
+  - `scale_color_viridis_c()`: for quantitative variable mapped to color, use `viridis` color palette. 
+  - `scale_color_gradient()`: for quantitative variable mapped to color, interpolate to two colors to get a palette (low-high).
+  - `scale_color_manual()`: for qualitative variable mapped to color, manually specify the color for each level.
+
+The first two are for `RColorBrewer` color palette.
+The second two are for `viridis` color palette.
+The last two are the most flexible functions: `scale_colour_gradient()` and `scale_colour_manual()` for continuous and discrete variables, respectively. 
+Note that we also have another six functions for `fill` such as `scale_fill_brewer()` and etc.
+
+For the  aesthetic dimension of `color`, a complete list of scale functions are below.
+For the aesthetic dimension of `fill`, a similar set of functions can be obtained by replacing `*_color_*()` with `*_fill_*()`.
+Their functions are the same.
+
+  - `scale_color_brewer()`: for qualitative variable mapped to color, use R package `RColorBrewer`'s palatte.
+  - `scale_color_distiller()`: for quantitative variable mapped to color, use R package `RColorBrewer`'s palatte.
+  - `scale_color_fermenter()`: for binned variable mapped to color, use R package `RColorBrewer`'s palatte.
+  - `scale_color_continuous()`: default to `scale_color_gradient()`.
+  - `scale_color_binned()`: default to `scale_color_steps()`.
+  - `scale_color_discrete()`: default to `scale_color_hue()`/`scale_color_brewer()`. 
+  - `scale_color_gradient()`: for quantitative variable mapped to color, interpolate to two colors to get a palette (low-high).
+  - `scale_color_gradient2()`: for quantitative variable mapped to color, interpolate to three colors to get a palette (low-mid-high).
+  - `scale_color_gradientn()`: for quantitative variable mapped to color, interpolate to n colors to get a palette.
+  - `scale_color_grey()`: for quantitative variable mapped to color, interpolate to black and white to get a palette.
+  - `scale_color_hue()`: for qualitative variable mapped to color, not colour-blind safe palette.
+  - `scale_color_identity()`: for qualitative variable mapped to color, this variable has to already contain color as values.
+  - `scale_color_manual()`: for qualitative variable mapped to color, manually specify the color for each level.
+  - `scale_color_steps()`: for binned variable mapped to color, interpolate to two colors to get a palette (low-high).
+  - `scale_color_steps2()`: for binned variable mapped to color, interpolate to three colors to get a palette (low-mid-high).
+  - `scale_color_stepsn()`: for binned variable mapped to color, interpolate to n colors to get a palette.
+  - `scale_color_viridis_d()`: for qualitative variable mapped to color, use `viridis` color palette. 
+  - `scale_color_viridis_c()`: for quantitative variable mapped to color, use `viridis` color palette. 
+  - `scale_color_viridis_b()`: for binned variable mapped to color, use `viridis` color palette.
+
+# References {-}

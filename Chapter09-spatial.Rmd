@@ -1,0 +1,828 @@
+---
+title: "Ch9 Spatial Data Visualization"
+subtitle: "Descriptive Analytics and Data Visualization"
+author: "Yichen Qin (qinyn@ucmail.uc.edu), University of Cincinnati"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    number_sections: true
+    code_folding: "show"
+    toc: true
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+---
+
+
+# Spatial Data Visualization {-}
+
+In this chapter, we discuss spatial data visualization techniques.
+Spatial data contains measurements of various geographical locations, areas, path, and etc. 
+Therefore, its visualizations are often based on maps.
+In this chapter, we will go over a few typical map visualizations.
+To generate these visualizations, we need the following R packages.
+
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(ggmap) # devtools::install_github("dkahle/ggmap")
+library(RColorBrewer)
+library(statebins)
+library(viridis)
+library(viridisLite)
+library(geofacet) # takes long time to install.
+library(geosphere)
+library(grid)
+library(gridExtra)
+library(mapproj)
+#For windows OS, you may need to install Rtools from: https://cran.r-project.org/bin/windows/Rtools/rtools40.html
+```
+
+
+# Choropleth Map
+
+A choropleth map is a type of thematic map in which areas are shaded or patterned in proportion to a statistical variable that represents an aggregate summary of a geographic characteristic within each area, such as population density or per capita income.
+
+Choropleth maps provide an easy way to visualize how a measurement varies across a geographic area or show the level of variability within a region. 
+A heat map is similar but does not use the geographic areas. 
+They are the most common type of thematic map because published statistical data (from government or other sources) is generally aggregated into well-known geographic units, such as countries, states, provinces, and counties.
+
+We have the data of the GDP per capita of each state in US in 2019.
+We can simply draw a barplot to visualize the data.
+Even though we reorder the bar according to the bar length,
+it is still hard to see where are the economically strong states and where are the weak ones.
+If we could combine the barplot with the map, the visualization will be much more informative.
+To generate the choropleth map, we can ggplot and maps packages together.
+
+```{r, fig.height=2, fig.width = 10}
+library(tidyverse)
+library(gridExtra)
+state_gdp = read.csv("data/state_gdp_per_capita_2019.csv", header = TRUE)
+state_gdp %>%
+  filter(State != "District of Columbia") %>%
+  ggplot() +
+  geom_col(aes(x = reorder(State,-gdp_per_capita2019),
+               y = gdp_per_capita2019, 
+               fill = gdp_per_capita2019),
+           width = 0.8)+
+  scale_fill_viridis_c(limits = c(40000, 100000),
+                       breaks = seq(40000, 100000, 10000),
+                       labels = format(seq(40000, 100000, 10000), scientific=F))+
+  ylab("GDP per capita")+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.3, hjust = 1),
+        axis.title.x = element_blank())
+```
+
+```{r}
+# create a map
+state_boundary = map_data("state") # from ggplot2
+#head(state_boundary)
+ggplot() + 
+  geom_polygon(data=state_boundary, aes(x=long, y=lat, group=group), # try removing "group=group"
+               color="black", fill="lightblue" ) +
+  coord_map("conic", lat0 = 30)
+```
+
+If we can combine the two plot above, the visualization will be much more informative.
+If we fill in each region with a color corresponding to the value, we have the choropleth map.
+
+```{r, fig.height=5.5,fig.width = 10}
+state_gdp$state = tolower(state_gdp$State)
+state_gdp_boud <- left_join(state_boundary, state_gdp, 
+                            by = c("region"="state"))
+ggplot() +
+  geom_polygon( data = state_gdp_boud,
+                aes(x = long, y = lat, group = group, 
+                    fill = gdp_per_capita2019),
+                color="white", size = 0.2) +
+  scale_fill_viridis_c(limits = c(40000, 100000),
+                       breaks = seq(40000, 100000, 10000),
+                       labels = format(seq(40000, 100000, 10000),
+                                       scientific=F))+
+  coord_map("conic", lat0 = 30)
+```
+
+We can generate choropleth map for the counties or the states.
+
+```{r}
+county_boundary = map_data("county")
+#head(county_boundary)
+ggplot() + 
+  geom_polygon(data=county_boundary, 
+               aes(x=long, y=lat, group=group), # try removing "group=group"
+               color="black", fill="lightblue") +
+  coord_map("conic", lat0 = 30)
+```
+
+Lastly, we can generate world map too.
+
+```{r}
+world_boundary = map_data("world")
+ggplot() + 
+  geom_polygon(data=world_boundary, 
+               aes(x=long, y=lat, group=group), # try removing "group=group"
+               color="black", fill="lightblue" ) +
+  coord_fixed(ratio = 1.3)
+```
+
+We now analyze the college data set. 
+Suppose we are interested in the distribution of the colleges across US, we can use choropleth map to display the number of colleges in each state.
+
+```{r}
+college = read.csv("data/college.csv", header = TRUE)
+state_info = data.frame(abbrev = state.abb, 
+                       fullname = state.name, 
+                       fullname_lower = tolower(state.name),
+                       area = state.x77[,"Area"])
+college_info = left_join(college, state_info, by = c("state" = "abbrev"))
+college_info = college_info %>%
+  group_by(fullname_lower) %>%
+  summarize(college_number = length(state),
+            area = max(area)) %>%
+  mutate(college_number_per_1000sqmile = college_number/area*1000)
+state_boundary = map_data("state") # create a data frame containing the state boundaries. this function is from ggplot2
+state_boundary = left_join(state_boundary, college_info, by = c("region" = "fullname_lower"))
+ggplot() + 
+  geom_polygon(data=state_boundary, 
+               aes(x=long, y=lat, group=group, fill=college_number),
+               color="black") +
+  scale_fill_viridis_c() +
+  coord_map("conic", lat0 = 30)
+ggplot() + 
+  geom_polygon(data=state_boundary, 
+               aes(x=long, y=lat, group=group, fill=college_number_per_1000sqmile),
+               color="black") +
+  scale_fill_viridis_c(name = "# of colleges \nper 1000 sq. mile", trans="log10") +
+  coord_map("conic", lat0 = 30)
+```
+
+
+# Scatterplot on Map
+
+We can use the map as a canvas and plot locations of the places of interest, for example, a scatterplot on map.
+The techniques we learn for the scatterplot can be directly transferred to map visualization.
+
+For example, we can generate a bubble plot on a map.
+Suppose we visualize the data set on colleges in the US.
+We can plot the location of the each college, the tuition, and the number of students on the map. 
+
+```{r, fig.height=5.5,fig.width = 10}
+college = read.csv("data/college.csv",header = TRUE)
+ggplot() + 
+  geom_polygon(data = state_boundary, 
+               aes(x = long, y = lat, group = group),
+               color = "black", fill = "lightblue" ) +
+  geom_point(data = college %>% 
+                      filter(!(state %in% c("AK","HI"))) %>%
+                      arrange(tuition), 
+             mapping = aes(x = lon, y = lat, 
+                           color = tuition, size = undergrads)) +
+  scale_color_viridis_c() +
+  scale_size(range = c(0.1,5)) +
+  coord_map("conic", lat0 = 30)
+```
+
+We can further conduct analysis on the map by generating density estimate and so on.
+
+```{r, fig.height=5.5,fig.width = 10}
+ggplot() + 
+  geom_polygon(data = state_boundary, 
+               aes(x = long, y = lat, group = group),
+               color = "black", fill = "lightblue") +
+  geom_point(data = college %>% filter(!(state %in% c("HI","AK"))), 
+             mapping = aes(x = lon, y = lat), size = 1) +
+  stat_density2d(data = college %>% filter(!(state %in% c("HI","AK"))),
+                 mapping = aes(x = lon, y = lat, 
+                               fill = after_stat(level)),
+                 alpha = 0.3, size = 2, bins = 10, geom = "polygon") +
+  coord_map("conic", lat0 = 30)
+```
+
+
+
+# Google Map via ggmap
+
+The visualization so far is based on the plotted map which contains only the boundaries of the states or counties.
+When plotting more local information such as crime location, we need the reference of the road, building, and etc.
+Therefore, it will be more convenient if we can access the map information from one of the map website, such as Google Map.
+Fortunately, `ggmap` is an R package that makes it easy to retrieve raster map tiles from popular online mapping services like Google Maps and Stamen Maps and plot them using the ggplot2 framework.
+
+
+```{r}
+library(ggmap)
+```
+
+```{r, echo=FALSE, out.width = "90%"}
+knitr::include_graphics("images/google_platform.PNG")
+```
+
+The instruction for setting up the API is at [here](https://homepages.uc.edu/~qinyn/BANA4137/notes/Chapter09-spatial-geospatial-googlemap.html). 
+Another tutorial for Google platform is at [here](https://www.littlemissdata.com/blog/maps)
+
+```{r,echo=FALSE}
+# ggmap::register_google(key = "AIzaSyB2dXu4azkdzKjFg8Tskk5NFPurFc2__r0")
+# save(list=c("UClayer_goo_ter",
+#             "UClayer_goo_sat",
+#             "UClayer_goo_roa",
+#             "UClayer_sta_ter",
+#             "UClayer_sta_wat",
+#             "UClayer_sta_ton",
+#             "Cincinnatilayer",
+#             "Houstonlayer",
+#             "USA_lon_lat",
+#             "USAlayer",
+#             "UC_dist",
+#             "UC_trek"), file="data/ggmap.RData")
+load("data/ggmap.RData")
+```
+
+For this course, you can use this API key, but please be careful when using the key.
+
+```{r,eval=FALSE}
+ggmap::register_google(key = "AIzaSyB2dXu4azkdzKjFg8Tskk5NFPurFc2__r0")
+```
+
+**Geocoding:** We can use the geocode function to get the latitude, longitude and other information:
+
+```{r, eval=FALSE}
+# geocode('Univerisity of Cincinnati',output = 'more')
+
+## # A tibble: 1 x 9
+##     lon   lat type      loctype address                  north south  east  west
+##   <dbl> <dbl> <chr>     <chr>   <chr>                    <dbl> <dbl> <dbl> <dbl>
+## 1 -84.5  39.1 establis~ rooftop 2600 clifton ave, cinci~  39.1  39.1 -84.5 -84.5
+```
+
+First, we need to us `get_map()` function to download the map from various sources, e.g., Google map. 
+The `get_map()` function is a wrapper function for the underlying functions
+`get_googlemap()`, `get_openstreetmap()`, `get_stamenmap()`, and `get_cloudmademap()` which accepts a wide array of arguments and returns a classed raster object for plotting.
+Once the map is downloaded, we use `ggmap()` to create the canvas and generate visualization. 
+
+```{r,eval=FALSE}
+UClayer_goo_ter <- get_map(location = "University of Cincinnati", zoom = 15, 
+                           source = "google", maptype = "terrain")
+UClayer_goo_sat <- get_map(location = "University of Cincinnati", zoom = 15, 
+                           source = "google", maptype = "hybrid")
+UClayer_goo_roa <- get_map(location = "University of Cincinnati", zoom = 15, 
+                           source = "google", maptype = "roadmap")
+UClayer_sta_ter <- get_map(location = "University of Cincinnati", zoom = 15, 
+                           source = "stamen", maptype = "terrain")
+UClayer_sta_wat <- get_map(location = "University of Cincinnati", zoom = 15, 
+                           source = "stamen", maptype = "watercolor")
+UClayer_sta_ton <- get_map(location = "University of Cincinnati", zoom = 15, 
+                           source = "stamen", maptype = "toner")
+Houstonlayer    <- get_map(location = "Houston, TX",              zoom = 11, 
+                           source = "google", maptype = "roadmap")
+# We could directly use get_googlemap() instead of get_map()
+Cincinnatilayer <- get_googlemap(center = c(-84.50, 39.137580),
+                                 zoom = 12, scale = 2, maptype ='terrain', color = 'color')
+USA_lon_lat     <- c(left = -128, bottom = 23, right = -65, top =52)
+USAlayer        <- get_stamenmap(USA_lon_lat, zoom = 5)
+```
+
+```{r, fig.width=10, fig.height=6}
+library(grid)
+library(gridExtra)
+g1=ggmap(UClayer_goo_ter,extent = 'device') + ggtitle("Google Maps Terrain") 
+g2=ggmap(UClayer_goo_sat,extent = 'device') + ggtitle("Google Maps Satellite")
+g3=ggmap(UClayer_goo_roa,extent = 'device') + ggtitle("Google Maps Road")
+g4=ggmap(UClayer_sta_ter,extent = 'device') + ggtitle("Stamen Maps Terrain")
+g5=ggmap(UClayer_sta_wat,extent = 'device') + ggtitle("Stamen Maps Watercolor")
+g6=ggmap(UClayer_sta_ton,extent = 'device') + ggtitle("Stamen Maps Toner")
+grid.arrange(g1,g2,g3,g4,g5,g6,nrow = 2)
+```
+
+## Scatterplot on Map with `ggmap`
+
+Using the Cincinnati police data which is availabe at the Cincinnati Open Data website, we can download the location of different type of crimes in Cincinnati.
+We use the visualization below to display the location of types of crimes.
+
+```{r, fig.height=8, fig.width=8}
+UC_crime = read.csv("data/UC_crime.csv", header = TRUE)
+ggmap(UClayer_goo_ter) + 
+  geom_point(data = filter(UC_crime, OFFENSE %in% c("VANDALISM","BURGLARY","ROBBERY", "ASSAULT")) ,
+             mapping = aes(x=LONGITUDE_X, y=LATITUDE_X), size=0.5, alpha=0.5)+
+  scale_color_viridis_d(guide = FALSE)+
+  facet_wrap(~OFFENSE,ncol = 2)
+```
+
+As we can see assault takes place mostly to the south of the campus with more incidents concentrated around the southwest corner of the campus.
+The burglary mostly happens to the residential houses to the south of the campus.
+Robbery often happens to the south and to the east of the campus, where there are more shops and restaurants.
+This visualization clearly tells us the safe and risk areas around the campus.
+We can further conduct some analysis using density estimation as follows.
+
+```{r, fig.height=6, fig.width=10}
+ggmap(UClayer_goo_ter) + 
+  geom_point(data = filter(UC_crime, OFFENSE %in% c("ASSAULT", "ROBBERY")) ,
+             mapping = aes(x=LONGITUDE_X, y=LATITUDE_X), size=0.5, alpha=0.5)+
+  geom_density2d_filled(data = filter(UC_crime, OFFENSE %in% c("ASSAULT", "ROBBERY")) , 
+                        mapping = aes(x=LONGITUDE_X, y=LATITUDE_X, fill=..level..), 
+                        size = 0.1, alpha=0.4)+
+  geom_density_2d(data = filter(UC_crime, OFFENSE %in% c("ASSAULT", "ROBBERY")) , 
+                  mapping = aes(x=LONGITUDE_X, y=LATITUDE_X), 
+                  size = 0.25, colour = "black")+
+  scale_fill_viridis_d()+
+  facet_wrap(~OFFENSE,ncol = 2)
+```
+
+As we can, the areas with bright color indicate the higher frequencies of the crimes, which are consistent with what we find in the previous visualization.
+
+```{r, fig.height=6, fig.width=10}
+ggmap(UClayer_goo_ter) + 
+  geom_point(data = filter(UC_crime, OFFENSE %in% c("ASSAULT", "ROBBERY")) ,
+             mapping = aes(x=LONGITUDE_X, y=LATITUDE_X), size=0.5, alpha=0.5)+
+  stat_density_2d(data = filter(UC_crime, OFFENSE %in% c("ASSAULT", "ROBBERY")) , 
+                  mapping = aes(x=LONGITUDE_X, y=LATITUDE_X, fill=..level..), 
+                  size = 0.1, bins = 6, alpha=0.2,
+                  geom = "polygon")+
+  facet_wrap(~OFFENSE,ncol = 2)
+```
+
+
+We can further generate route information as follows.
+
+```{r, eval=FALSE}
+UC_dist = mapdist('2715 Digby Ave, Cincinnati, OH 45220',
+                  '2733 Short Vine St, Cincinnati, OH 45219')
+UC_trek <- trek("2715 Digby Ave, Cincinnati, OH 45220", 
+                "2733 Short Vine St, Cincinnati, OH 45219", 
+                structure = "route")
+```
+
+```{r}
+UC_dist
+UC_trek
+g1 + 
+  geom_path(
+    aes(x = lon, y = lat),  colour = "blue",
+    size = 1.5, alpha = .5,
+    data = UC_trek, lineend = "round"
+  )
+```
+
+Next, we look at another data set about the Cincinnati housing price.
+We further download the map of Cincinnati.
+
+```{r,eval=FALSE}
+Cincinnatilayer <- get_googlemap(center = c(-84.50, 39.137580),
+                                 zoom = 12, scale = 2, maptype ='terrain', color = 'color')
+```
+
+We analyze the Cincinnati housing price.
+
+```{r, fig.height=10, fig.width=10}
+cincinnati_SFH = read.csv("data/cincinnati_SFH_sales_2016to2019.csv",header = TRUE)
+ggmap(Cincinnatilayer)+
+  geom_point(data=cincinnati_SFH,aes(x=Longitude, y=Latitude, color = SalePrice),size=0.5)+
+  scale_color_viridis_c(limits = c(0, 500000),
+                       breaks = seq(0, 500000, 100000),
+                       labels = format(seq(0, 500000, 100000), scientific=F))
+```
+
+```{r, fig.height=10, fig.width=10}
+ggmap(Cincinnatilayer)+
+  stat_summary_2d(data=cincinnati_SFH,
+                  aes(x=Longitude, y=Latitude, z = SalePrice), fun = median, alpha=0.5, bins = 40)+
+  scale_fill_viridis_c(limits = c(0, 500000),
+                        breaks = seq(0, 500000, 100000),
+                        labels = format(seq(0, 500000, 100000), scientific=F))
+```
+
+```{r, fig.height=10, fig.width=10}
+ggmap(Cincinnatilayer)+
+  geom_point(data=cincinnati_SFH, aes(x=Longitude, y=Latitude), size=0.2, alpha = 0.1)+
+  geom_bin2d(data=cincinnati_SFH, aes(x=Longitude, y=Latitude), alpha=0.5, bins = 40)+
+  scale_fill_viridis_c()
+```
+
+
+## Choropleth Map with `ggmap`
+
+```{r,eval=FALSE}
+USA_lon_lat     <- c(left = -128, bottom = 23, right = -65, top =52)
+USAlayer        <- get_stamenmap(USA_lon_lat, zoom = 5)
+```
+
+```{r, fig.width=10}
+ggmap(USAlayer) +
+  geom_polygon( data=state_gdp_boud,
+                aes(x=long, y=lat, group=group, 
+                    fill = gdp_per_capita2019), 
+          color="white", size = 0.2, alpha=0.7) +
+  scale_fill_viridis_c(name="State GDP Per Capita",
+                       limits = c(40000, 100000),
+                       breaks = seq(40000, 100000, 20000),
+                       labels = format(seq(40000, 100000, 20000), scientific=F))
+```
+
+
+## Vector Field on `ggmap`
+
+A vector field is an assignment of a vector to each point in a space.
+Visualization of vector field is useful for display movement of wind or current, and also surface of a function. 
+The vector field in the plane is usually visualized by a set of arrows of various directions and lengths (magnitude).
+Each arrow starts from a coordinate in a grid in the plane.
+We visualize the vector field of wind speed and direction for [hurricane Isabel](https://en.wikipedia.org/wiki/Hurricane_Isabel).
+The wind speed and direction are three dimensional.
+So we can create a facet visualization.
+
+```{r, echo=FALSE}
+# save(list=c("east_coast"), file="data/east_coast.RData")
+load("data/east_coast.RData")
+#write.csv(isabel, "data/isabel.csv", row.names = FALSE)
+```
+
+```{r, eval=FALSE}
+east_coast = get_googlemap(center = c(-72.50, 32.50),
+                           zoom = 5, scale = 2, maptype ='terrain', color = 'color')
+```
+
+```{r, warning=FALSE, message=FALSE, fig.width=10, fig.height=10}
+wind_isabel = read_csv("data/isabel.csv")
+every_n <- function(x, by = 2) {
+  x <- sort(x)
+  x[seq(1, length(x), by = by)]
+}
+keepx <- every_n(unique(wind_isabel$x), by = 4)
+keepy <- every_n(unique(wind_isabel$y), by = 4)
+keepz <- every_n(unique(wind_isabel$z), by = 3)
+# ggmap(east_coast) +
+#     geom_segment(data = wind_isabel %>% 
+#                         filter(x %in% keepx  &  y %in% keepy & z == min(z)) %>%
+#                         mutate(speedxy = sqrt(vx^2 + vy^2)), 
+#                  aes(x = x - 0.5, y = y, xend = x-0.5+vx/50, yend = y+vy/50, color = speed),
+#                  arrow = arrow(length = unit(0.1,"cm")), size = 0.6) +
+#     scale_color_viridis_c()# +
+    #geom_path(aes(x = long, y = lat, group = group), data = usa) +
+    #coord_cartesian(xlim = range(islicesub$x), ylim = range(islicesub$y))
+ggmap(east_coast)+
+  geom_segment(data = wind_isabel %>% 
+                 filter(x %in% keepx & y %in% keepy & z %in% keepz),
+               aes(x = x - 0.5, y = y + 0.25, 
+                   xend = x - 0.5 + vx/50, yend = y + 0.25 + vy/50, 
+                   color = speed),
+               arrow = arrow(length = unit(0.1,"cm")), size = 0.5) +
+  scale_color_viridis_c() +
+  facet_wrap(~z)
+```
+
+## Connection Map with `ggmap`
+
+A connection map shows the connections between several positions on a map. The link between 2 locations is usually drawn using great circle: the shortest route between them. 
+It results in a rounded line that gives a pleasant look to the map. 
+In R, this is made possible thanks to the packages like geosphere.
+
+Package
+
+```{r}
+library(tidyverse)
+library(maps)
+library(geosphere)
+```
+
+Dataset: airports.csv and flights.csv are information for airports and flights in the U.S. from iata.
+
+
+
+The R package `geosphere` provides `gcIntermediate()` to calculate the great circle path. 
+Then we can use the `geom_path()` function to draw the path.
+We use the United Airlines' flights as an example and generate the following visualization.
+
+```{r, fig.width=10, fig.height=10}
+airports <- read.csv("data/airports.csv",header = T) 
+flights <- read.csv("data/flights.csv",header = T,as.is=TRUE)
+# flight_map = get_googlemap(center = c(-110, 30),
+#                            zoom = 3, scale = 2, maptype ='terrain', color = 'color')
+# save(list=c("flight_map"), file="data/flight_map.RData")
+load("data/flight_map.RData")
+fsub <- flights %>% filter(airline %in% c("UA"))  #flights of  AA
+traj = data.frame()
+for (j in 1:length(fsub$airline)) {        
+    air1 <- airports[airports$iata == fsub[j,]$airport1,]  #iata code for j flights in airport1
+    air2 <- airports[airports$iata == fsub[j,]$airport2,] #iata code for j flights in airport2
+    inter <- gcIntermediate(c(air1[1,]$long, air1[1,]$lat), c(air2[1,]$long, air2[1,]$lat), n=100, addStartEnd=TRUE)  #calculate the great circles
+    traj = rbind(traj, data.frame(inter, flight_num = j))
+    #lines(inter, col="black", lwd=0.8)  #draw the line
+}
+ggmap(flight_map) +
+  geom_path(data = traj,
+            aes(x = lon, y = lat, group = flight_num), 
+            linewidth = 0.3)
+```
+
+
+
+One belt and one road example.
+The thebeltandroad.csv is the geographical information - longitude and latitude - from Google map.
+
+```{r, fig.width=10, fig.height=10}
+beltroad <- read.csv("data/thebeltandroad.csv", header = T) 
+# belt_road_map <- get_map(location = "Dubai", zoom = 2, 
+#                            source = "google", maptype = "terrain")
+# belt_road_map = get_googlemap(center = c(60, 30),
+#                            zoom = 2, scale = 2, maptype ='terrain', color = 'color')
+# save(list=c("belt_road_map"), file="data/belt_road_map.RData")
+load("data/belt_road_map.RData")
+library(ggrepel)
+world_boundary = map_data("world")
+#head(world_boundary)
+ggplot() + 
+  geom_polygon(data=world_boundary, 
+               aes(x=long, y=lat, group=group), # try removing "group=group"
+               color="black", fill="lightblue" ) +
+  coord_fixed(ratio = 1.3, xlim = c(-10,170), ylim = c(-30,70)) +
+#ggmap(belt_road_map) +
+  geom_point(data = beltroad,
+             aes(x=long, y=lat, color=as.factor(type))) +
+  geom_path(data = beltroad,
+             aes(x=long, y=lat, 
+                 color=as.factor(type), 
+                 group = as.factor(type))) +
+  geom_text_repel(data = beltroad,
+                  aes(x=long, y=lat, label = loc)) +
+  scale_color_manual(breaks = c(1,2), values = c("red", "blue")) +
+  theme(legend.position = "none")
+```
+
+
+# Facet Map
+
+A facet map is faceting the geographic regions and draws the data according to the corresponding geographic location. The graph can intuitively compare the distribution of data in different regions.
+
+Facet map uses the geofacet package to perform faceting according to different geographic areas, and make the relative position of each area consistent with the actual geographic location.
+
+The details of the package are explain on their website^[https://cran.r-project.org/web/packages/geofacet/vignettes/geofacet.html] and github page^[https://github.com/hafen/geofacet].
+
+```{r}
+library(tidyverse)
+library(geofacet)
+```
+
+Dataset: We are using the election dataset in the geofacet which is the information of 2016 election.
+
+```{r}
+head(election)
+```
+
+Facet map
+
+```{r, fig.width=10, fig.height=7}
+ggplot(election, aes(candidate, pct, fill = candidate))+
+  geom_bar(stat = 'identity')+
+  scale_y_continuous(limits = c(0,100),breaks = seq(0,100,30),minor_breaks = T)+
+  scale_fill_manual(name = "Candidate",
+                    breaks = c("Clinton", "Trump", "Other"),
+                    values = c("steelblue", "red", "grey"))+
+  labs(title = '2016 US Presidential Election')+
+  ylab("Percentage") + xlab("") +
+  facet_geo(~state, grid = us_state_grid1) +         ## facet by the geographic regions
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.2, hjust = 1))
+```
+
+In the previous step, we use facet_geo to facet the data. The position of each panel is controlled by the grid, and the position information of the regions is in the default of facet_geo function, which can be used directly as (us_state_grid1, US region). We can use get_grid_name() to view the name code of the built-in grid location information, and the specific location name.
+
+
+```{r, fig.width=10, fig.height=7}
+ggplot(state_unemp, aes(year, rate)) +
+  geom_line() +
+  facet_geo( ~state, grid = "us_state_grid2") +
+  scale_x_continuous(labels = function(x) paste0("'", substr(x, 3, 4))) +
+  ylab("Unemployment Rate (%)")
+```
+
+```{r}
+head(get_grid_names(),20)
+```
+
+
+We can adjust the geographic information in the grid by grid_design(). It will open the application "Grid Designer" to adjust the geographic information.
+
+```{r, eval=FALSE}
+grid_design()
+```
+
+We can also add a URL of a map to refer the geographic information.
+
+```{r, eval=FALSE}
+grid_design(data = cn_bj_districts_grid2,img ='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Administrative_Division_Beijing.svg/900px-Administrative_Division_Beijing.svg.png' )
+```
+
+Time series plot by geographic information
+
+We are using the Scottish children's dental health data in the geofacet package, including the region and corresponding location code, the year of the survey,  and the proportion of students with no dental disease in the first grade.
+
+```{r, eval=FALSE}
+ggplot(nhs_scot_dental, aes(year,percent))+
+  geom_line()+
+  facet_geo(~name,grid = 'nhs_scot_grid')+
+  scale_y_continuous(limits = c(min(nhs_scot_dental$percent),max(nhs_scot_dental$percent)))+
+  scale_x_continuous(breaks = seq(2003,2014,3))+
+  labs(title = 'Percentage of P1 children with no dental disease')+
+  theme_bw()
+```
+
+
+# Cartogram Heatmap
+
+The cartogram heatmap does not express the value by changing the shape or size of the map like cartogram. Each area cartogram heatmap in is represented by a square of the same size, and the value is expressed by color. It is widely used in the data of the states in the United States than other regions.
+
+Package: The package statebins is used to draw the cartogram heatmap as the extension of ggplot2.
+
+```{r, warning=FALSE,error=FALSE}
+library(tidyverse)
+library(statebins)
+library(viridis)
+library(viridisLite)
+```
+
+Dataset: We select the data of the cumulative number of deaths of COVID-19 in each state of the United States as of September 9, 2020.
+
+Resource: https://coronavirus.jhu.edu/region
+
+```{r}
+covid<-read.csv("data/covid.csv")
+head(covid)
+##preparation 
+covid$state.name<-as.character(covid$state.name)  
+covid$deaths<-as.numeric(covid$deaths)            
+
+##draw the plot
+statebins(covid,                                  #dataframe
+          state_col="state.name",                 #the name of state
+          value_col = "deaths",                   #the number of death
+          round=TRUE,                             
+          dark_label = "white",                   #dark label as white
+          light_label = "black")+                 #light label as black
+  scale_fill_viridis(option = "E",begin = 0.95,end = 0,name="Deaths")+ # the color of fill
+  labs(title = "COVID-19 U.S. Cumulative Deaths by September 9,2020",    #title and caption
+       caption="Source:Johns Hopkins University & Medicine, Coronavirus Resource Center")+
+  theme_statebins(legend_position = "right")    
+```
+
+Group the number of death and use discrete colors.
+
+```{r}
+##preparation
+covid$death[which(covid$deaths<=100)]<-1                      
+#group the number of death
+covid$death[which(covid$deaths>100&covid$deaths<=1000)]<-2
+covid$death[which(covid$deaths>1000&covid$deaths<=5000)]<-3
+covid$death[which(covid$deaths>5000&covid$deaths<=10000)]<-4
+covid$death[which(covid$deaths>10000&covid$deaths<=30000)]<-5
+covid$death[which(covid$deaths>30000)]<-6
+covid$death<-as.factor(covid$death)                           # change them to factor
+
+##绘制
+ggplot(covid,aes(state=state.name,fill=death))+               
+  geom_statebins()+                                           
+  scale_fill_brewer(palette = 3,                              
+                    direction = -1,                           
+                    name="Deaths",                            
+                    limits=c("6","5","4","3","2","1"),        #order the group
+                    labels=c(">30000","10001-30000",
+                             "5001-10000","1001-5000",
+                             "101-1000","<=100")) + # chage the label
+   labs(title = "COVID-19 U.S. Cumulative Deaths by September 9,2020", #add title
+        caption="Source:Johns Hopkins University & Medicine, Coronavirus Resource Center")+#caption
+   theme_statebins(legend_position = "right")
+```
+
+
+# Additional Visualizaiton
+
+A map chart is used to show items on a background that is often geographical.
+
+Map charts in R can contain different type of information in one or more different layers. Maps can contain interactive shapes or display markers of different types on an image or map background.
+
+Steps to draw a map using R:
+
+1). Find the required map data, such as latitude and longitude, boundary information, etc., and load it into R;
+
+2). Data reconstruction meets the requirements of function to draw the map.
+
+The package maps comes with maps of the world, maps of Italy, Canada, the United States, France, New Zealand and other regions. But the available maps are limited by the R package.
+
+## Static Map
+
+```{r, message=FALSE, warning=FALSE, eval=FALSE}
+library(maps)
+library(ggmap)
+library(leaflet)
+library(htmlwidgets) # replacing leaflets
+library(RColorBrewer)
+```
+
+The required geographic information can be downloaded from government websites and professional map websites. The ggmap package can link to Google Map, OpenStreetMap and Stamen Maps, and provide latitude and longitude, address, distance and other related information. The package ggmap needs to register to get the API key first.
+
+```{r, eval=FALSE}
+map("world", fill = TRUE, col = 'grey',
+    ylim = c(-60, 90), mar = c(0, 0, 0, 0))
+map('state', region = c('ohio', 'indiana', 'kentucky'),
+    fill = TRUE, col = colorRampPalette(brewer.pal(8,'Set3'))(3), mar = c(2, 3, 4, 3))
+```
+
+## Interactive Map
+
+We specify the coordinates to draw a certain area and zoom in.
+
+```{r, eval=FALSE}
+library(leaflet)
+library(htmlwidgets) # replacing leaflets # takes long time to install.
+leaflet() %>%  
+  addTiles() %>%
+  setView( lng = -84.5, lat = 39.13, zoom = 10) 
+#leaflet() %>% 
+#  addTiles() %>% 
+#  setView(lng = -84.5, lat = 39.13, zoom = 3 ) %>% 
+#  addProviderTiles("NASAGIBS.ViirsEarthAtNight2012")  ## operated by the NASA data
+```
+
+## More on Choropleth Map
+
+An alternative package is usmap which also uses ggplot but 
+```{r, eval=FALSE}
+library(usmap)
+head(statepop)
+plot_usmap(data = statepop, values = "pop_2015", color = "red") + 
+  scale_fill_continuous(name = "Population (2015)", label = scales::comma) + 
+  theme(legend.position = "right")
+head(countypop)
+plot_usmap(data = countypop, values = "pop_2015", color = "red") + 
+  scale_fill_continuous(name = "Population (2015)", label = scales::comma) + 
+  theme(legend.position = "right")
+```
+
+## Connection Map
+
+
+```{r, eval=FALSE}
+library(tidyverse)
+library(maps)
+library(geosphere)
+data <- read.csv("data/thebeltandroad.csv",header = T) 
+data1 <- data[data$type == "1",]  #sea and land
+data2<-data[data$type == "2",] 
+maps::map('world',
+     col="darkseagreen1", fill=TRUE, bg="white", lwd=0.05,  
+     mar=rep(0,4), 
+     border=0,   
+     xlim=c(-20, 150), ylim=c(-20, 70)
+)
+points(x=data1$long, y=data1$lat, col="tomato", cex=1, pch=20)  #cex: size of point，pch: shape of the point
+points(x=data2$long, y=data2$lat, col="slateblue", cex=1, pch=20) 
+for (j in 1:(length(data1$loc)-1)) {   # the number of points on land -1
+   loc1 <- data1[j,]  
+   loc2 <- data1[j+1,] 
+   inter <- gcIntermediate(  # calculate the distance
+     c(loc1[1,]$long, loc1[1,]$lat), c(loc2[1,]$long, loc2[1,]$lat),  
+     n=500, 
+     addStartEnd=TRUE) 
+     lines(inter, col="tomato", lwd=0.8)  # draw the line
+}
+
+for (j in 1:(length(data2$loc)-1)) {   
+   loc1 <- data2[j,]  
+   loc2 <- data2[j+1,] 
+   inter <- gcIntermediate(c(loc1[1,]$long, loc1[1,]$lat), c(loc2[1,]$long, loc2[1,]$lat), n=500, addStartEnd=TRUE)  
+    lines(inter, col="slateblue", lwd=0.8)  
+}
+inter <- gcIntermediate(c(data[14,]$long, data[14,]$lat), c(data[15,]$long, data[15,]$lat), n=500, addStartEnd=TRUE)  
+lines(inter, col="purple", lwd=0.8)  # Intersection at Italy and Greece
+text(data$loc, x=data$long, y=data$lat,  col="black",cex=0.5, pos=3)
+```
+
+Flights network of American Airline
+```{r, eval=FALSE}
+airports <- read.csv("data/airports.csv",header = T) 
+flights <- read.csv("data/flights.csv",header = T,as.is=TRUE)
+maps::map("world", col="grey", fill=TRUE, border=0,bg="white", lwd=0.05, 
+    xlim=c(-171.738281, -56.601563), ylim=c(12.039321, 71.856229)) #include the Alaska and Hawaii
+fsub <- flights[flights$airline == "AA",]  #flights of  AA
+for (j in 1:length(fsub$airline)) {        
+    air1 <- airports[airports$iata == fsub[j,]$airport1,]  #iata code for j flights in airport1
+    air2 <- airports[airports$iata == fsub[j,]$airport2,] #iata code for j flights in airport2
+    inter <- gcIntermediate(c(air1[1,]$long, air1[1,]$lat), c(air2[1,]$long, air2[1,]$lat), n=100, addStartEnd=TRUE)  #calculate the great circles
+    lines(inter, col="black", lwd=0.8)  #draw the line
+}
+```
+
+
+Improvement
+
+```{r, eval=FALSE}
+pal <- colorRampPalette(c("#333333", "white", "#1292db"))  #gradient: black-grey-white-blue
+colors <- pal(100) 
+maps::map("world", col="gray17", fill=TRUE, bg="#000000", #night
+    lwd=0.05,xlim=c(-171.738281, -56.601563), ylim=c(12.039321, 71.856229))  
+maxcnt <- max(fsub$cnt) #maximum of the number of flights
+fsub <- flights[flights$airline == "AA",]  
+fsub <- fsub[order(fsub$cnt),]  
+for (j in 1:length(fsub$airline)) {        
+    air1 <- airports[airports$iata == fsub[j,]$airport1,]  
+    air2 <- airports[airports$iata == fsub[j,]$airport2,] 
+    inter <- gcIntermediate(c(air1[1,]$long, air1[1,]$lat), c(air2[1,]$long, air2[1,]$lat), n=100, addStartEnd=TRUE)  
+    colindex <- round( (fsub[j,]$cnt / maxcnt) * length(colors) ) 
+              lines(inter, col=colors[colindex], lwd=0.8)
+}
+```
+
